@@ -1,0 +1,1486 @@
+{
+    "dataFlows": [
+      {
+        "id": "flow_1",
+        "source": "ALADDIN",
+        "destination": "IDW",
+        "dataType": "Security Master",
+        "description": "Security Master, Paydown, Sink, GFA, Ratings information flow from ALADDIN to IDW"
+      },
+      {
+        "id": "flow_2",
+        "source": "CRD",
+        "destination": "IDW",
+        "dataType": "Position",
+        "description": "Position & Prices data from CRD to IDW"
+      },
+      {
+        "id": "flow_3",
+        "source": "CONTROL_DESK",
+        "destination": "IDW",
+        "dataType": "Positions",
+        "description": "Positions information flow from Control Desk to IDW"
+      },
+      {
+        "id": "flow_4",
+        "source": "SAP",
+        "destination": "IDW",
+        "dataType": "Data",
+        "description": "SAP data transferred to IDW"
+      },
+      {
+        "id": "flow_5",
+        "source": "COMPASS",
+        "destination": "IDW",
+        "dataType": "Data",
+        "description": "COMPASS data transferred to IDW"
+      },
+      {
+        "id": "flow_6",
+        "source": "SSB",
+        "destination": "IDW",
+        "dataType": "Fund Data",
+        "description": "Securities, Holdings, Transactions from SSB for MS Funds to IDW"
+      },
+      {
+        "id": "flow_7",
+        "source": "External",
+        "destination": "IDW",
+        "dataType": "AUM",
+        "description": "Monthly AUM data to IDW"
+      },
+      {
+        "id": "flow_8",
+        "source": "External",
+        "destination": "IDW",
+        "dataType": "Feed Data",
+        "description": "General feed data transferred to IDW"
+      },
+      {
+        "id": "flow_9",
+        "source": "IDW",
+        "destination": "SVI",
+        "dataType": "Holdings",
+        "description": "Holdings, Securities for SVI accounts from IDW to SVI workflow"
+      },
+      {
+        "id": "flow_10",
+        "source": "IDW",
+        "destination": "Bank Loans",
+        "dataType": "Performance",
+        "description": "Performance data for Bank Loans from IDW"
+      },
+      {
+        "id": "flow_11",
+        "source": "IDW",
+        "destination": "GA",
+        "dataType": "Holdings",
+        "description": "Holdings, Transaction, Securities for GA from IDW"
+      },
+      {
+        "id": "flow_12",
+        "source": "IDW",
+        "destination": "Institutional",
+        "dataType": "Holdings",
+        "description": "Holdings, Transaction, Performance, Securities for Institutional accounts from IDW"
+      },
+      {
+        "id": "flow_13",
+        "source": "IDW",
+        "destination": "General Account",
+        "dataType": "Derivatives",
+        "description": "Derivatives data for General Account from IDW"
+      },
+      {
+        "id": "flow_14",
+        "source": "IDW",
+        "destination": "Limited Partnership",
+        "dataType": "Holdings",
+        "description": "Holdings, Securities for Limited Partnership from IDW"
+      },
+      {
+        "id": "flow_15",
+        "source": "IDW",
+        "destination": "GA Account",
+        "dataType": "Ledger",
+        "description": "Ledger Balances for GA Account from IDW"
+      },
+      {
+        "id": "flow_16",
+        "source": "IDW",
+        "destination": "GA",
+        "dataType": "Analytics",
+        "description": "Commitments, Issuer, Cash Flows, Analytics (GA) from IDW"
+      },
+      {
+        "id": "flow_17",
+        "source": "IDW",
+        "destination": "Analytics",
+        "dataType": "GA Analytics",
+        "description": "GA Analytics data from IDW"
+      },
+      {
+        "id": "flow_18",
+        "source": "IDW",
+        "destination": "Mainstay",
+        "dataType": "AUM",
+        "description": "Mainstay Funds AUM data from IDW"
+      },
+      {
+        "id": "flow_19",
+        "source": "IDW",
+        "destination": "Mutual Fund",
+        "dataType": "Portfolio",
+        "description": "Mutual Fund Portfolio characteristics from IDW"
+      },
+      {
+        "id": "flow_20",
+        "source": "ALADDIN",
+        "destination": "Trading Systems",
+        "dataType": "Executions",
+        "description": "Executions information from ALADDIN to trading systems"
+      },
+      {
+        "id": "flow_21",
+        "source": "ALADDIN",
+        "destination": "SVI",
+        "dataType": "Positions",
+        "description": "Positions data from ALADDIN to SVI"
+      },
+      {
+        "id": "flow_22",
+        "source": "ALADDIN",
+        "destination": "CAMRA",
+        "dataType": "Trades",
+        "description": "Trades, Cash Flows, Prices from ALADDIN to CAMRA"
+      },
+      {
+        "id": "flow_23",
+        "source": "ALADDIN",
+        "destination": "CAMRA",
+        "dataType": "Security",
+        "description": "Trades, Security, Price from ALADDIN to CAMRA"
+      },
+      {
+        "id": "flow_24",
+        "source": "ALADDIN",
+        "destination": "CONTROL_DESK",
+        "dataType": "Position",
+        "description": "Position data from ALADDIN to Control Desk"
+      },
+      {
+        "id": "flow_25",
+        "source": "ALADDIN",
+        "destination": "CONTROL_DESK",
+        "dataType": "LMS",
+        "description": "LMS Mortgage Loans, YARDI Equity Assets from ALADDIN to Control Desk"
+      },
+      {
+        "id": "flow_26",
+        "source": "CAMRA",
+        "destination": "SAP",
+        "dataType": "GL Entries",
+        "description": "GL Entries from CAMRA to SAP"
+      },
+      {
+        "id": "flow_27",
+        "source": "GENEVA",
+        "destination": "IDW",
+        "dataType": "Trades",
+        "description": "Trades from GENEVA to IDW"
+      },
+      {
+        "id": "flow_28",
+        "source": "GENEVA",
+        "destination": "SSB",
+        "dataType": "Subscription",
+        "description": "Subscription & Redemption from GENEVA to SSB"
+      },
+      {
+        "id": "flow_29",
+        "source": "CRD",
+        "destination": "GENEVA",
+        "dataType": "Subs/Reds",
+        "description": "Subscription/Redemption data from CRD to GENEVA"
+      },
+      {
+        "id": "flow_30",
+        "source": "ALADDIN",
+        "destination": "GENEVA",
+        "dataType": "Position",
+        "description": "Position data from ALADDIN to GENEVA"
+      },
+      {
+        "id": "flow_31",
+        "source": "CONTROL_DESK",
+        "destination": "ALADDIN",
+        "dataType": "Positions",
+        "description": "Positions data from Control Desk to ALADDIN"
+      },
+      {
+        "id": "flow_32",
+        "source": "CRD",
+        "destination": "ALADDIN",
+        "dataType": "Market Data",
+        "description": "Market Data from CRD to ALADDIN"
+      },
+      {
+        "id": "flow_33",
+        "source": "YARDI",
+        "destination": "SAP",
+        "dataType": "Equity assets",
+        "description": "Equity assets data from YARDI to SAP"
+      },
+      {
+        "id": "flow_34",
+        "source": "LMS",
+        "destination": "SAP",
+        "dataType": "Loans",
+        "description": "Loans data from LMS to SAP"
+      },
+      {
+        "id": "flow_35",
+        "source": "FII_CASH_MGMT",
+        "destination": "Custodians",
+        "dataType": "Cash",
+        "description": "Cash Entry, Suspense, Due & Unpaid Fails Management from FII Cash Management to custodians"
+      },
+      {
+        "id": "flow_36",
+        "source": "FTIS",
+        "destination": "SARA",
+        "dataType": "Illustration",
+        "description": "Illustration Data from FTIS to SARA"
+      },
+      {
+        "id": "flow_37",
+        "source": "IDW",
+        "destination": "SARA",
+        "dataType": "Price",
+        "description": "IDW Price & Performance data to SARA"
+      },
+      {
+        "id": "flow_38",
+        "source": "WEBPASS",
+        "destination": "SARA",
+        "dataType": "Data",
+        "description": "WEBPASS Data to SARA"
+      },
+      {
+        "id": "flow_39",
+        "source": "SEC-APL",
+        "destination": "SARA",
+        "dataType": "SMA",
+        "description": "SMA Sales & Asset Data from SEC-APL to SARA"
+      },
+      {
+        "id": "flow_40",
+        "source": "SARA",
+        "destination": "Policy Admin",
+        "dataType": "Licensing",
+        "description": "Licensing Data from SARA to Policy Admin systems"
+      },
+      {
+        "id": "flow_41",
+        "source": "SARA",
+        "destination": "EIS",
+        "dataType": "Policy",
+        "description": "Policy Data from SARA to EIS"
+      },
+      {
+        "id": "flow_42",
+        "source": "Market Data Sources",
+        "destination": "IDW",
+        "dataType": "Market Data",
+        "description": "Market data from MARKIT, IDC, REUTERS, RATING AGY, BLOOMBERG to IDW"
+      },
+      {
+        "id": "flow_43",
+        "source": "Custodians",
+        "destination": "IDW",
+        "dataType": "Positions",
+        "description": "Positions, Cash Balances, Subscription, Redemption Fees & Interest from various custodians including BONY, Merrill, Wells Fargo, etc."
+      },
+      {
+        "id": "flow_44",
+        "source": "Policy Admin",
+        "destination": "WEBPASS",
+        "dataType": "Policy Admin",
+        "description": "Policy Admin Data from various policy admin systems to WEBPASS"
+      },
+      {
+        "id": "flow_45",
+        "source": "IDW",
+        "destination": "WEBPASS",
+        "dataType": "Feed",
+        "description": "Feed Data from IDW to WEBPASS"
+      },
+      {
+        "id": "flow_46",
+        "source": "LMS",
+        "destination": "CONTROL_DESK",
+        "dataType": "Loan Balance",
+        "description": "LMS Loan Balance data to Control Desk"
+      },
+      {
+        "id": "flow_47",
+        "source": "IDW",
+        "destination": "Cash Flows",
+        "dataType": "Cash Flows",
+        "description": "Cash Flows data from IDW"
+      },
+      {
+        "id": "flow_48",
+        "source": "IDW",
+        "destination": "Real Estate",
+        "dataType": "Loans",
+        "description": "Commitments, Mortgage Loans information from IDW to real estate systems"
+      },
+      {
+        "id": "flow_49",
+        "source": "IDW",
+        "destination": "YARDI",
+        "dataType": "Equity",
+        "description": "Equity Assets information from IDW to YARDI"
+      },
+      {
+        "id": "flow_50",
+        "source": "IDW",
+        "destination": "Security Master",
+        "dataType": "Issuers",
+        "description": "Issuers, Security Master information from IDW"
+      },
+      {
+        "id": "flow_51",
+        "source": "IDW",
+        "destination": "Ratings",
+        "dataType": "Ratings",
+        "description": "Holdings, Security Master, Ratings information from IDW"
+      },
+      {
+        "id": "flow_52",
+        "source": "IDW",
+        "destination": "Security Master",
+        "dataType": "Issuers",
+        "description": "Issuers, Security Master information from IDW"
+      },
+      {
+        "id": "flow_53",
+        "source": "IDW",
+        "destination": "Transactions",
+        "dataType": "Holdings",
+        "description": "Holdings, Transactions, SMF information from IDW"
+      },
+      {
+        "id": "flow_54",
+        "source": "EDP",
+        "destination": "Reuters",
+        "dataType": "Economic Data",
+        "description": "Reuters Data Feed from EDP to Reuters"
+      }
+    ],
+    "externalFeeds": {
+      "fixedIncomeAndEquity": {
+        "sources": [
+          "Market Data",
+          "MARKIT",
+          "IDC",
+          "REUTERS",
+          "RATING AGY",
+          "BLOOMBERG"
+        ],
+        "destinations": [
+          "IDW"
+        ],
+        "dataType": "Market Data",
+        "flowReference": "flow_42"
+      },
+      "accountingPlatforms": {
+        "sources": [
+          "IDW External Feeds"
+        ],
+        "destinations": [
+          "IDW"
+        ],
+        "dataType": "Accounting Data"
+      },
+      "custodians": {
+        "description": "Positions, Cash Balances, Subscription, Redemption Fees & Interest",
+        "entities": [
+          "Northen",
+          "SSKC",
+          "LIPPER",
+          "NYLI",
+          "SECAPL",
+          "BONY",
+          "Merrill",
+          "Wells Fargo",
+          "Comerica",
+          "Amalgamated",
+          "State Street",
+          "JP Morgan",
+          "Huntington"
+        ],
+        "destinations": [
+          "IDW"
+        ],
+        "dataType": "Positions",
+        "flowReference": "flow_43"
+      }
+    },
+    "mainSystems": {
+      "investmentDataWarehouse": {
+        "id": "IDW",
+        "description": "Investment Data Warehouse",
+        "year": 2011,
+        "type": "Proprietary Desktop App",
+        "components": [
+          "PACE (Portfolio & Analytic Concentration Engine) from Eagle Investment Systems"
+        ],
+        "dataFlows": {
+          "inbound": [
+            {
+              "sourceSystem": "ALADDIN",
+              "dataType": "Security Master",
+              "description": "Security Master, Paydown, Sink, GFA, Ratings",
+              "flowReference": "flow_1"
+            },
+            {
+              "sourceSystem": "CRD",
+              "dataType": "Positions",
+              "description": "Position & Prices data",
+              "flowReference": "flow_2"
+            },
+            {
+              "sourceSystem": "CONTROL_DESK",
+              "dataType": "Positions",
+              "description": "Positions information",
+              "flowReference": "flow_3"
+            },
+            {
+              "sourceSystem": "SAP",
+              "dataType": "Data",
+              "description": "SAP general data",
+              "flowReference": "flow_4"
+            },
+            {
+              "sourceSystem": "COMPASS",
+              "dataType": "Data",
+              "description": "COMPASS data",
+              "flowReference": "flow_5"
+            },
+            {
+              "sourceSystem": "SSB",
+              "dataType": "Fund Data",
+              "description": "Securities, Holdings, Transactions from SSB for MS Funds",
+              "flowReference": "flow_6"
+            },
+            {
+              "sourceSystem": "External",
+              "dataType": "AUM",
+              "description": "Monthly AUM data",
+              "flowReference": "flow_7"
+            },
+            {
+              "sourceSystem": "External",
+              "dataType": "Feed Data",
+              "description": "General feed data",
+              "flowReference": "flow_8"
+            }
+          ],
+          "outbound": [
+            {
+              "destinationSystem": "SVI",
+              "dataType": "Holdings",
+              "description": "Holdings, Securities for SVI accounts",
+              "flowReference": "flow_9"
+            },
+            {
+              "destinationSystem": "Bank Loans",
+              "dataType": "Performance",
+              "description": "Performance data for Bank Loans",
+              "flowReference": "flow_10"
+            },
+            {
+              "destinationSystem": "GA",
+              "dataType": "Holdings",
+              "description": "Holdings, Transaction, Securities for GA",
+              "flowReference": "flow_11"
+            },
+            {
+              "destinationSystem": "Institutional",
+              "dataType": "Holdings",
+              "description": "Holdings, Transaction, Performance, Securities for Institutional accounts",
+              "flowReference": "flow_12"
+            },
+            {
+              "destinationSystem": "General Account",
+              "dataType": "Derivatives",
+              "description": "Derivatives data for General Account",
+              "flowReference": "flow_13"
+            },
+            {
+              "destinationSystem": "Limited Partnership",
+              "dataType": "Holdings",
+              "description": "Holdings, Securities for Limited Partnership",
+              "flowReference": "flow_14"
+            },
+            {
+              "destinationSystem": "GA Account",
+              "dataType": "Ledger",
+              "description": "Ledger Balances for GA Account",
+              "flowReference": "flow_15"
+            },
+            {
+              "destinationSystem": "GA",
+              "dataType": "Analytics",
+              "description": "Commitments, Issuer, Cash Flows, Analytics (GA)",
+              "flowReference": "flow_16"
+            },
+            {
+              "destinationSystem": "Analytics",
+              "dataType": "GA Analytics",
+              "description": "GA Analytics data",
+              "flowReference": "flow_17"
+            },
+            {
+              "destinationSystem": "Mainstay",
+              "dataType": "AUM",
+              "description": "Mainstay Funds AUM data",
+              "flowReference": "flow_18"
+            },
+            {
+              "destinationSystem": "Mutual Fund",
+              "dataType": "Portfolio",
+              "description": "Mutual Fund Portfolio characteristics",
+              "flowReference": "flow_19"
+            },
+            {
+              "destinationSystem": "Cash Flows",
+              "dataType": "Cash Flows",
+              "description": "Cash Flows data",
+              "flowReference": "flow_47"
+            },
+            {
+              "destinationSystem": "Real Estate",
+              "dataType": "Loans",
+              "description": "Commitments, Mortgage Loans information",
+              "flowReference": "flow_48"
+            },
+            {
+              "destinationSystem": "YARDI",
+              "dataType": "Equity",
+              "description": "Equity Assets information",
+              "flowReference": "flow_49"
+            },
+            {
+              "destinationSystem": "Security Master",
+              "dataType": "Issuers",
+              "description": "Issuers, Security Master information",
+              "flowReference": "flow_50"
+            },
+            {
+              "destinationSystem": "Ratings",
+              "dataType": "Ratings",
+              "description": "Holdings, Security Master, Ratings information",
+              "flowReference": "flow_51"
+            },
+            {
+              "destinationSystem": "Security Master",
+              "dataType": "Issuers",
+              "description": "Issuers, Security Master information",
+              "flowReference": "flow_52"
+            },
+            {
+              "destinationSystem": "Transactions",
+              "dataType": "Holdings",
+              "description": "Holdings, Transactions, SMF information",
+              "flowReference": "flow_53"
+            },
+            {
+              "destinationSystem": "WEBPASS",
+              "dataType": "Feed",
+              "description": "Feed Data to WEBPASS",
+              "flowReference": "flow_45"
+            }
+          ]
+        }
+      },
+      "tradingAndPortfolioSystems": {
+        "ALADDIN": {
+          "description": "Trading & Order Management",
+          "year": 2003,
+          "type": "Vendor Application",
+          "dataFlows": {
+            "inbound": [
+              {
+                "sourceSystem": "CONTROL_DESK",
+                "dataType": "Positions",
+                "description": "Positions data from Control Desk",
+                "flowReference": "flow_31"
+              },
+              {
+                "sourceSystem": "CRD",
+                "dataType": "Market Data",
+                "description": "Market Data from CRD",
+                "flowReference": "flow_32"
+              }
+            ],
+            "outbound": [
+              {
+                "destinationSystem": "Trading Systems",
+                "dataType": "Executions",
+                "description": "Executions information",
+                "flowReference": "flow_20"
+              },
+              {
+                "destinationSystem": "SVI",
+                "dataType": "Positions",
+                "description": "Positions data",
+                "flowReference": "flow_21"
+              },
+              {
+                "destinationSystem": "IDW",
+                "dataType": "Security Master",
+                "description": "Security Master, Paydown, Sink, GFA, Ratings",
+                "flowReference": "flow_1"
+              },
+              {
+                "destinationSystem": "CAMRA",
+                "dataType": "Trades",
+                "description": "Trades, Cash Flows, Prices",
+                "flowReference": "flow_22"
+              },
+              {
+                "destinationSystem": "CAMRA",
+                "dataType": "Security",
+                "description": "Trades, Security, Price",
+                "flowReference": "flow_23"
+              },
+              {
+                "destinationSystem": "CONTROL_DESK",
+                "dataType": "Position",
+                "description": "Position data",
+                "flowReference": "flow_24"
+              },
+              {
+                "destinationSystem": "CONTROL_DESK",
+                "dataType": "LMS",
+                "description": "LMS Mortgage Loans, YARDI Equity Assets",
+                "flowReference": "flow_25"
+              },
+              {
+                "destinationSystem": "GENEVA",
+                "dataType": "Position",
+                "description": "Position data",
+                "flowReference": "flow_30"
+              }
+            ]
+          }
+        },
+        "CAMRA": {
+          "description": "General Account & Mutual Fund Accounting Platform",
+          "year": 2005,
+          "type": "Vendor Application",
+          "dataFlows": {
+            "inbound": [
+              {
+                "sourceSystem": "ALADDIN",
+                "dataType": "Trades",
+                "description": "Trades, Cash Flows, Prices",
+                "flowReference": "flow_22"
+              },
+              {
+                "sourceSystem": "ALADDIN",
+                "dataType": "Security",
+                "description": "Trades, Security, Price",
+                "flowReference": "flow_23"
+              }
+            ],
+            "outbound": [
+              {
+                "destinationSystem": "SAP",
+                "dataType": "GL Entries",
+                "description": "GL Entries",
+                "flowReference": "flow_26"
+              }
+            ]
+          }
+        },
+        "YIELD_BOOK": {
+          "description": "Trading & Order Management",
+          "year": 2007,
+          "type": "Vendor Application"
+        },
+        "WSO": {
+          "description": "Bank Loan Accounting Platform",
+          "year": 2007,
+          "type": "Vendor Application",
+          "usedBy": [
+            "Cornerstone Capital"
+          ]
+        },
+        "GENEVA": {
+          "description": "Institutional Accounting Platform",
+          "year": 2005,
+          "type": "Vendor Application",
+          "dataFlows": {
+            "inbound": [
+              {
+                "sourceSystem": "CRD",
+                "dataType": "Subs/Reds",
+                "description": "Subscription/Redemption data",
+                "flowReference": "flow_29"
+              },
+              {
+                "sourceSystem": "ALADDIN",
+                "dataType": "Position",
+                "description": "Position data",
+                "flowReference": "flow_30"
+              }
+            ],
+            "outbound": [
+              {
+                "destinationSystem": "IDW",
+                "dataType": "Trades",
+                "description": "Trades data",
+                "flowReference": "flow_27"
+              },
+              {
+                "destinationSystem": "SSB",
+                "dataType": "Subscription",
+                "description": "Subscription & Redemption",
+                "flowReference": "flow_28"
+              }
+            ]
+          }
+        },
+        "PORTIA": {
+          "description": "Manages Bank Loan and other Assets in the System",
+          "year": 2003,
+          "type": "Vendor Application"
+        },
+        "CHARLES_RIVER": {
+          "description": "Equity Trading Platform",
+          "year": 2007,
+          "type": "Vendor Application"
+        },
+        "MARKET_AXESS": {
+          "description": "Trading & Order Management",
+          "year": 2011,
+          "type": "Vendor Application"
+        },
+        "TRADE_WEB": {
+          "description": "Trading & Order Management",
+          "type": "Vendor Application"
+        },
+        "BLOOMBERG": {
+          "description": "Trading & Order Management",
+          "year": 2011,
+          "type": "Vendor Application"
+        }
+      },
+      "privateEquityAndPartnershipSystems": {
+        "INVESTRAN": {
+          "description": "Limited Partnership Accounting Platform",
+          "year": 2001,
+          "type": "Vendor Application"
+        },
+        "SAP": {
+          "description": "Private Equity Accounting Platform",
+          "year": 2010,
+          "type": "Vendor Application",
+          "dataFlows": {
+            "inbound": [
+              "GL Entries",
+              "GL Entries",
+              "Policy Data",
+              "Equity assets",
+              "Loans"
+            ],
+            "outbound": [
+              "SAP Data"
+            ]
+          }
+        },
+        "D&D": {
+          "description": "Derivatives Accounting Platform",
+          "year": 2011,
+          "type": "Vendor Application"
+        }
+      },
+      "realEstateSystems": {
+        "YARDI": {
+          "description": "Equity Asset Management Platform",
+          "year": 2011,
+          "type": "Vendor Application",
+          "dataFlows": {
+            "outbound": [
+              "Equity Assets"
+            ]
+          }
+        },
+        "ARGUS": {
+          "description": "Property Valuation & Cash Flow Management",
+          "year": 2013,
+          "type": "Vendor Application"
+        },
+        "DOC_MGR": {
+          "description": "Document Management System",
+          "year": 2005,
+          "type": "Vendor Application"
+        },
+        "LMS": {
+          "description": "Commercial Loan Accounting System",
+          "year": 2013,
+          "type": "Vendor Application"
+        },
+        "LMS_ADDON": {
+          "description": "Add on component To fill missing gap in LMS System",
+          "year": 2013,
+          "type": "Vendor Application"
+        },
+        "NYLEASE": {
+          "description": "Lease Management System",
+          "year": 2011,
+          "type": "Vendor Application"
+        },
+        "DEAL_MGR": {
+          "description": "Deal Management System to track both loan and equity deals",
+          "year": 2009,
+          "type": "Vendor Application"
+        },
+        "SFP": {
+          "description": "System to track Single Family Pool Assets",
+          "year": 2010,
+          "type": "Vendor Application"
+        },
+        "NB2": {
+          "description": "Deal Pipeline System",
+          "year": 2010,
+          "type": "Vendor Application"
+        },
+        "LOAN_MGR": {
+          "description": "Portfolio Management",
+          "year": 2013,
+          "type": "Vendor Application"
+        },
+        "NRRDS": {
+          "description": "Disbursement System for real estate tax, escrows",
+          "year": 2012,
+          "type": "Vendor Application"
+        },
+        "BORROWER_MGR": {
+          "description": "Self servicing borrower portal to check loan details",
+          "year": 2000,
+          "type": "Vendor Application"
+        },
+        "CALCULATORS": {
+          "description": "Calculators required during loan finance scenario's",
+          "year": 2011,
+          "type": "Vendor Application"
+        },
+        "PRICING": {
+          "description": "Pricing Engine to price potential real estate loans",
+          "year": 2011,
+          "type": "Vendor Application"
+        },
+        "EXTERNAL_DOC_MGR": {
+          "description": "DropBox for sharing documents with external customers",
+          "type": "Vendor Application"
+        },
+        "DISBURSEMENT": {
+          "description": "Loan and Equity Funding Approval System",
+          "year": 2010,
+          "type": "Vendor Application"
+        },
+        "TREASURY_WIRE": {
+          "description": "Funding System to transfer money to borrowers",
+          "type": "Vendor Application"
+        },
+        "BERKADIA": {
+          "description": "Manages Bank Loan and other Assets in the System",
+          "type": "Vendor Application"
+        }
+      },
+      "riskManagementAndAnalytics": {
+        "CASH_FLOW_BALANCING": {
+          "description": "Cash Balancing System",
+          "year": 2011,
+          "type": "Vendor Application"
+        },
+        "STRESS_BED": {
+          "description": "Scenario driven Risk Analysis System",
+          "year": 2012,
+          "type": "Vendor Application"
+        },
+        "PRICING_DB": {
+          "description": "OTC Portfolio Valuation System",
+          "year": 2013,
+          "type": "Vendor Application"
+        },
+        "ERROR_LOSS": {
+          "description": "Risk Management system to track trading and operation errors",
+          "year": 2010,
+          "type": "Vendor Application"
+        },
+        "FIRM_LITE": {
+          "description": "Portfolio Surveillance and Issuer Exposure System",
+          "year": 2010,
+          "type": "Vendor Application"
+        },
+        "BLACK_MOUNTAIN": {
+          "description": "Bank Loan Pipeline & Reporting Platform",
+          "year": 2012,
+          "type": "Vendor Application"
+        },
+        "CONTROL_DESK": {
+          "description": "Reconciliation Platform",
+          "year": 2007,
+          "type": "Vendor Application",
+          "dataFlows": {
+            "inbound": [
+              "Positions",
+              "Position",
+              "Position",
+              "LMS Loan Balance"
+            ],
+            "outbound": [
+              "Positions"
+            ]
+          }
+        },
+        "EDP": {
+          "description": "Provides access to economic data indicators \u2013 GDP, Unemployment",
+          "year": 2013,
+          "type": "Vendor Application",
+          "dataFlows": {
+            "outbound": [
+              "Reuters Data Feed"
+            ]
+          }
+        }
+      },
+      "reportingAndAddOnSystems": {
+        "SVI_WORKFLOW": {
+          "description": "Automate Client Report Generation",
+          "year": 2013,
+          "type": "Vendor Application"
+        },
+        "DATAHAWK": {
+          "description": "Report & DQM Testing Platform",
+          "year": 2010,
+          "type": "Vendor Application"
+        },
+        "ICD": {
+          "description": "Report Commentary System",
+          "year": 2013,
+          "type": "Vendor Application"
+        },
+        "SECURITY_FINDER": {
+          "description": "IDW Security Viewer",
+          "year": 2010,
+          "type": "Vendor Application"
+        },
+        "VIEW": {
+          "description": "Bank Loan Portfolio Viewer",
+          "year": 2003,
+          "type": "Vendor Application"
+        },
+        "VAULT": {
+          "description": "Custodian Management System",
+          "year": 2013,
+          "type": "Vendor Application"
+        },
+        "AD-HOC_TOOL": {
+          "description": "IDW Power User Reporting Platform",
+          "year": 2012,
+          "type": "Vendor Application"
+        },
+        "SECTOR_WORKFLOW": {
+          "description": "Sector Commentary Workflow",
+          "year": 2006,
+          "type": "Vendor Application"
+        },
+        "BILLING": {
+          "description": "Performance Fee Management System",
+          "year": 2011,
+          "type": "Vendor Application"
+        },
+        "FII_CASH_MGMT": {
+          "description": "Reconcile cash balance with custodians to accounting system",
+          "year": 2013,
+          "type": "Vendor Application",
+          "dataFlows": {
+            "outbound": [
+              "Cash Entry, Suspense, Due & Unpaid Fails Mgmt"
+            ]
+          }
+        }
+      }
+    },
+    "investmentServicesDistributionAndMarketing": {
+      "dataWarehouse": {
+        "description": "Business Warehouse supporting Wholesale Distribution, Retail Investment Service Center, MainStay Sales Reporting, Annuity(Product, Marketing, Service, Finance), Fund Compliance, Retirement Sale Reporting, Mainstay Marketing Analytics",
+        "year": 2002,
+        "components": [
+          "SARA (Business Warehouse)",
+          "TPD Data-mart",
+          "Agency Distribution Data-mart",
+          "Annuities Data-mart"
+        ],
+        "dataFlows": {
+          "inbound": [
+            "EIS Data",
+            "Illustration Data",
+            "IDW Price & Performance",
+            "WEBPASS Data",
+            "SMA Sales & Asset Data",
+            "Policy Data"
+          ],
+          "outbound": [
+            "Licensing Data"
+          ]
+        }
+      },
+      "salesAndMarketing": {
+        "MARKET_METRICS": {
+          "description": "Opportunity Sales Data",
+          "year": 2008,
+          "type": "Vendor Application"
+        },
+        "AGENCY_DASHBOARD": {
+          "description": "NYLIFE System Facing Agents",
+          "year": 2013,
+          "type": "Vendor Application"
+        },
+        "SALESFORCE": {
+          "description": "Customer Relationship system \u2013 TPD & Agency Distribution",
+          "year": 2013,
+          "type": "Vendor Application"
+        },
+        "MOBILE_FORCE_CRM_IPAD": {
+          "description": "IPAD App connected to Sales Force CRM \u2013 TPD and Agency Distribution",
+          "year": 2014,
+          "type": "Vendor Application"
+        },
+        "MOBILE_FORCE_CRM_IPHONE": {
+          "description": "IPHONE App connected to Sales Force CRM \u2013 TPD and Agency Distribution",
+          "year": 2014,
+          "type": "Vendor Application"
+        },
+        "ELOQUA": {
+          "description": "Marketing System",
+          "year": 2013,
+          "type": "Vendor Application"
+        },
+        "BONAIRE": {
+          "description": "Mutual Fund Fee Validation System",
+          "year": 2014,
+          "type": "Vendor Application"
+        },
+        "ALIGNSTAR": {
+          "description": "Mapping Software used for TPD Distribution segmentation",
+          "year": 2010,
+          "type": "Vendor Application"
+        }
+      },
+      "websites": {
+        "WEBPASS": {
+          "description": "Web content management and delivery system for Investment group internet",
+          "year": 2001,
+          "type": "Vendor Application",
+          "dataFlows": {
+            "inbound": [
+              "Policy Admin Data",
+              "Feed Data"
+            ],
+            "outbound": [
+              "WEBPASS Data"
+            ]
+          }
+        },
+        "SITECATALYST": {
+          "description": "Marketing reports and analytics",
+          "year": 2012,
+          "type": "Vendor Application"
+        },
+        "MAINSTAY": {
+          "description": "MainStay Investments investor web site and Online Sales Desk",
+          "year": 2013,
+          "type": "Vendor Application"
+        },
+        "INVESTMENTS_GROUP": {
+          "description": "Investments group portal",
+          "year": 2013,
+          "type": "Vendor Application"
+        },
+        "ANNUITIES": {
+          "description": "Annuities Client and rep web site",
+          "year": 2011,
+          "type": "Vendor Application"
+        },
+        "RETIREMENT": {
+          "description": "New York Life Retirement Plan Services and Resource center",
+          "year": 2006,
+          "type": "Vendor Application"
+        },
+        "GP": {
+          "description": "New York Life Investments Guaranteed Products web site",
+          "year": 2008,
+          "type": "Vendor Application"
+        },
+        "ICAP": {
+          "description": "Institutional Capital LLC",
+          "year": 2010,
+          "type": "Vendor Application"
+        },
+        "MADISON_CAPITAL": {
+          "description": "Madison Capital Funding LLC",
+          "year": 2010,
+          "type": "Vendor Application"
+        },
+        "RIA": {
+          "description": "MainStay Investments registered investment advisors web site",
+          "year": 2009,
+          "type": "Vendor Application"
+        },
+        "CDO": {
+          "description": "New York Life Investment group CDO",
+          "year": 2008,
+          "type": "Vendor Application"
+        },
+        "SIP": {
+          "description": "Supplemental Income 401(k) Plan",
+          "year": 2006,
+          "type": "Vendor Application"
+        },
+        "PRIVATE_PLACEMENTS": {
+          "description": "Private Capital Investors web site",
+          "year": 2012,
+          "type": "Vendor Application"
+        },
+        "PRIVATE_ADVISORS": {
+          "description": "Private Advisors, LLC web site",
+          "year": 2012,
+          "type": "Vendor Application"
+        }
+      },
+      "literatureManagement": {
+        "MARKETING_LIBRARY": {
+          "description": "Lotus Notes document library",
+          "year": 2003,
+          "type": "Vendor Application"
+        },
+        "HART_HANKS": {
+          "description": "Literature fulfillment",
+          "year": 1996,
+          "type": "Vendor Application"
+        },
+        "RRDONNELLEY_POD": {
+          "description": "Print On Demand",
+          "year": 2010,
+          "type": "Vendor Application"
+        },
+        "MERRILL": {
+          "description": "Merrill Enrolment Kits",
+          "year": 2001,
+          "type": "Vendor Application"
+        },
+        "POLO": {
+          "description": "Literature ordering system",
+          "year": 2002,
+          "type": "Vendor Application"
+        },
+        "IPOLOS": {
+          "description": "Literature ordering system for Sales Desk",
+          "year": 2010,
+          "type": "Vendor Application"
+        },
+        "ILITERATURE": {
+          "description": "Literature Brief Case",
+          "year": 2012,
+          "type": "Vendor Application"
+        },
+        "FORMS_LIB": {
+          "description": "Annuities Form Library",
+          "year": 2010,
+          "type": "Vendor Application"
+        },
+        "EPOLO": {
+          "description": "Annuities Literature ordering system",
+          "year": 2010,
+          "type": "Vendor Application"
+        }
+      },
+      "reportingAndAnalytics": {
+        "BUSINESS_OBJECTS": {
+          "description": "Reporting Platform",
+          "year": 2005,
+          "type": "Vendor Application"
+        },
+        "SPOTFIRE": {
+          "description": "Visual Analytic Tools",
+          "year": 2012,
+          "type": "Vendor Application"
+        },
+        "MICRO_STRATEGIES": {
+          "description": "REPORTING",
+          "year": 2010,
+          "type": "Vendor Application"
+        }
+      }
+    },
+    "annuitiesSystems": {
+      "policyAdministration": {
+        "RPAY": {
+          "description": "Policy Admin for Agency and TPD IA.",
+          "year": 2010,
+          "type": "Vendor Application"
+        },
+        "COMPASS": {
+          "description": "Admin System for group annuity products",
+          "year": 2010,
+          "type": "Vendor Application",
+          "dataFlows": {
+            "outbound": [
+              "COMPASS Data"
+            ]
+          }
+        },
+        "COMPASS_PLUS": {
+          "description": "Admin System for group annuity products",
+          "year": 2010,
+          "type": "Vendor Application"
+        },
+        "OAS_VAS": {
+          "description": "Policy Admin for TPD FDA and TPD VA.",
+          "year": 2010,
+          "type": "Vendor Application"
+        },
+        "CYBERLIFE": {
+          "description": "Policy Admin for Agency FDA and Agency VA.",
+          "year": 2010,
+          "type": "Vendor Application"
+        },
+        "CAPS": {
+          "description": "Comprehensive Annuity Payout System",
+          "year": 2010,
+          "type": "Vendor Application"
+        },
+        "ANNUITY_VALUATION": {
+          "description": "Annuity Valuation",
+          "year": 2010,
+          "type": "Vendor Application"
+        },
+        "ADSS": {
+          "description": "Accounting and Disbursements System",
+          "year": 2010,
+          "type": "Vendor Application"
+        },
+        "MARKETING_ALLOWANCES": {
+          "description": "Calculate and distribute TPD firm level compensation.",
+          "year": 2010,
+          "type": "Vendor Application"
+        }
+      },
+      "finance": {
+        "PROPHET": {
+          "description": "Perform complex variable annuity reserve modeling.",
+          "year": 2010,
+          "type": "Vendor Application"
+        },
+        "AXIS": {
+          "description": "Calculate annuity reserves and feed Financial database",
+          "year": 2010,
+          "type": "Vendor Application"
+        },
+        "ARCVAL": {
+          "description": "Calculate annuity reserves and feed Financial database",
+          "year": 2010,
+          "type": "Vendor Application"
+        }
+      },
+      "illustrations": {
+        "FTIS": {
+          "description": "Web application that provides illustrations to Agents.",
+          "year": 2010,
+          "type": "Vendor Application",
+          "dataFlows": {
+            "outbound": [
+              "Illustration Data"
+            ]
+          }
+        },
+        "ANNUITY_INTEREST_RATES": {
+          "description": "Manage annuity interest rate entry, approval and distribution.",
+          "year": 2010,
+          "type": "Vendor Application"
+        }
+      },
+      "serviceApplications": {
+        "MIDDLEWARE": {
+          "description": "Manage TPD rep licensing and sales reporting",
+          "year": 2010,
+          "type": "Vendor Application"
+        },
+        "CT035": {
+          "description": "Track 1035 exchnages for annuity new business",
+          "year": 2010,
+          "type": "Vendor Application"
+        },
+        "REG60": {
+          "description": "Enforce special new business requirements for New York State",
+          "year": 2010,
+          "type": "Vendor Application"
+        },
+        "TPD_CORRESPONDENCE": {
+          "description": "Various annuity correspondence",
+          "year": 2010,
+          "type": "Vendor Application"
+        }
+      }
+    },
+    "retirementPlanServices": {
+      "recordkeepingEngine": {
+        "PARTS_PLUS": {
+          "description": "PARTS+ Plan and Participant Rules and Calculation Engine",
+          "year": 2002,
+          "type": "Vendor Application",
+          "components": [
+            "Desktop - PARTS+ Plan Administration Workstation",
+            "Job Servers - Scheduled Jobs and User ad-hoc requests",
+            "Application Servers - PARTS+ Applications"
+          ]
+        }
+      },
+      "definedBenefitPlanProcessing": {
+        "BENXL_DESKTOP": {
+          "description": "DB Plan Developer's toolset",
+          "year": 2004,
+          "type": "Vendor Application"
+        },
+        "BENXL_ENGINE": {
+          "description": "DP Plan Calculation Server",
+          "year": 2004,
+          "type": "Vendor Application"
+        },
+        "PROVAL": {
+          "description": "DB Actuarial System",
+          "year": 2010,
+          "type": "Vendor Application"
+        },
+        "PARTS_PLUS_DB": {
+          "description": "DB Plan Recordkeeping & Administration system",
+          "year": 2002,
+          "type": "Vendor Application"
+        }
+      },
+      "planSponsorAndParticipantSelfService": {
+        "CLIENT_ACCESS": {
+          "description": "Plan Sponsor & Advisor Web Site",
+          "year": 2002,
+          "type": "Vendor Application"
+        },
+        "PSC_WORKSTATION": {
+          "description": "Participant Service Center Workstation",
+          "year": 2002,
+          "type": "Vendor Application"
+        },
+        "VRS": {
+          "description": "Voice Response Service",
+          "year": 2006,
+          "type": "Vendor Application"
+        },
+        "MYLIFENOW": {
+          "description": "Participant Web Site",
+          "year": 2010,
+          "type": "Vendor Application"
+        },
+        "MOBILE_WEB_APPLICATION": {
+          "description": "Mobil App for Participants",
+          "year": 2012,
+          "type": "Vendor Application"
+        }
+      },
+      "investmentAdviceAndGuidance": {
+        "MORNINGSTAR_RETIREMENT_MANAGER": {
+          "description": "Investment Advice & Guidance",
+          "year": 2005,
+          "type": "Vendor Application"
+        },
+        "ONTARGET": {
+          "description": "Retirement Planning Projections",
+          "year": 2007,
+          "type": "Vendor Application"
+        },
+        "NYL_SUGGESTS": {
+          "description": "Financial Education & Guidance",
+          "year": 2013,
+          "type": "Vendor Application"
+        }
+      },
+      "dataWarehouse": {
+        "BUSINESS_INTELLIGENCE": {
+          "description": "Reports, cubes & dashboards (MicroStrategy)",
+          "year": 2007,
+          "type": "Vendor Application"
+        },
+        "DATABASES": {
+          "description": "Databases, tables, views and Data Marts",
+          "year": 2011,
+          "type": "Vendor Application"
+        },
+        "ETL": {
+          "description": "Extract, Translate & Load processes for various data sources and systems",
+          "year": 2011,
+          "type": "Vendor Application"
+        }
+      }
+    },
+    "boutiques": [
+      {
+        "name": "Cornerstone Capital",
+        "code": "C",
+        "systems": [
+          "WSO"
+        ]
+      },
+      {
+        "name": "MacKay Shields",
+        "code": "M",
+        "systems": []
+      },
+      {
+        "name": "Madison Capital Funding",
+        "code": "C",
+        "systems": []
+      }
+    ],
+    "legendDescriptions": {
+      "shapes": {
+        "web_app": "Web App",
+        "vendor_hosted": "Vendor Hosted / ASP Model",
+        "data_file": "Data File",
+        "service": "Service",
+        "mainframe": "Mainframe",
+        "data_warehouse": "Data Warehouse",
+        "desktop_app": "Desktop App",
+        "initiation_point": "Initiation Point",
+        "vendor_external_data_source": "Vendor External Data Source"
+      },
+      "boxColors": {
+        "nyl_managed": "NYL Managed",
+        "vendor_application": "Vendor Application",
+        "proprietary_application": "Proprietary Application",
+        "legacy_application": "Legacy Application (legacy technology)"
+      },
+      "systemIntegration": {
+        "etl": "ETL",
+        "direct_database": "Direct Database",
+        "web_service": "Web Service",
+        "middleware": "Middleware",
+        "inter_group": "Inter group (Annuities/Investment/RPS)"
+      }
+    }
+  }
