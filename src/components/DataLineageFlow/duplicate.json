@@ -1,0 +1,4596 @@
+{
+    "initialNodes": [
+      {
+        "id": "E0",
+        "type": "dropdownNode",
+        "position": {
+          "x": 100,
+          "y": 100
+        },
+        "data": {
+          "title": "ALADDIN",
+          "items": [
+            {
+              "label": "Security Master",
+              "status": "Security Master, Paydown, Sink, GFA, Ratings information flow from ALADDIN to IDW"
+            },
+            {
+              "label": "Executions",
+              "status": "Executions information from ALADDIN to trading systems"
+            },
+            {
+              "label": "Positions",
+              "status": "Positions data from ALADDIN to SVI"
+            },
+            {
+              "label": "Trades",
+              "status": "Trades, Cash Flows, Prices from ALADDIN to CAMRA"
+            },
+            {
+              "label": "Security",
+              "status": "Trades, Security, Price from ALADDIN to CAMRA"
+            },
+            {
+              "label": "Position",
+              "status": "Position data from ALADDIN to Control Desk"
+            },
+            {
+              "label": "LMS",
+              "status": "LMS Mortgage Loans, YARDI Equity Assets from ALADDIN to Control Desk"
+            },
+            {
+              "label": "Position",
+              "status": "Position data from ALADDIN to GENEVA"
+            },
+            {
+              "label": "Positions",
+              "status": "Positions data from Control Desk to ALADDIN"
+            },
+            {
+              "label": "Market Data",
+              "status": "Market Data from CRD to ALADDIN"
+            }
+          ],
+          "expanded": true
+        }
+      },
+      {
+        "id": "E1",
+        "type": "dropdownNode",
+        "position": {
+          "x": 500,
+          "y": 100
+        },
+        "data": {
+          "title": "IDW",
+          "items": [
+            {
+              "label": "Security Master",
+              "status": "Security Master, Paydown, Sink, GFA, Ratings information flow from ALADDIN to IDW"
+            },
+            {
+              "label": "Position",
+              "status": "Position & Prices data from CRD to IDW"
+            },
+            {
+              "label": "Positions",
+              "status": "Positions information flow from Control Desk to IDW"
+            },
+            {
+              "label": "Data",
+              "status": "SAP data transferred to IDW"
+            },
+            {
+              "label": "Data",
+              "status": "COMPASS data transferred to IDW"
+            },
+            {
+              "label": "Fund Data",
+              "status": "Securities, Holdings, Transactions from SSB for MS Funds to IDW"
+            },
+            {
+              "label": "AUM",
+              "status": "Monthly AUM data to IDW"
+            },
+            {
+              "label": "Feed Data",
+              "status": "General feed data transferred to IDW"
+            },
+            {
+              "label": "Holdings",
+              "status": "Holdings, Securities for SVI accounts from IDW to SVI workflow"
+            },
+            {
+              "label": "Performance",
+              "status": "Performance data for Bank Loans from IDW"
+            },
+            {
+              "label": "Holdings",
+              "status": "Holdings, Transaction, Securities for GA from IDW"
+            },
+            {
+              "label": "Holdings",
+              "status": "Holdings, Transaction, Performance, Securities for Institutional accounts from IDW"
+            },
+            {
+              "label": "Derivatives",
+              "status": "Derivatives data for General Account from IDW"
+            },
+            {
+              "label": "Holdings",
+              "status": "Holdings, Securities for Limited Partnership from IDW"
+            },
+            {
+              "label": "Ledger",
+              "status": "Ledger Balances for GA Account from IDW"
+            },
+            {
+              "label": "Analytics",
+              "status": "Commitments, Issuer, Cash Flows, Analytics (GA) from IDW"
+            },
+            {
+              "label": "GA Analytics",
+              "status": "GA Analytics data from IDW"
+            },
+            {
+              "label": "AUM",
+              "status": "Mainstay Funds AUM data from IDW"
+            },
+            {
+              "label": "Portfolio",
+              "status": "Mutual Fund Portfolio characteristics from IDW"
+            },
+            {
+              "label": "Trades",
+              "status": "Trades from GENEVA to IDW"
+            },
+            {
+              "label": "Price",
+              "status": "IDW Price & Performance data to SARA"
+            },
+            {
+              "label": "Market Data",
+              "status": "Market data from MARKIT, IDC, REUTERS, RATING AGY, BLOOMBERG to IDW"
+            },
+            {
+              "label": "Positions",
+              "status": "Positions, Cash Balances, Subscription, Redemption Fees & Interest from various custodians including BONY, Merrill, Wells Fargo, etc."
+            },
+            {
+              "label": "Feed",
+              "status": "Feed Data from IDW to WEBPASS"
+            },
+            {
+              "label": "Cash Flows",
+              "status": "Cash Flows data from IDW"
+            },
+            {
+              "label": "Loans",
+              "status": "Commitments, Mortgage Loans information from IDW to real estate systems"
+            },
+            {
+              "label": "Equity",
+              "status": "Equity Assets information from IDW to YARDI"
+            },
+            {
+              "label": "Issuers",
+              "status": "Issuers, Security Master information from IDW"
+            },
+            {
+              "label": "Ratings",
+              "status": "Holdings, Security Master, Ratings information from IDW"
+            },
+            {
+              "label": "Issuers",
+              "status": "Issuers, Security Master information from IDW"
+            },
+            {
+              "label": "Holdings",
+              "status": "Holdings, Transactions, SMF information from IDW"
+            }
+          ],
+          "expanded": true
+        }
+      },
+      {
+        "id": "E2",
+        "type": "dropdownNode",
+        "position": {
+          "x": 900,
+          "y": 100
+        },
+        "data": {
+          "title": "CRD",
+          "items": [
+            {
+              "label": "Position",
+              "status": "Position & Prices data from CRD to IDW"
+            },
+            {
+              "label": "Subs/Reds",
+              "status": "Subscription/Redemption data from CRD to GENEVA"
+            },
+            {
+              "label": "Market Data",
+              "status": "Market Data from CRD to ALADDIN"
+            }
+          ],
+          "expanded": true
+        }
+      },
+      {
+        "id": "E3",
+        "type": "dropdownNode",
+        "position": {
+          "x": 1300,
+          "y": 100
+        },
+        "data": {
+          "title": "CONTROL_DESK",
+          "items": [
+            {
+              "label": "Positions",
+              "status": "Positions information flow from Control Desk to IDW"
+            },
+            {
+              "label": "Position",
+              "status": "Position data from ALADDIN to Control Desk"
+            },
+            {
+              "label": "LMS",
+              "status": "LMS Mortgage Loans, YARDI Equity Assets from ALADDIN to Control Desk"
+            },
+            {
+              "label": "Positions",
+              "status": "Positions data from Control Desk to ALADDIN"
+            },
+            {
+              "label": "Loan Balance",
+              "status": "LMS Loan Balance data to Control Desk"
+            }
+          ],
+          "expanded": true
+        }
+      },
+      {
+        "id": "E4",
+        "type": "dropdownNode",
+        "position": {
+          "x": 1700,
+          "y": 100
+        },
+        "data": {
+          "title": "SAP",
+          "items": [
+            {
+              "label": "Data",
+              "status": "SAP data transferred to IDW"
+            },
+            {
+              "label": "GL Entries",
+              "status": "GL Entries from CAMRA to SAP"
+            },
+            {
+              "label": "Equity assets",
+              "status": "Equity assets data from YARDI to SAP"
+            },
+            {
+              "label": "Loans",
+              "status": "Loans data from LMS to SAP"
+            }
+          ],
+          "expanded": true
+        }
+      },
+      {
+        "id": "E5",
+        "type": "dropdownNode",
+        "position": {
+          "x": 2100,
+          "y": 100
+        },
+        "data": {
+          "title": "COMPASS",
+          "items": [
+            {
+              "label": "Data",
+              "status": "COMPASS data transferred to IDW"
+            }
+          ],
+          "expanded": true
+        }
+      },
+      {
+        "id": "E6",
+        "type": "dropdownNode",
+        "position": {
+          "x": 100,
+          "y": 350
+        },
+        "data": {
+          "title": "SSB",
+          "items": [
+            {
+              "label": "Fund Data",
+              "status": "Securities, Holdings, Transactions from SSB for MS Funds to IDW"
+            },
+            {
+              "label": "Subscription",
+              "status": "Subscription & Redemption from GENEVA to SSB"
+            }
+          ],
+          "expanded": true
+        }
+      },
+      {
+        "id": "E7",
+        "type": "dropdownNode",
+        "position": {
+          "x": 500,
+          "y": 350
+        },
+        "data": {
+          "title": "External",
+          "items": [
+            {
+              "label": "AUM",
+              "status": "Monthly AUM data to IDW"
+            },
+            {
+              "label": "Feed Data",
+              "status": "General feed data transferred to IDW"
+            }
+          ],
+          "expanded": true
+        }
+      },
+      {
+        "id": "E8",
+        "type": "dropdownNode",
+        "position": {
+          "x": 900,
+          "y": 350
+        },
+        "data": {
+          "title": "SVI",
+          "items": [
+            {
+              "label": "Holdings",
+              "status": "Holdings, Securities for SVI accounts from IDW to SVI workflow"
+            },
+            {
+              "label": "Positions",
+              "status": "Positions data from ALADDIN to SVI"
+            }
+          ],
+          "expanded": true
+        }
+      },
+      {
+        "id": "E9",
+        "type": "dropdownNode",
+        "position": {
+          "x": 1300,
+          "y": 350
+        },
+        "data": {
+          "title": "Bank Loans",
+          "items": [
+            {
+              "label": "Performance",
+              "status": "Performance data for Bank Loans from IDW"
+            }
+          ],
+          "expanded": true
+        }
+      },
+      {
+        "id": "E10",
+        "type": "dropdownNode",
+        "position": {
+          "x": 1700,
+          "y": 350
+        },
+        "data": {
+          "title": "GA",
+          "items": [
+            {
+              "label": "Holdings",
+              "status": "Holdings, Transaction, Securities for GA from IDW"
+            },
+            {
+              "label": "Analytics",
+              "status": "Commitments, Issuer, Cash Flows, Analytics (GA) from IDW"
+            }
+          ],
+          "expanded": true
+        }
+      },
+      {
+        "id": "E11",
+        "type": "dropdownNode",
+        "position": {
+          "x": 2100,
+          "y": 350
+        },
+        "data": {
+          "title": "Institutional",
+          "items": [
+            {
+              "label": "Holdings",
+              "status": "Holdings, Transaction, Performance, Securities for Institutional accounts from IDW"
+            }
+          ],
+          "expanded": true
+        }
+      },
+      {
+        "id": "E12",
+        "type": "dropdownNode",
+        "position": {
+          "x": 100,
+          "y": 600
+        },
+        "data": {
+          "title": "General Account",
+          "items": [
+            {
+              "label": "Derivatives",
+              "status": "Derivatives data for General Account from IDW"
+            }
+          ],
+          "expanded": true
+        }
+      },
+      {
+        "id": "E13",
+        "type": "dropdownNode",
+        "position": {
+          "x": 500,
+          "y": 600
+        },
+        "data": {
+          "title": "Limited Partnership",
+          "items": [
+            {
+              "label": "Holdings",
+              "status": "Holdings, Securities for Limited Partnership from IDW"
+            }
+          ],
+          "expanded": true
+        }
+      },
+      {
+        "id": "E14",
+        "type": "dropdownNode",
+        "position": {
+          "x": 900,
+          "y": 600
+        },
+        "data": {
+          "title": "GA Account",
+          "items": [
+            {
+              "label": "Ledger",
+              "status": "Ledger Balances for GA Account from IDW"
+            }
+          ],
+          "expanded": true
+        }
+      },
+      {
+        "id": "E15",
+        "type": "dropdownNode",
+        "position": {
+          "x": 1300,
+          "y": 600
+        },
+        "data": {
+          "title": "Analytics",
+          "items": [
+            {
+              "label": "GA Analytics",
+              "status": "GA Analytics data from IDW"
+            }
+          ],
+          "expanded": true
+        }
+      },
+      {
+        "id": "E16",
+        "type": "dropdownNode",
+        "position": {
+          "x": 1700,
+          "y": 600
+        },
+        "data": {
+          "title": "Mainstay",
+          "items": [
+            {
+              "label": "AUM",
+              "status": "Mainstay Funds AUM data from IDW"
+            }
+          ],
+          "expanded": true
+        }
+      },
+      {
+        "id": "E17",
+        "type": "dropdownNode",
+        "position": {
+          "x": 2100,
+          "y": 600
+        },
+        "data": {
+          "title": "Mutual Fund",
+          "items": [
+            {
+              "label": "Portfolio",
+              "status": "Mutual Fund Portfolio characteristics from IDW"
+            }
+          ],
+          "expanded": true
+        }
+      },
+      {
+        "id": "E18",
+        "type": "dropdownNode",
+        "position": {
+          "x": 100,
+          "y": 850
+        },
+        "data": {
+          "title": "Trading Systems",
+          "items": [
+            {
+              "label": "Executions",
+              "status": "Executions information from ALADDIN to trading systems"
+            }
+          ],
+          "expanded": true
+        }
+      },
+      {
+        "id": "E19",
+        "type": "dropdownNode",
+        "position": {
+          "x": 500,
+          "y": 850
+        },
+        "data": {
+          "title": "CAMRA",
+          "items": [
+            {
+              "label": "Trades",
+              "status": "Trades, Cash Flows, Prices from ALADDIN to CAMRA"
+            },
+            {
+              "label": "Security",
+              "status": "Trades, Security, Price from ALADDIN to CAMRA"
+            },
+            {
+              "label": "GL Entries",
+              "status": "GL Entries from CAMRA to SAP"
+            }
+          ],
+          "expanded": true
+        }
+      },
+      {
+        "id": "E20",
+        "type": "dropdownNode",
+        "position": {
+          "x": 900,
+          "y": 850
+        },
+        "data": {
+          "title": "GENEVA",
+          "items": [
+            {
+              "label": "Trades",
+              "status": "Trades from GENEVA to IDW"
+            },
+            {
+              "label": "Subscription",
+              "status": "Subscription & Redemption from GENEVA to SSB"
+            },
+            {
+              "label": "Subs/Reds",
+              "status": "Subscription/Redemption data from CRD to GENEVA"
+            },
+            {
+              "label": "Position",
+              "status": "Position data from ALADDIN to GENEVA"
+            }
+          ],
+          "expanded": true
+        }
+      },
+      {
+        "id": "E21",
+        "type": "dropdownNode",
+        "position": {
+          "x": 1300,
+          "y": 850
+        },
+        "data": {
+          "title": "YARDI",
+          "items": [
+            {
+              "label": "Equity assets",
+              "status": "Equity assets data from YARDI to SAP"
+            },
+            {
+              "label": "Equity",
+              "status": "Equity Assets information from IDW to YARDI"
+            }
+          ],
+          "expanded": true
+        }
+      },
+      {
+        "id": "E22",
+        "type": "dropdownNode",
+        "position": {
+          "x": 1700,
+          "y": 850
+        },
+        "data": {
+          "title": "LMS",
+          "items": [
+            {
+              "label": "Loans",
+              "status": "Loans data from LMS to SAP"
+            },
+            {
+              "label": "Loan Balance",
+              "status": "LMS Loan Balance data to Control Desk"
+            }
+          ],
+          "expanded": true
+        }
+      },
+      {
+        "id": "E23",
+        "type": "dropdownNode",
+        "position": {
+          "x": 2100,
+          "y": 850
+        },
+        "data": {
+          "title": "FII_CASH_MGMT",
+          "items": [
+            {
+              "label": "Cash",
+              "status": "Cash Entry, Suspense, Due & Unpaid Fails Management from FII Cash Management to custodians"
+            }
+          ],
+          "expanded": true
+        }
+      },
+      {
+        "id": "E24",
+        "type": "dropdownNode",
+        "position": {
+          "x": 100,
+          "y": 1100
+        },
+        "data": {
+          "title": "Custodians",
+          "items": [
+            {
+              "label": "Cash",
+              "status": "Cash Entry, Suspense, Due & Unpaid Fails Management from FII Cash Management to custodians"
+            },
+            {
+              "label": "Positions",
+              "status": "Positions, Cash Balances, Subscription, Redemption Fees & Interest from various custodians including BONY, Merrill, Wells Fargo, etc."
+            }
+          ],
+          "expanded": true
+        }
+      },
+      {
+        "id": "E25",
+        "type": "dropdownNode",
+        "position": {
+          "x": 500,
+          "y": 1100
+        },
+        "data": {
+          "title": "FTIS",
+          "items": [
+            {
+              "label": "Illustration",
+              "status": "Illustration Data from FTIS to SARA"
+            }
+          ],
+          "expanded": true
+        }
+      },
+      {
+        "id": "E26",
+        "type": "dropdownNode",
+        "position": {
+          "x": 900,
+          "y": 1100
+        },
+        "data": {
+          "title": "SARA",
+          "items": [
+            {
+              "label": "Illustration",
+              "status": "Illustration Data from FTIS to SARA"
+            },
+            {
+              "label": "Price",
+              "status": "IDW Price & Performance data to SARA"
+            },
+            {
+              "label": "Data",
+              "status": "WEBPASS Data to SARA"
+            },
+            {
+              "label": "SMA",
+              "status": "SMA Sales & Asset Data from SEC-APL to SARA"
+            },
+            {
+              "label": "Licensing",
+              "status": "Licensing Data from SARA to Policy Admin systems"
+            },
+            {
+              "label": "Policy",
+              "status": "Policy Data from SARA to EIS"
+            }
+          ],
+          "expanded": true
+        }
+      },
+      {
+        "id": "E27",
+        "type": "dropdownNode",
+        "position": {
+          "x": 1300,
+          "y": 1100
+        },
+        "data": {
+          "title": "WEBPASS",
+          "items": [
+            {
+              "label": "Data",
+              "status": "WEBPASS Data to SARA"
+            },
+            {
+              "label": "Policy Admin",
+              "status": "Policy Admin Data from various policy admin systems to WEBPASS"
+            },
+            {
+              "label": "Feed",
+              "status": "Feed Data from IDW to WEBPASS"
+            }
+          ],
+          "expanded": true
+        }
+      },
+      {
+        "id": "E28",
+        "type": "dropdownNode",
+        "position": {
+          "x": 1700,
+          "y": 1100
+        },
+        "data": {
+          "title": "SEC-APL",
+          "items": [
+            {
+              "label": "SMA",
+              "status": "SMA Sales & Asset Data from SEC-APL to SARA"
+            }
+          ],
+          "expanded": true
+        }
+      },
+      {
+        "id": "E29",
+        "type": "dropdownNode",
+        "position": {
+          "x": 2100,
+          "y": 1100
+        },
+        "data": {
+          "title": "Policy Admin",
+          "items": [
+            {
+              "label": "Licensing",
+              "status": "Licensing Data from SARA to Policy Admin systems"
+            },
+            {
+              "label": "Policy Admin",
+              "status": "Policy Admin Data from various policy admin systems to WEBPASS"
+            }
+          ],
+          "expanded": true
+        }
+      },
+      {
+        "id": "E30",
+        "type": "dropdownNode",
+        "position": {
+          "x": 100,
+          "y": 1350
+        },
+        "data": {
+          "title": "EIS",
+          "items": [
+            {
+              "label": "Policy",
+              "status": "Policy Data from SARA to EIS"
+            }
+          ],
+          "expanded": true
+        }
+      },
+      {
+        "id": "E31",
+        "type": "dropdownNode",
+        "position": {
+          "x": 500,
+          "y": 1350
+        },
+        "data": {
+          "title": "Market Data Sources",
+          "items": [
+            {
+              "label": "Market Data",
+              "status": "Market data from MARKIT, IDC, REUTERS, RATING AGY, BLOOMBERG to IDW"
+            }
+          ],
+          "expanded": true
+        }
+      },
+      {
+        "id": "E32",
+        "type": "dropdownNode",
+        "position": {
+          "x": 900,
+          "y": 1350
+        },
+        "data": {
+          "title": "Cash Flows",
+          "items": [
+            {
+              "label": "Cash Flows",
+              "status": "Cash Flows data from IDW"
+            }
+          ],
+          "expanded": true
+        }
+      },
+      {
+        "id": "E33",
+        "type": "dropdownNode",
+        "position": {
+          "x": 1300,
+          "y": 1350
+        },
+        "data": {
+          "title": "Real Estate",
+          "items": [
+            {
+              "label": "Loans",
+              "status": "Commitments, Mortgage Loans information from IDW to real estate systems"
+            }
+          ],
+          "expanded": true
+        }
+      },
+      {
+        "id": "E34",
+        "type": "dropdownNode",
+        "position": {
+          "x": 1700,
+          "y": 1350
+        },
+        "data": {
+          "title": "Security Master",
+          "items": [
+            {
+              "label": "Issuers",
+              "status": "Issuers, Security Master information from IDW"
+            },
+            {
+              "label": "Issuers",
+              "status": "Issuers, Security Master information from IDW"
+            }
+          ],
+          "expanded": true
+        }
+      },
+      {
+        "id": "E35",
+        "type": "dropdownNode",
+        "position": {
+          "x": 2100,
+          "y": 1350
+        },
+        "data": {
+          "title": "Ratings",
+          "items": [
+            {
+              "label": "Ratings",
+              "status": "Holdings, Security Master, Ratings information from IDW"
+            }
+          ],
+          "expanded": true
+        }
+      },
+      {
+        "id": "E36",
+        "type": "dropdownNode",
+        "position": {
+          "x": 100,
+          "y": 1600
+        },
+        "data": {
+          "title": "Transactions",
+          "items": [
+            {
+              "label": "Holdings",
+              "status": "Holdings, Transactions, SMF information from IDW"
+            }
+          ],
+          "expanded": true
+        }
+      },
+      {
+        "id": "E37",
+        "type": "dropdownNode",
+        "position": {
+          "x": 500,
+          "y": 1600
+        },
+        "data": {
+          "title": "EDP",
+          "items": [
+            {
+              "label": "Economic Data",
+              "status": "Reuters Data Feed from EDP to Reuters"
+            }
+          ],
+          "expanded": true
+        }
+      },
+      {
+        "id": "E38",
+        "type": "dropdownNode",
+        "position": {
+          "x": 900,
+          "y": 1600
+        },
+        "data": {
+          "title": "Reuters",
+          "items": [
+            {
+              "label": "Economic Data",
+              "status": "Reuters Data Feed from EDP to Reuters"
+            }
+          ],
+          "expanded": true
+        }
+      }
+    ],
+    "pathEdgesMap": {
+      "Security Master": [
+        {
+          "id": "E0-E1-Security Master-4356",
+          "source": "E0",
+          "target": "E1",
+          "animated": true,
+          "sourceHandle": "Security Master",
+          "targetHandle": "Security Master",
+          "style": {
+            "stroke": "#10b981",
+            "strokeWidth": 2,
+            "strokeDasharray": "4,2"
+          }
+        },
+        {
+          "id": "E1-E0-Security Master-6277",
+          "source": "E1",
+          "target": "E0",
+          "animated": true,
+          "sourceHandle": "Security Master",
+          "targetHandle": "Security Master",
+          "style": {
+            "stroke": "#10b981",
+            "strokeWidth": 2,
+            "strokeDasharray": "4,2"
+          }
+        }
+      ],
+      "Executions": [
+        {
+          "id": "E0-E18-Executions-3567",
+          "source": "E0",
+          "target": "E18",
+          "animated": true,
+          "sourceHandle": "Executions",
+          "targetHandle": "Executions",
+          "style": {
+            "stroke": "#10b981",
+            "strokeWidth": 2,
+            "strokeDasharray": "4,2"
+          }
+        },
+        {
+          "id": "E18-E0-Executions-1400",
+          "source": "E18",
+          "target": "E0",
+          "animated": true,
+          "sourceHandle": "Executions",
+          "targetHandle": "Executions",
+          "style": {
+            "stroke": "#10b981",
+            "strokeWidth": 2,
+            "strokeDasharray": "4,2"
+          }
+        }
+      ],
+      "Positions": [
+        {
+          "id": "E0-E1-Positions-3367",
+          "source": "E0",
+          "target": "E1",
+          "animated": true,
+          "sourceHandle": "Positions",
+          "targetHandle": "Positions",
+          "style": {
+            "stroke": "#10b981",
+            "strokeWidth": 2,
+            "strokeDasharray": "4,2"
+          }
+        },
+        {
+          "id": "E0-E1-Positions-4736",
+          "source": "E0",
+          "target": "E1",
+          "animated": true,
+          "sourceHandle": "Positions",
+          "targetHandle": "Positions",
+          "style": {
+            "stroke": "#10b981",
+            "strokeWidth": 2,
+            "strokeDasharray": "4,2"
+          }
+        },
+        {
+          "id": "E1-E0-Positions-6153",
+          "source": "E1",
+          "target": "E0",
+          "animated": true,
+          "sourceHandle": "Positions",
+          "targetHandle": "Positions",
+          "style": {
+            "stroke": "#10b981",
+            "strokeWidth": 2,
+            "strokeDasharray": "4,2"
+          }
+        },
+        {
+          "id": "E1-E0-Positions-3218",
+          "source": "E1",
+          "target": "E0",
+          "animated": true,
+          "sourceHandle": "Positions",
+          "targetHandle": "Positions",
+          "style": {
+            "stroke": "#10b981",
+            "strokeWidth": 2,
+            "strokeDasharray": "4,2"
+          }
+        },
+        {
+          "id": "E3-E0-Positions-1327",
+          "source": "E3",
+          "target": "E0",
+          "animated": true,
+          "sourceHandle": "Positions",
+          "targetHandle": "Positions",
+          "style": {
+            "stroke": "#10b981",
+            "strokeWidth": 2,
+            "strokeDasharray": "4,2"
+          }
+        },
+        {
+          "id": "E3-E0-Positions-5368",
+          "source": "E3",
+          "target": "E0",
+          "animated": true,
+          "sourceHandle": "Positions",
+          "targetHandle": "Positions",
+          "style": {
+            "stroke": "#10b981",
+            "strokeWidth": 2,
+            "strokeDasharray": "4,2"
+          }
+        },
+        {
+          "id": "E8-E0-Positions-6580",
+          "source": "E8",
+          "target": "E0",
+          "animated": true,
+          "sourceHandle": "Positions",
+          "targetHandle": "Positions",
+          "style": {
+            "stroke": "#10b981",
+            "strokeWidth": 2,
+            "strokeDasharray": "4,2"
+          }
+        },
+        {
+          "id": "E24-E0-Positions-7511",
+          "source": "E24",
+          "target": "E0",
+          "animated": true,
+          "sourceHandle": "Positions",
+          "targetHandle": "Positions",
+          "style": {
+            "stroke": "#10b981",
+            "strokeWidth": 2,
+            "strokeDasharray": "4,2"
+          }
+        }
+      ],
+      "Trades": [
+        {
+          "id": "E0-E1-Trades-1445",
+          "source": "E0",
+          "target": "E1",
+          "animated": true,
+          "sourceHandle": "Trades",
+          "targetHandle": "Trades",
+          "style": {
+            "stroke": "#10b981",
+            "strokeWidth": 2,
+            "strokeDasharray": "4,2"
+          }
+        },
+        {
+          "id": "E1-E0-Trades-8480",
+          "source": "E1",
+          "target": "E0",
+          "animated": true,
+          "sourceHandle": "Trades",
+          "targetHandle": "Trades",
+          "style": {
+            "stroke": "#10b981",
+            "strokeWidth": 2,
+            "strokeDasharray": "4,2"
+          }
+        },
+        {
+          "id": "E19-E0-Trades-7568",
+          "source": "E19",
+          "target": "E0",
+          "animated": true,
+          "sourceHandle": "Trades",
+          "targetHandle": "Trades",
+          "style": {
+            "stroke": "#10b981",
+            "strokeWidth": 2,
+            "strokeDasharray": "4,2"
+          }
+        },
+        {
+          "id": "E20-E0-Trades-2055",
+          "source": "E20",
+          "target": "E0",
+          "animated": true,
+          "sourceHandle": "Trades",
+          "targetHandle": "Trades",
+          "style": {
+            "stroke": "#10b981",
+            "strokeWidth": 2,
+            "strokeDasharray": "4,2"
+          }
+        }
+      ],
+      "Security": [
+        {
+          "id": "E0-E19-Security-7881",
+          "source": "E0",
+          "target": "E19",
+          "animated": true,
+          "sourceHandle": "Security",
+          "targetHandle": "Security",
+          "style": {
+            "stroke": "#10b981",
+            "strokeWidth": 2,
+            "strokeDasharray": "4,2"
+          }
+        },
+        {
+          "id": "E19-E0-Security-7632",
+          "source": "E19",
+          "target": "E0",
+          "animated": true,
+          "sourceHandle": "Security",
+          "targetHandle": "Security",
+          "style": {
+            "stroke": "#10b981",
+            "strokeWidth": 2,
+            "strokeDasharray": "4,2"
+          }
+        }
+      ],
+      "Position": [
+        {
+          "id": "E0-E1-Position-1447",
+          "source": "E0",
+          "target": "E1",
+          "animated": true,
+          "sourceHandle": "Position",
+          "targetHandle": "Position",
+          "style": {
+            "stroke": "#10b981",
+            "strokeWidth": 2,
+            "strokeDasharray": "4,2"
+          }
+        },
+        {
+          "id": "E0-E1-Position-9418",
+          "source": "E0",
+          "target": "E1",
+          "animated": true,
+          "sourceHandle": "Position",
+          "targetHandle": "Position",
+          "style": {
+            "stroke": "#10b981",
+            "strokeWidth": 2,
+            "strokeDasharray": "4,2"
+          }
+        },
+        {
+          "id": "E1-E0-Position-9045",
+          "source": "E1",
+          "target": "E0",
+          "animated": true,
+          "sourceHandle": "Position",
+          "targetHandle": "Position",
+          "style": {
+            "stroke": "#10b981",
+            "strokeWidth": 2,
+            "strokeDasharray": "4,2"
+          }
+        },
+        {
+          "id": "E2-E0-Position-2627",
+          "source": "E2",
+          "target": "E0",
+          "animated": true,
+          "sourceHandle": "Position",
+          "targetHandle": "Position",
+          "style": {
+            "stroke": "#10b981",
+            "strokeWidth": 2,
+            "strokeDasharray": "4,2"
+          }
+        },
+        {
+          "id": "E3-E0-Position-2506",
+          "source": "E3",
+          "target": "E0",
+          "animated": true,
+          "sourceHandle": "Position",
+          "targetHandle": "Position",
+          "style": {
+            "stroke": "#10b981",
+            "strokeWidth": 2,
+            "strokeDasharray": "4,2"
+          }
+        },
+        {
+          "id": "E20-E0-Position-8253",
+          "source": "E20",
+          "target": "E0",
+          "animated": true,
+          "sourceHandle": "Position",
+          "targetHandle": "Position",
+          "style": {
+            "stroke": "#10b981",
+            "strokeWidth": 2,
+            "strokeDasharray": "4,2"
+          }
+        }
+      ],
+      "LMS": [
+        {
+          "id": "E0-E3-LMS-5237",
+          "source": "E0",
+          "target": "E3",
+          "animated": true,
+          "sourceHandle": "LMS",
+          "targetHandle": "LMS",
+          "style": {
+            "stroke": "#10b981",
+            "strokeWidth": 2,
+            "strokeDasharray": "4,2"
+          }
+        },
+        {
+          "id": "E3-E0-LMS-6558",
+          "source": "E3",
+          "target": "E0",
+          "animated": true,
+          "sourceHandle": "LMS",
+          "targetHandle": "LMS",
+          "style": {
+            "stroke": "#10b981",
+            "strokeWidth": 2,
+            "strokeDasharray": "4,2"
+          }
+        }
+      ],
+      "Market Data": [
+        {
+          "id": "E0-E1-Market Data-6382",
+          "source": "E0",
+          "target": "E1",
+          "animated": true,
+          "sourceHandle": "Market Data",
+          "targetHandle": "Market Data",
+          "style": {
+            "stroke": "#10b981",
+            "strokeWidth": 2,
+            "strokeDasharray": "4,2"
+          }
+        },
+        {
+          "id": "E1-E0-Market Data-9801",
+          "source": "E1",
+          "target": "E0",
+          "animated": true,
+          "sourceHandle": "Market Data",
+          "targetHandle": "Market Data",
+          "style": {
+            "stroke": "#10b981",
+            "strokeWidth": 2,
+            "strokeDasharray": "4,2"
+          }
+        },
+        {
+          "id": "E2-E0-Market Data-3652",
+          "source": "E2",
+          "target": "E0",
+          "animated": true,
+          "sourceHandle": "Market Data",
+          "targetHandle": "Market Data",
+          "style": {
+            "stroke": "#10b981",
+            "strokeWidth": 2,
+            "strokeDasharray": "4,2"
+          }
+        },
+        {
+          "id": "E31-E0-Market Data-6435",
+          "source": "E31",
+          "target": "E0",
+          "animated": true,
+          "sourceHandle": "Market Data",
+          "targetHandle": "Market Data",
+          "style": {
+            "stroke": "#10b981",
+            "strokeWidth": 2,
+            "strokeDasharray": "4,2"
+          }
+        }
+      ],
+      "Data": [
+        {
+          "id": "E1-E4-Data-8465",
+          "source": "E1",
+          "target": "E4",
+          "animated": true,
+          "sourceHandle": "Data",
+          "targetHandle": "Data",
+          "style": {
+            "stroke": "#10b981",
+            "strokeWidth": 2,
+            "strokeDasharray": "4,2"
+          }
+        },
+        {
+          "id": "E1-E4-Data-2365",
+          "source": "E1",
+          "target": "E4",
+          "animated": true,
+          "sourceHandle": "Data",
+          "targetHandle": "Data",
+          "style": {
+            "stroke": "#10b981",
+            "strokeWidth": 2,
+            "strokeDasharray": "4,2"
+          }
+        },
+        {
+          "id": "E4-E1-Data-3473",
+          "source": "E4",
+          "target": "E1",
+          "animated": true,
+          "sourceHandle": "Data",
+          "targetHandle": "Data",
+          "style": {
+            "stroke": "#10b981",
+            "strokeWidth": 2,
+            "strokeDasharray": "4,2"
+          }
+        },
+        {
+          "id": "E5-E1-Data-2547",
+          "source": "E5",
+          "target": "E1",
+          "animated": true,
+          "sourceHandle": "Data",
+          "targetHandle": "Data",
+          "style": {
+            "stroke": "#10b981",
+            "strokeWidth": 2,
+            "strokeDasharray": "4,2"
+          }
+        },
+        {
+          "id": "E26-E1-Data-4000",
+          "source": "E26",
+          "target": "E1",
+          "animated": true,
+          "sourceHandle": "Data",
+          "targetHandle": "Data",
+          "style": {
+            "stroke": "#10b981",
+            "strokeWidth": 2,
+            "strokeDasharray": "4,2"
+          }
+        },
+        {
+          "id": "E27-E1-Data-2101",
+          "source": "E27",
+          "target": "E1",
+          "animated": true,
+          "sourceHandle": "Data",
+          "targetHandle": "Data",
+          "style": {
+            "stroke": "#10b981",
+            "strokeWidth": 2,
+            "strokeDasharray": "4,2"
+          }
+        }
+      ],
+      "Fund Data": [
+        {
+          "id": "E1-E6-Fund Data-8532",
+          "source": "E1",
+          "target": "E6",
+          "animated": true,
+          "sourceHandle": "Fund Data",
+          "targetHandle": "Fund Data",
+          "style": {
+            "stroke": "#10b981",
+            "strokeWidth": 2,
+            "strokeDasharray": "4,2"
+          }
+        },
+        {
+          "id": "E6-E1-Fund Data-5349",
+          "source": "E6",
+          "target": "E1",
+          "animated": true,
+          "sourceHandle": "Fund Data",
+          "targetHandle": "Fund Data",
+          "style": {
+            "stroke": "#10b981",
+            "strokeWidth": 2,
+            "strokeDasharray": "4,2"
+          }
+        }
+      ],
+      "AUM": [
+        {
+          "id": "E1-E7-AUM-8986",
+          "source": "E1",
+          "target": "E7",
+          "animated": true,
+          "sourceHandle": "AUM",
+          "targetHandle": "AUM",
+          "style": {
+            "stroke": "#10b981",
+            "strokeWidth": 2,
+            "strokeDasharray": "4,2"
+          }
+        },
+        {
+          "id": "E1-E7-AUM-3160",
+          "source": "E1",
+          "target": "E7",
+          "animated": true,
+          "sourceHandle": "AUM",
+          "targetHandle": "AUM",
+          "style": {
+            "stroke": "#10b981",
+            "strokeWidth": 2,
+            "strokeDasharray": "4,2"
+          }
+        },
+        {
+          "id": "E7-E1-AUM-4278",
+          "source": "E7",
+          "target": "E1",
+          "animated": true,
+          "sourceHandle": "AUM",
+          "targetHandle": "AUM",
+          "style": {
+            "stroke": "#10b981",
+            "strokeWidth": 2,
+            "strokeDasharray": "4,2"
+          }
+        },
+        {
+          "id": "E16-E1-AUM-9145",
+          "source": "E16",
+          "target": "E1",
+          "animated": true,
+          "sourceHandle": "AUM",
+          "targetHandle": "AUM",
+          "style": {
+            "stroke": "#10b981",
+            "strokeWidth": 2,
+            "strokeDasharray": "4,2"
+          }
+        }
+      ],
+      "Feed Data": [
+        {
+          "id": "E1-E7-Feed Data-4623",
+          "source": "E1",
+          "target": "E7",
+          "animated": true,
+          "sourceHandle": "Feed Data",
+          "targetHandle": "Feed Data",
+          "style": {
+            "stroke": "#10b981",
+            "strokeWidth": 2,
+            "strokeDasharray": "4,2"
+          }
+        },
+        {
+          "id": "E7-E1-Feed Data-7614",
+          "source": "E7",
+          "target": "E1",
+          "animated": true,
+          "sourceHandle": "Feed Data",
+          "targetHandle": "Feed Data",
+          "style": {
+            "stroke": "#10b981",
+            "strokeWidth": 2,
+            "strokeDasharray": "4,2"
+          }
+        }
+      ],
+      "Holdings": [
+        {
+          "id": "E1-E8-Holdings-2957",
+          "source": "E1",
+          "target": "E8",
+          "animated": true,
+          "sourceHandle": "Holdings",
+          "targetHandle": "Holdings",
+          "style": {
+            "stroke": "#10b981",
+            "strokeWidth": 2,
+            "strokeDasharray": "4,2"
+          }
+        },
+        {
+          "id": "E1-E8-Holdings-3433",
+          "source": "E1",
+          "target": "E8",
+          "animated": true,
+          "sourceHandle": "Holdings",
+          "targetHandle": "Holdings",
+          "style": {
+            "stroke": "#10b981",
+            "strokeWidth": 2,
+            "strokeDasharray": "4,2"
+          }
+        },
+        {
+          "id": "E1-E8-Holdings-6014",
+          "source": "E1",
+          "target": "E8",
+          "animated": true,
+          "sourceHandle": "Holdings",
+          "targetHandle": "Holdings",
+          "style": {
+            "stroke": "#10b981",
+            "strokeWidth": 2,
+            "strokeDasharray": "4,2"
+          }
+        },
+        {
+          "id": "E1-E8-Holdings-8528",
+          "source": "E1",
+          "target": "E8",
+          "animated": true,
+          "sourceHandle": "Holdings",
+          "targetHandle": "Holdings",
+          "style": {
+            "stroke": "#10b981",
+            "strokeWidth": 2,
+            "strokeDasharray": "4,2"
+          }
+        },
+        {
+          "id": "E1-E8-Holdings-5549",
+          "source": "E1",
+          "target": "E8",
+          "animated": true,
+          "sourceHandle": "Holdings",
+          "targetHandle": "Holdings",
+          "style": {
+            "stroke": "#10b981",
+            "strokeWidth": 2,
+            "strokeDasharray": "4,2"
+          }
+        },
+        {
+          "id": "E8-E1-Holdings-7795",
+          "source": "E8",
+          "target": "E1",
+          "animated": true,
+          "sourceHandle": "Holdings",
+          "targetHandle": "Holdings",
+          "style": {
+            "stroke": "#10b981",
+            "strokeWidth": 2,
+            "strokeDasharray": "4,2"
+          }
+        },
+        {
+          "id": "E10-E1-Holdings-9439",
+          "source": "E10",
+          "target": "E1",
+          "animated": true,
+          "sourceHandle": "Holdings",
+          "targetHandle": "Holdings",
+          "style": {
+            "stroke": "#10b981",
+            "strokeWidth": 2,
+            "strokeDasharray": "4,2"
+          }
+        },
+        {
+          "id": "E11-E1-Holdings-8989",
+          "source": "E11",
+          "target": "E1",
+          "animated": true,
+          "sourceHandle": "Holdings",
+          "targetHandle": "Holdings",
+          "style": {
+            "stroke": "#10b981",
+            "strokeWidth": 2,
+            "strokeDasharray": "4,2"
+          }
+        },
+        {
+          "id": "E13-E1-Holdings-6649",
+          "source": "E13",
+          "target": "E1",
+          "animated": true,
+          "sourceHandle": "Holdings",
+          "targetHandle": "Holdings",
+          "style": {
+            "stroke": "#10b981",
+            "strokeWidth": 2,
+            "strokeDasharray": "4,2"
+          }
+        },
+        {
+          "id": "E36-E1-Holdings-1765",
+          "source": "E36",
+          "target": "E1",
+          "animated": true,
+          "sourceHandle": "Holdings",
+          "targetHandle": "Holdings",
+          "style": {
+            "stroke": "#10b981",
+            "strokeWidth": 2,
+            "strokeDasharray": "4,2"
+          }
+        }
+      ],
+      "Performance": [
+        {
+          "id": "E1-E9-Performance-7582",
+          "source": "E1",
+          "target": "E9",
+          "animated": true,
+          "sourceHandle": "Performance",
+          "targetHandle": "Performance",
+          "style": {
+            "stroke": "#10b981",
+            "strokeWidth": 2,
+            "strokeDasharray": "4,2"
+          }
+        },
+        {
+          "id": "E9-E1-Performance-1999",
+          "source": "E9",
+          "target": "E1",
+          "animated": true,
+          "sourceHandle": "Performance",
+          "targetHandle": "Performance",
+          "style": {
+            "stroke": "#10b981",
+            "strokeWidth": 2,
+            "strokeDasharray": "4,2"
+          }
+        }
+      ],
+      "Derivatives": [
+        {
+          "id": "E1-E12-Derivatives-3684",
+          "source": "E1",
+          "target": "E12",
+          "animated": true,
+          "sourceHandle": "Derivatives",
+          "targetHandle": "Derivatives",
+          "style": {
+            "stroke": "#10b981",
+            "strokeWidth": 2,
+            "strokeDasharray": "4,2"
+          }
+        },
+        {
+          "id": "E12-E1-Derivatives-5799",
+          "source": "E12",
+          "target": "E1",
+          "animated": true,
+          "sourceHandle": "Derivatives",
+          "targetHandle": "Derivatives",
+          "style": {
+            "stroke": "#10b981",
+            "strokeWidth": 2,
+            "strokeDasharray": "4,2"
+          }
+        }
+      ],
+      "Ledger": [
+        {
+          "id": "E1-E14-Ledger-5787",
+          "source": "E1",
+          "target": "E14",
+          "animated": true,
+          "sourceHandle": "Ledger",
+          "targetHandle": "Ledger",
+          "style": {
+            "stroke": "#10b981",
+            "strokeWidth": 2,
+            "strokeDasharray": "4,2"
+          }
+        },
+        {
+          "id": "E14-E1-Ledger-3422",
+          "source": "E14",
+          "target": "E1",
+          "animated": true,
+          "sourceHandle": "Ledger",
+          "targetHandle": "Ledger",
+          "style": {
+            "stroke": "#10b981",
+            "strokeWidth": 2,
+            "strokeDasharray": "4,2"
+          }
+        }
+      ],
+      "Analytics": [
+        {
+          "id": "E1-E10-Analytics-3265",
+          "source": "E1",
+          "target": "E10",
+          "animated": true,
+          "sourceHandle": "Analytics",
+          "targetHandle": "Analytics",
+          "style": {
+            "stroke": "#10b981",
+            "strokeWidth": 2,
+            "strokeDasharray": "4,2"
+          }
+        },
+        {
+          "id": "E10-E1-Analytics-5095",
+          "source": "E10",
+          "target": "E1",
+          "animated": true,
+          "sourceHandle": "Analytics",
+          "targetHandle": "Analytics",
+          "style": {
+            "stroke": "#10b981",
+            "strokeWidth": 2,
+            "strokeDasharray": "4,2"
+          }
+        }
+      ],
+      "GA Analytics": [
+        {
+          "id": "E1-E15-GA Analytics-7858",
+          "source": "E1",
+          "target": "E15",
+          "animated": true,
+          "sourceHandle": "GA Analytics",
+          "targetHandle": "GA Analytics",
+          "style": {
+            "stroke": "#10b981",
+            "strokeWidth": 2,
+            "strokeDasharray": "4,2"
+          }
+        },
+        {
+          "id": "E15-E1-GA Analytics-8345",
+          "source": "E15",
+          "target": "E1",
+          "animated": true,
+          "sourceHandle": "GA Analytics",
+          "targetHandle": "GA Analytics",
+          "style": {
+            "stroke": "#10b981",
+            "strokeWidth": 2,
+            "strokeDasharray": "4,2"
+          }
+        }
+      ],
+      "Portfolio": [
+        {
+          "id": "E1-E17-Portfolio-8223",
+          "source": "E1",
+          "target": "E17",
+          "animated": true,
+          "sourceHandle": "Portfolio",
+          "targetHandle": "Portfolio",
+          "style": {
+            "stroke": "#10b981",
+            "strokeWidth": 2,
+            "strokeDasharray": "4,2"
+          }
+        },
+        {
+          "id": "E17-E1-Portfolio-2177",
+          "source": "E17",
+          "target": "E1",
+          "animated": true,
+          "sourceHandle": "Portfolio",
+          "targetHandle": "Portfolio",
+          "style": {
+            "stroke": "#10b981",
+            "strokeWidth": 2,
+            "strokeDasharray": "4,2"
+          }
+        }
+      ],
+      "Price": [
+        {
+          "id": "E1-E26-Price-7290",
+          "source": "E1",
+          "target": "E26",
+          "animated": true,
+          "sourceHandle": "Price",
+          "targetHandle": "Price",
+          "style": {
+            "stroke": "#10b981",
+            "strokeWidth": 2,
+            "strokeDasharray": "4,2"
+          }
+        },
+        {
+          "id": "E26-E1-Price-3886",
+          "source": "E26",
+          "target": "E1",
+          "animated": true,
+          "sourceHandle": "Price",
+          "targetHandle": "Price",
+          "style": {
+            "stroke": "#10b981",
+            "strokeWidth": 2,
+            "strokeDasharray": "4,2"
+          }
+        }
+      ],
+      "Feed": [
+        {
+          "id": "E1-E27-Feed-7386",
+          "source": "E1",
+          "target": "E27",
+          "animated": true,
+          "sourceHandle": "Feed",
+          "targetHandle": "Feed",
+          "style": {
+            "stroke": "#10b981",
+            "strokeWidth": 2,
+            "strokeDasharray": "4,2"
+          }
+        },
+        {
+          "id": "E27-E1-Feed-9706",
+          "source": "E27",
+          "target": "E1",
+          "animated": true,
+          "sourceHandle": "Feed",
+          "targetHandle": "Feed",
+          "style": {
+            "stroke": "#10b981",
+            "strokeWidth": 2,
+            "strokeDasharray": "4,2"
+          }
+        }
+      ],
+      "Cash Flows": [
+        {
+          "id": "E1-E32-Cash Flows-6948",
+          "source": "E1",
+          "target": "E32",
+          "animated": true,
+          "sourceHandle": "Cash Flows",
+          "targetHandle": "Cash Flows",
+          "style": {
+            "stroke": "#10b981",
+            "strokeWidth": 2,
+            "strokeDasharray": "4,2"
+          }
+        },
+        {
+          "id": "E32-E1-Cash Flows-1040",
+          "source": "E32",
+          "target": "E1",
+          "animated": true,
+          "sourceHandle": "Cash Flows",
+          "targetHandle": "Cash Flows",
+          "style": {
+            "stroke": "#10b981",
+            "strokeWidth": 2,
+            "strokeDasharray": "4,2"
+          }
+        }
+      ],
+      "Loans": [
+        {
+          "id": "E1-E4-Loans-4222",
+          "source": "E1",
+          "target": "E4",
+          "animated": true,
+          "sourceHandle": "Loans",
+          "targetHandle": "Loans",
+          "style": {
+            "stroke": "#10b981",
+            "strokeWidth": 2,
+            "strokeDasharray": "4,2"
+          }
+        },
+        {
+          "id": "E4-E1-Loans-1878",
+          "source": "E4",
+          "target": "E1",
+          "animated": true,
+          "sourceHandle": "Loans",
+          "targetHandle": "Loans",
+          "style": {
+            "stroke": "#10b981",
+            "strokeWidth": 2,
+            "strokeDasharray": "4,2"
+          }
+        },
+        {
+          "id": "E22-E1-Loans-3018",
+          "source": "E22",
+          "target": "E1",
+          "animated": true,
+          "sourceHandle": "Loans",
+          "targetHandle": "Loans",
+          "style": {
+            "stroke": "#10b981",
+            "strokeWidth": 2,
+            "strokeDasharray": "4,2"
+          }
+        },
+        {
+          "id": "E33-E1-Loans-8737",
+          "source": "E33",
+          "target": "E1",
+          "animated": true,
+          "sourceHandle": "Loans",
+          "targetHandle": "Loans",
+          "style": {
+            "stroke": "#10b981",
+            "strokeWidth": 2,
+            "strokeDasharray": "4,2"
+          }
+        }
+      ],
+      "Equity": [
+        {
+          "id": "E1-E21-Equity-6897",
+          "source": "E1",
+          "target": "E21",
+          "animated": true,
+          "sourceHandle": "Equity",
+          "targetHandle": "Equity",
+          "style": {
+            "stroke": "#10b981",
+            "strokeWidth": 2,
+            "strokeDasharray": "4,2"
+          }
+        },
+        {
+          "id": "E21-E1-Equity-2445",
+          "source": "E21",
+          "target": "E1",
+          "animated": true,
+          "sourceHandle": "Equity",
+          "targetHandle": "Equity",
+          "style": {
+            "stroke": "#10b981",
+            "strokeWidth": 2,
+            "strokeDasharray": "4,2"
+          }
+        }
+      ],
+      "Issuers": [
+        {
+          "id": "E1-E34-Issuers-3965",
+          "source": "E1",
+          "target": "E34",
+          "animated": true,
+          "sourceHandle": "Issuers",
+          "targetHandle": "Issuers",
+          "style": {
+            "stroke": "#10b981",
+            "strokeWidth": 2,
+            "strokeDasharray": "4,2"
+          }
+        },
+        {
+          "id": "E1-E34-Issuers-7251",
+          "source": "E1",
+          "target": "E34",
+          "animated": true,
+          "sourceHandle": "Issuers",
+          "targetHandle": "Issuers",
+          "style": {
+            "stroke": "#10b981",
+            "strokeWidth": 2,
+            "strokeDasharray": "4,2"
+          }
+        },
+        {
+          "id": "E34-E1-Issuers-1272",
+          "source": "E34",
+          "target": "E1",
+          "animated": true,
+          "sourceHandle": "Issuers",
+          "targetHandle": "Issuers",
+          "style": {
+            "stroke": "#10b981",
+            "strokeWidth": 2,
+            "strokeDasharray": "4,2"
+          }
+        },
+        {
+          "id": "E34-E1-Issuers-9355",
+          "source": "E34",
+          "target": "E1",
+          "animated": true,
+          "sourceHandle": "Issuers",
+          "targetHandle": "Issuers",
+          "style": {
+            "stroke": "#10b981",
+            "strokeWidth": 2,
+            "strokeDasharray": "4,2"
+          }
+        }
+      ],
+      "Ratings": [
+        {
+          "id": "E1-E35-Ratings-6489",
+          "source": "E1",
+          "target": "E35",
+          "animated": true,
+          "sourceHandle": "Ratings",
+          "targetHandle": "Ratings",
+          "style": {
+            "stroke": "#10b981",
+            "strokeWidth": 2,
+            "strokeDasharray": "4,2"
+          }
+        },
+        {
+          "id": "E35-E1-Ratings-4837",
+          "source": "E35",
+          "target": "E1",
+          "animated": true,
+          "sourceHandle": "Ratings",
+          "targetHandle": "Ratings",
+          "style": {
+            "stroke": "#10b981",
+            "strokeWidth": 2,
+            "strokeDasharray": "4,2"
+          }
+        }
+      ],
+      "Subs/Reds": [
+        {
+          "id": "E2-E20-Subs/Reds-6037",
+          "source": "E2",
+          "target": "E20",
+          "animated": true,
+          "sourceHandle": "Subs/Reds",
+          "targetHandle": "Subs/Reds",
+          "style": {
+            "stroke": "#10b981",
+            "strokeWidth": 2,
+            "strokeDasharray": "4,2"
+          }
+        },
+        {
+          "id": "E20-E2-Subs/Reds-2328",
+          "source": "E20",
+          "target": "E2",
+          "animated": true,
+          "sourceHandle": "Subs/Reds",
+          "targetHandle": "Subs/Reds",
+          "style": {
+            "stroke": "#10b981",
+            "strokeWidth": 2,
+            "strokeDasharray": "4,2"
+          }
+        }
+      ],
+      "Loan Balance": [
+        {
+          "id": "E3-E22-Loan Balance-9139",
+          "source": "E3",
+          "target": "E22",
+          "animated": true,
+          "sourceHandle": "Loan Balance",
+          "targetHandle": "Loan Balance",
+          "style": {
+            "stroke": "#10b981",
+            "strokeWidth": 2,
+            "strokeDasharray": "4,2"
+          }
+        },
+        {
+          "id": "E22-E3-Loan Balance-9236",
+          "source": "E22",
+          "target": "E3",
+          "animated": true,
+          "sourceHandle": "Loan Balance",
+          "targetHandle": "Loan Balance",
+          "style": {
+            "stroke": "#10b981",
+            "strokeWidth": 2,
+            "strokeDasharray": "4,2"
+          }
+        }
+      ],
+      "GL Entries": [
+        {
+          "id": "E4-E19-GL Entries-4659",
+          "source": "E4",
+          "target": "E19",
+          "animated": true,
+          "sourceHandle": "GL Entries",
+          "targetHandle": "GL Entries",
+          "style": {
+            "stroke": "#10b981",
+            "strokeWidth": 2,
+            "strokeDasharray": "4,2"
+          }
+        },
+        {
+          "id": "E19-E4-GL Entries-1607",
+          "source": "E19",
+          "target": "E4",
+          "animated": true,
+          "sourceHandle": "GL Entries",
+          "targetHandle": "GL Entries",
+          "style": {
+            "stroke": "#10b981",
+            "strokeWidth": 2,
+            "strokeDasharray": "4,2"
+          }
+        }
+      ],
+      "Equity assets": [
+        {
+          "id": "E4-E21-Equity assets-6788",
+          "source": "E4",
+          "target": "E21",
+          "animated": true,
+          "sourceHandle": "Equity assets",
+          "targetHandle": "Equity assets",
+          "style": {
+            "stroke": "#10b981",
+            "strokeWidth": 2,
+            "strokeDasharray": "4,2"
+          }
+        },
+        {
+          "id": "E21-E4-Equity assets-4051",
+          "source": "E21",
+          "target": "E4",
+          "animated": true,
+          "sourceHandle": "Equity assets",
+          "targetHandle": "Equity assets",
+          "style": {
+            "stroke": "#10b981",
+            "strokeWidth": 2,
+            "strokeDasharray": "4,2"
+          }
+        }
+      ],
+      "Subscription": [
+        {
+          "id": "E6-E20-Subscription-9468",
+          "source": "E6",
+          "target": "E20",
+          "animated": true,
+          "sourceHandle": "Subscription",
+          "targetHandle": "Subscription",
+          "style": {
+            "stroke": "#10b981",
+            "strokeWidth": 2,
+            "strokeDasharray": "4,2"
+          }
+        },
+        {
+          "id": "E20-E6-Subscription-7271",
+          "source": "E20",
+          "target": "E6",
+          "animated": true,
+          "sourceHandle": "Subscription",
+          "targetHandle": "Subscription",
+          "style": {
+            "stroke": "#10b981",
+            "strokeWidth": 2,
+            "strokeDasharray": "4,2"
+          }
+        }
+      ],
+      "Cash": [
+        {
+          "id": "E23-E24-Cash-4803",
+          "source": "E23",
+          "target": "E24",
+          "animated": true,
+          "sourceHandle": "Cash",
+          "targetHandle": "Cash",
+          "style": {
+            "stroke": "#10b981",
+            "strokeWidth": 2,
+            "strokeDasharray": "4,2"
+          }
+        },
+        {
+          "id": "E24-E23-Cash-7123",
+          "source": "E24",
+          "target": "E23",
+          "animated": true,
+          "sourceHandle": "Cash",
+          "targetHandle": "Cash",
+          "style": {
+            "stroke": "#10b981",
+            "strokeWidth": 2,
+            "strokeDasharray": "4,2"
+          }
+        }
+      ],
+      "Illustration": [
+        {
+          "id": "E25-E26-Illustration-7542",
+          "source": "E25",
+          "target": "E26",
+          "animated": true,
+          "sourceHandle": "Illustration",
+          "targetHandle": "Illustration",
+          "style": {
+            "stroke": "#10b981",
+            "strokeWidth": 2,
+            "strokeDasharray": "4,2"
+          }
+        },
+        {
+          "id": "E26-E25-Illustration-5547",
+          "source": "E26",
+          "target": "E25",
+          "animated": true,
+          "sourceHandle": "Illustration",
+          "targetHandle": "Illustration",
+          "style": {
+            "stroke": "#10b981",
+            "strokeWidth": 2,
+            "strokeDasharray": "4,2"
+          }
+        }
+      ],
+      "SMA": [
+        {
+          "id": "E26-E28-SMA-6143",
+          "source": "E26",
+          "target": "E28",
+          "animated": true,
+          "sourceHandle": "SMA",
+          "targetHandle": "SMA",
+          "style": {
+            "stroke": "#10b981",
+            "strokeWidth": 2,
+            "strokeDasharray": "4,2"
+          }
+        },
+        {
+          "id": "E28-E26-SMA-2012",
+          "source": "E28",
+          "target": "E26",
+          "animated": true,
+          "sourceHandle": "SMA",
+          "targetHandle": "SMA",
+          "style": {
+            "stroke": "#10b981",
+            "strokeWidth": 2,
+            "strokeDasharray": "4,2"
+          }
+        }
+      ],
+      "Licensing": [
+        {
+          "id": "E26-E29-Licensing-8162",
+          "source": "E26",
+          "target": "E29",
+          "animated": true,
+          "sourceHandle": "Licensing",
+          "targetHandle": "Licensing",
+          "style": {
+            "stroke": "#10b981",
+            "strokeWidth": 2,
+            "strokeDasharray": "4,2"
+          }
+        },
+        {
+          "id": "E29-E26-Licensing-9989",
+          "source": "E29",
+          "target": "E26",
+          "animated": true,
+          "sourceHandle": "Licensing",
+          "targetHandle": "Licensing",
+          "style": {
+            "stroke": "#10b981",
+            "strokeWidth": 2,
+            "strokeDasharray": "4,2"
+          }
+        }
+      ],
+      "Policy": [
+        {
+          "id": "E26-E30-Policy-7265",
+          "source": "E26",
+          "target": "E30",
+          "animated": true,
+          "sourceHandle": "Policy",
+          "targetHandle": "Policy",
+          "style": {
+            "stroke": "#10b981",
+            "strokeWidth": 2,
+            "strokeDasharray": "4,2"
+          }
+        },
+        {
+          "id": "E30-E26-Policy-4410",
+          "source": "E30",
+          "target": "E26",
+          "animated": true,
+          "sourceHandle": "Policy",
+          "targetHandle": "Policy",
+          "style": {
+            "stroke": "#10b981",
+            "strokeWidth": 2,
+            "strokeDasharray": "4,2"
+          }
+        }
+      ],
+      "Policy Admin": [
+        {
+          "id": "E27-E29-Policy Admin-4419",
+          "source": "E27",
+          "target": "E29",
+          "animated": true,
+          "sourceHandle": "Policy Admin",
+          "targetHandle": "Policy Admin",
+          "style": {
+            "stroke": "#10b981",
+            "strokeWidth": 2,
+            "strokeDasharray": "4,2"
+          }
+        },
+        {
+          "id": "E29-E27-Policy Admin-2789",
+          "source": "E29",
+          "target": "E27",
+          "animated": true,
+          "sourceHandle": "Policy Admin",
+          "targetHandle": "Policy Admin",
+          "style": {
+            "stroke": "#10b981",
+            "strokeWidth": 2,
+            "strokeDasharray": "4,2"
+          }
+        }
+      ],
+      "Economic Data": [
+        {
+          "id": "E37-E38-Economic Data-9861",
+          "source": "E37",
+          "target": "E38",
+          "animated": true,
+          "sourceHandle": "Economic Data",
+          "targetHandle": "Economic Data",
+          "style": {
+            "stroke": "#10b981",
+            "strokeWidth": 2,
+            "strokeDasharray": "4,2"
+          }
+        },
+        {
+          "id": "E38-E37-Economic Data-5771",
+          "source": "E38",
+          "target": "E37",
+          "animated": true,
+          "sourceHandle": "Economic Data",
+          "targetHandle": "Economic Data",
+          "style": {
+            "stroke": "#10b981",
+            "strokeWidth": 2,
+            "strokeDasharray": "4,2"
+          }
+        }
+      ]
+    },
+    "newEdges": [
+      {
+        "id": "E0-E1-Security Master-4356",
+        "source": "E0",
+        "target": "E1",
+        "animated": true,
+        "sourceHandle": "Security Master",
+        "targetHandle": "Security Master",
+        "style": {
+          "stroke": "#10b981",
+          "strokeWidth": 2,
+          "strokeDasharray": "4,2"
+        }
+      },
+      {
+        "id": "E0-E18-Executions-3567",
+        "source": "E0",
+        "target": "E18",
+        "animated": true,
+        "sourceHandle": "Executions",
+        "targetHandle": "Executions",
+        "style": {
+          "stroke": "#10b981",
+          "strokeWidth": 2,
+          "strokeDasharray": "4,2"
+        }
+      },
+      {
+        "id": "E0-E1-Positions-3367",
+        "source": "E0",
+        "target": "E1",
+        "animated": true,
+        "sourceHandle": "Positions",
+        "targetHandle": "Positions",
+        "style": {
+          "stroke": "#10b981",
+          "strokeWidth": 2,
+          "strokeDasharray": "4,2"
+        }
+      },
+      {
+        "id": "E0-E1-Trades-1445",
+        "source": "E0",
+        "target": "E1",
+        "animated": true,
+        "sourceHandle": "Trades",
+        "targetHandle": "Trades",
+        "style": {
+          "stroke": "#10b981",
+          "strokeWidth": 2,
+          "strokeDasharray": "4,2"
+        }
+      },
+      {
+        "id": "E0-E19-Security-7881",
+        "source": "E0",
+        "target": "E19",
+        "animated": true,
+        "sourceHandle": "Security",
+        "targetHandle": "Security",
+        "style": {
+          "stroke": "#10b981",
+          "strokeWidth": 2,
+          "strokeDasharray": "4,2"
+        }
+      },
+      {
+        "id": "E0-E1-Position-1447",
+        "source": "E0",
+        "target": "E1",
+        "animated": true,
+        "sourceHandle": "Position",
+        "targetHandle": "Position",
+        "style": {
+          "stroke": "#10b981",
+          "strokeWidth": 2,
+          "strokeDasharray": "4,2"
+        }
+      },
+      {
+        "id": "E0-E3-LMS-5237",
+        "source": "E0",
+        "target": "E3",
+        "animated": true,
+        "sourceHandle": "LMS",
+        "targetHandle": "LMS",
+        "style": {
+          "stroke": "#10b981",
+          "strokeWidth": 2,
+          "strokeDasharray": "4,2"
+        }
+      },
+      {
+        "id": "E0-E1-Position-9418",
+        "source": "E0",
+        "target": "E1",
+        "animated": true,
+        "sourceHandle": "Position",
+        "targetHandle": "Position",
+        "style": {
+          "stroke": "#10b981",
+          "strokeWidth": 2,
+          "strokeDasharray": "4,2"
+        }
+      },
+      {
+        "id": "E0-E1-Positions-4736",
+        "source": "E0",
+        "target": "E1",
+        "animated": true,
+        "sourceHandle": "Positions",
+        "targetHandle": "Positions",
+        "style": {
+          "stroke": "#10b981",
+          "strokeWidth": 2,
+          "strokeDasharray": "4,2"
+        }
+      },
+      {
+        "id": "E0-E1-Market Data-6382",
+        "source": "E0",
+        "target": "E1",
+        "animated": true,
+        "sourceHandle": "Market Data",
+        "targetHandle": "Market Data",
+        "style": {
+          "stroke": "#10b981",
+          "strokeWidth": 2,
+          "strokeDasharray": "4,2"
+        }
+      },
+      {
+        "id": "E1-E0-Security Master-6277",
+        "source": "E1",
+        "target": "E0",
+        "animated": true,
+        "sourceHandle": "Security Master",
+        "targetHandle": "Security Master",
+        "style": {
+          "stroke": "#10b981",
+          "strokeWidth": 2,
+          "strokeDasharray": "4,2"
+        }
+      },
+      {
+        "id": "E1-E0-Position-9045",
+        "source": "E1",
+        "target": "E0",
+        "animated": true,
+        "sourceHandle": "Position",
+        "targetHandle": "Position",
+        "style": {
+          "stroke": "#10b981",
+          "strokeWidth": 2,
+          "strokeDasharray": "4,2"
+        }
+      },
+      {
+        "id": "E1-E0-Positions-6153",
+        "source": "E1",
+        "target": "E0",
+        "animated": true,
+        "sourceHandle": "Positions",
+        "targetHandle": "Positions",
+        "style": {
+          "stroke": "#10b981",
+          "strokeWidth": 2,
+          "strokeDasharray": "4,2"
+        }
+      },
+      {
+        "id": "E1-E4-Data-8465",
+        "source": "E1",
+        "target": "E4",
+        "animated": true,
+        "sourceHandle": "Data",
+        "targetHandle": "Data",
+        "style": {
+          "stroke": "#10b981",
+          "strokeWidth": 2,
+          "strokeDasharray": "4,2"
+        }
+      },
+      {
+        "id": "E1-E4-Data-2365",
+        "source": "E1",
+        "target": "E4",
+        "animated": true,
+        "sourceHandle": "Data",
+        "targetHandle": "Data",
+        "style": {
+          "stroke": "#10b981",
+          "strokeWidth": 2,
+          "strokeDasharray": "4,2"
+        }
+      },
+      {
+        "id": "E1-E6-Fund Data-8532",
+        "source": "E1",
+        "target": "E6",
+        "animated": true,
+        "sourceHandle": "Fund Data",
+        "targetHandle": "Fund Data",
+        "style": {
+          "stroke": "#10b981",
+          "strokeWidth": 2,
+          "strokeDasharray": "4,2"
+        }
+      },
+      {
+        "id": "E1-E7-AUM-8986",
+        "source": "E1",
+        "target": "E7",
+        "animated": true,
+        "sourceHandle": "AUM",
+        "targetHandle": "AUM",
+        "style": {
+          "stroke": "#10b981",
+          "strokeWidth": 2,
+          "strokeDasharray": "4,2"
+        }
+      },
+      {
+        "id": "E1-E7-Feed Data-4623",
+        "source": "E1",
+        "target": "E7",
+        "animated": true,
+        "sourceHandle": "Feed Data",
+        "targetHandle": "Feed Data",
+        "style": {
+          "stroke": "#10b981",
+          "strokeWidth": 2,
+          "strokeDasharray": "4,2"
+        }
+      },
+      {
+        "id": "E1-E8-Holdings-2957",
+        "source": "E1",
+        "target": "E8",
+        "animated": true,
+        "sourceHandle": "Holdings",
+        "targetHandle": "Holdings",
+        "style": {
+          "stroke": "#10b981",
+          "strokeWidth": 2,
+          "strokeDasharray": "4,2"
+        }
+      },
+      {
+        "id": "E1-E9-Performance-7582",
+        "source": "E1",
+        "target": "E9",
+        "animated": true,
+        "sourceHandle": "Performance",
+        "targetHandle": "Performance",
+        "style": {
+          "stroke": "#10b981",
+          "strokeWidth": 2,
+          "strokeDasharray": "4,2"
+        }
+      },
+      {
+        "id": "E1-E8-Holdings-3433",
+        "source": "E1",
+        "target": "E8",
+        "animated": true,
+        "sourceHandle": "Holdings",
+        "targetHandle": "Holdings",
+        "style": {
+          "stroke": "#10b981",
+          "strokeWidth": 2,
+          "strokeDasharray": "4,2"
+        }
+      },
+      {
+        "id": "E1-E8-Holdings-6014",
+        "source": "E1",
+        "target": "E8",
+        "animated": true,
+        "sourceHandle": "Holdings",
+        "targetHandle": "Holdings",
+        "style": {
+          "stroke": "#10b981",
+          "strokeWidth": 2,
+          "strokeDasharray": "4,2"
+        }
+      },
+      {
+        "id": "E1-E12-Derivatives-3684",
+        "source": "E1",
+        "target": "E12",
+        "animated": true,
+        "sourceHandle": "Derivatives",
+        "targetHandle": "Derivatives",
+        "style": {
+          "stroke": "#10b981",
+          "strokeWidth": 2,
+          "strokeDasharray": "4,2"
+        }
+      },
+      {
+        "id": "E1-E8-Holdings-8528",
+        "source": "E1",
+        "target": "E8",
+        "animated": true,
+        "sourceHandle": "Holdings",
+        "targetHandle": "Holdings",
+        "style": {
+          "stroke": "#10b981",
+          "strokeWidth": 2,
+          "strokeDasharray": "4,2"
+        }
+      },
+      {
+        "id": "E1-E14-Ledger-5787",
+        "source": "E1",
+        "target": "E14",
+        "animated": true,
+        "sourceHandle": "Ledger",
+        "targetHandle": "Ledger",
+        "style": {
+          "stroke": "#10b981",
+          "strokeWidth": 2,
+          "strokeDasharray": "4,2"
+        }
+      },
+      {
+        "id": "E1-E10-Analytics-3265",
+        "source": "E1",
+        "target": "E10",
+        "animated": true,
+        "sourceHandle": "Analytics",
+        "targetHandle": "Analytics",
+        "style": {
+          "stroke": "#10b981",
+          "strokeWidth": 2,
+          "strokeDasharray": "4,2"
+        }
+      },
+      {
+        "id": "E1-E15-GA Analytics-7858",
+        "source": "E1",
+        "target": "E15",
+        "animated": true,
+        "sourceHandle": "GA Analytics",
+        "targetHandle": "GA Analytics",
+        "style": {
+          "stroke": "#10b981",
+          "strokeWidth": 2,
+          "strokeDasharray": "4,2"
+        }
+      },
+      {
+        "id": "E1-E7-AUM-3160",
+        "source": "E1",
+        "target": "E7",
+        "animated": true,
+        "sourceHandle": "AUM",
+        "targetHandle": "AUM",
+        "style": {
+          "stroke": "#10b981",
+          "strokeWidth": 2,
+          "strokeDasharray": "4,2"
+        }
+      },
+      {
+        "id": "E1-E17-Portfolio-8223",
+        "source": "E1",
+        "target": "E17",
+        "animated": true,
+        "sourceHandle": "Portfolio",
+        "targetHandle": "Portfolio",
+        "style": {
+          "stroke": "#10b981",
+          "strokeWidth": 2,
+          "strokeDasharray": "4,2"
+        }
+      },
+      {
+        "id": "E1-E0-Trades-8480",
+        "source": "E1",
+        "target": "E0",
+        "animated": true,
+        "sourceHandle": "Trades",
+        "targetHandle": "Trades",
+        "style": {
+          "stroke": "#10b981",
+          "strokeWidth": 2,
+          "strokeDasharray": "4,2"
+        }
+      },
+      {
+        "id": "E1-E26-Price-7290",
+        "source": "E1",
+        "target": "E26",
+        "animated": true,
+        "sourceHandle": "Price",
+        "targetHandle": "Price",
+        "style": {
+          "stroke": "#10b981",
+          "strokeWidth": 2,
+          "strokeDasharray": "4,2"
+        }
+      },
+      {
+        "id": "E1-E0-Market Data-9801",
+        "source": "E1",
+        "target": "E0",
+        "animated": true,
+        "sourceHandle": "Market Data",
+        "targetHandle": "Market Data",
+        "style": {
+          "stroke": "#10b981",
+          "strokeWidth": 2,
+          "strokeDasharray": "4,2"
+        }
+      },
+      {
+        "id": "E1-E0-Positions-3218",
+        "source": "E1",
+        "target": "E0",
+        "animated": true,
+        "sourceHandle": "Positions",
+        "targetHandle": "Positions",
+        "style": {
+          "stroke": "#10b981",
+          "strokeWidth": 2,
+          "strokeDasharray": "4,2"
+        }
+      },
+      {
+        "id": "E1-E27-Feed-7386",
+        "source": "E1",
+        "target": "E27",
+        "animated": true,
+        "sourceHandle": "Feed",
+        "targetHandle": "Feed",
+        "style": {
+          "stroke": "#10b981",
+          "strokeWidth": 2,
+          "strokeDasharray": "4,2"
+        }
+      },
+      {
+        "id": "E1-E32-Cash Flows-6948",
+        "source": "E1",
+        "target": "E32",
+        "animated": true,
+        "sourceHandle": "Cash Flows",
+        "targetHandle": "Cash Flows",
+        "style": {
+          "stroke": "#10b981",
+          "strokeWidth": 2,
+          "strokeDasharray": "4,2"
+        }
+      },
+      {
+        "id": "E1-E4-Loans-4222",
+        "source": "E1",
+        "target": "E4",
+        "animated": true,
+        "sourceHandle": "Loans",
+        "targetHandle": "Loans",
+        "style": {
+          "stroke": "#10b981",
+          "strokeWidth": 2,
+          "strokeDasharray": "4,2"
+        }
+      },
+      {
+        "id": "E1-E21-Equity-6897",
+        "source": "E1",
+        "target": "E21",
+        "animated": true,
+        "sourceHandle": "Equity",
+        "targetHandle": "Equity",
+        "style": {
+          "stroke": "#10b981",
+          "strokeWidth": 2,
+          "strokeDasharray": "4,2"
+        }
+      },
+      {
+        "id": "E1-E34-Issuers-3965",
+        "source": "E1",
+        "target": "E34",
+        "animated": true,
+        "sourceHandle": "Issuers",
+        "targetHandle": "Issuers",
+        "style": {
+          "stroke": "#10b981",
+          "strokeWidth": 2,
+          "strokeDasharray": "4,2"
+        }
+      },
+      {
+        "id": "E1-E35-Ratings-6489",
+        "source": "E1",
+        "target": "E35",
+        "animated": true,
+        "sourceHandle": "Ratings",
+        "targetHandle": "Ratings",
+        "style": {
+          "stroke": "#10b981",
+          "strokeWidth": 2,
+          "strokeDasharray": "4,2"
+        }
+      },
+      {
+        "id": "E1-E34-Issuers-7251",
+        "source": "E1",
+        "target": "E34",
+        "animated": true,
+        "sourceHandle": "Issuers",
+        "targetHandle": "Issuers",
+        "style": {
+          "stroke": "#10b981",
+          "strokeWidth": 2,
+          "strokeDasharray": "4,2"
+        }
+      },
+      {
+        "id": "E1-E8-Holdings-5549",
+        "source": "E1",
+        "target": "E8",
+        "animated": true,
+        "sourceHandle": "Holdings",
+        "targetHandle": "Holdings",
+        "style": {
+          "stroke": "#10b981",
+          "strokeWidth": 2,
+          "strokeDasharray": "4,2"
+        }
+      },
+      {
+        "id": "E2-E0-Position-2627",
+        "source": "E2",
+        "target": "E0",
+        "animated": true,
+        "sourceHandle": "Position",
+        "targetHandle": "Position",
+        "style": {
+          "stroke": "#10b981",
+          "strokeWidth": 2,
+          "strokeDasharray": "4,2"
+        }
+      },
+      {
+        "id": "E2-E20-Subs/Reds-6037",
+        "source": "E2",
+        "target": "E20",
+        "animated": true,
+        "sourceHandle": "Subs/Reds",
+        "targetHandle": "Subs/Reds",
+        "style": {
+          "stroke": "#10b981",
+          "strokeWidth": 2,
+          "strokeDasharray": "4,2"
+        }
+      },
+      {
+        "id": "E2-E0-Market Data-3652",
+        "source": "E2",
+        "target": "E0",
+        "animated": true,
+        "sourceHandle": "Market Data",
+        "targetHandle": "Market Data",
+        "style": {
+          "stroke": "#10b981",
+          "strokeWidth": 2,
+          "strokeDasharray": "4,2"
+        }
+      },
+      {
+        "id": "E3-E0-Positions-1327",
+        "source": "E3",
+        "target": "E0",
+        "animated": true,
+        "sourceHandle": "Positions",
+        "targetHandle": "Positions",
+        "style": {
+          "stroke": "#10b981",
+          "strokeWidth": 2,
+          "strokeDasharray": "4,2"
+        }
+      },
+      {
+        "id": "E3-E0-Position-2506",
+        "source": "E3",
+        "target": "E0",
+        "animated": true,
+        "sourceHandle": "Position",
+        "targetHandle": "Position",
+        "style": {
+          "stroke": "#10b981",
+          "strokeWidth": 2,
+          "strokeDasharray": "4,2"
+        }
+      },
+      {
+        "id": "E3-E0-LMS-6558",
+        "source": "E3",
+        "target": "E0",
+        "animated": true,
+        "sourceHandle": "LMS",
+        "targetHandle": "LMS",
+        "style": {
+          "stroke": "#10b981",
+          "strokeWidth": 2,
+          "strokeDasharray": "4,2"
+        }
+      },
+      {
+        "id": "E3-E0-Positions-5368",
+        "source": "E3",
+        "target": "E0",
+        "animated": true,
+        "sourceHandle": "Positions",
+        "targetHandle": "Positions",
+        "style": {
+          "stroke": "#10b981",
+          "strokeWidth": 2,
+          "strokeDasharray": "4,2"
+        }
+      },
+      {
+        "id": "E3-E22-Loan Balance-9139",
+        "source": "E3",
+        "target": "E22",
+        "animated": true,
+        "sourceHandle": "Loan Balance",
+        "targetHandle": "Loan Balance",
+        "style": {
+          "stroke": "#10b981",
+          "strokeWidth": 2,
+          "strokeDasharray": "4,2"
+        }
+      },
+      {
+        "id": "E4-E1-Data-3473",
+        "source": "E4",
+        "target": "E1",
+        "animated": true,
+        "sourceHandle": "Data",
+        "targetHandle": "Data",
+        "style": {
+          "stroke": "#10b981",
+          "strokeWidth": 2,
+          "strokeDasharray": "4,2"
+        }
+      },
+      {
+        "id": "E4-E19-GL Entries-4659",
+        "source": "E4",
+        "target": "E19",
+        "animated": true,
+        "sourceHandle": "GL Entries",
+        "targetHandle": "GL Entries",
+        "style": {
+          "stroke": "#10b981",
+          "strokeWidth": 2,
+          "strokeDasharray": "4,2"
+        }
+      },
+      {
+        "id": "E4-E21-Equity assets-6788",
+        "source": "E4",
+        "target": "E21",
+        "animated": true,
+        "sourceHandle": "Equity assets",
+        "targetHandle": "Equity assets",
+        "style": {
+          "stroke": "#10b981",
+          "strokeWidth": 2,
+          "strokeDasharray": "4,2"
+        }
+      },
+      {
+        "id": "E4-E1-Loans-1878",
+        "source": "E4",
+        "target": "E1",
+        "animated": true,
+        "sourceHandle": "Loans",
+        "targetHandle": "Loans",
+        "style": {
+          "stroke": "#10b981",
+          "strokeWidth": 2,
+          "strokeDasharray": "4,2"
+        }
+      },
+      {
+        "id": "E5-E1-Data-2547",
+        "source": "E5",
+        "target": "E1",
+        "animated": true,
+        "sourceHandle": "Data",
+        "targetHandle": "Data",
+        "style": {
+          "stroke": "#10b981",
+          "strokeWidth": 2,
+          "strokeDasharray": "4,2"
+        }
+      },
+      {
+        "id": "E6-E1-Fund Data-5349",
+        "source": "E6",
+        "target": "E1",
+        "animated": true,
+        "sourceHandle": "Fund Data",
+        "targetHandle": "Fund Data",
+        "style": {
+          "stroke": "#10b981",
+          "strokeWidth": 2,
+          "strokeDasharray": "4,2"
+        }
+      },
+      {
+        "id": "E6-E20-Subscription-9468",
+        "source": "E6",
+        "target": "E20",
+        "animated": true,
+        "sourceHandle": "Subscription",
+        "targetHandle": "Subscription",
+        "style": {
+          "stroke": "#10b981",
+          "strokeWidth": 2,
+          "strokeDasharray": "4,2"
+        }
+      },
+      {
+        "id": "E7-E1-AUM-4278",
+        "source": "E7",
+        "target": "E1",
+        "animated": true,
+        "sourceHandle": "AUM",
+        "targetHandle": "AUM",
+        "style": {
+          "stroke": "#10b981",
+          "strokeWidth": 2,
+          "strokeDasharray": "4,2"
+        }
+      },
+      {
+        "id": "E7-E1-Feed Data-7614",
+        "source": "E7",
+        "target": "E1",
+        "animated": true,
+        "sourceHandle": "Feed Data",
+        "targetHandle": "Feed Data",
+        "style": {
+          "stroke": "#10b981",
+          "strokeWidth": 2,
+          "strokeDasharray": "4,2"
+        }
+      },
+      {
+        "id": "E8-E1-Holdings-7795",
+        "source": "E8",
+        "target": "E1",
+        "animated": true,
+        "sourceHandle": "Holdings",
+        "targetHandle": "Holdings",
+        "style": {
+          "stroke": "#10b981",
+          "strokeWidth": 2,
+          "strokeDasharray": "4,2"
+        }
+      },
+      {
+        "id": "E8-E0-Positions-6580",
+        "source": "E8",
+        "target": "E0",
+        "animated": true,
+        "sourceHandle": "Positions",
+        "targetHandle": "Positions",
+        "style": {
+          "stroke": "#10b981",
+          "strokeWidth": 2,
+          "strokeDasharray": "4,2"
+        }
+      },
+      {
+        "id": "E9-E1-Performance-1999",
+        "source": "E9",
+        "target": "E1",
+        "animated": true,
+        "sourceHandle": "Performance",
+        "targetHandle": "Performance",
+        "style": {
+          "stroke": "#10b981",
+          "strokeWidth": 2,
+          "strokeDasharray": "4,2"
+        }
+      },
+      {
+        "id": "E10-E1-Holdings-9439",
+        "source": "E10",
+        "target": "E1",
+        "animated": true,
+        "sourceHandle": "Holdings",
+        "targetHandle": "Holdings",
+        "style": {
+          "stroke": "#10b981",
+          "strokeWidth": 2,
+          "strokeDasharray": "4,2"
+        }
+      },
+      {
+        "id": "E10-E1-Analytics-5095",
+        "source": "E10",
+        "target": "E1",
+        "animated": true,
+        "sourceHandle": "Analytics",
+        "targetHandle": "Analytics",
+        "style": {
+          "stroke": "#10b981",
+          "strokeWidth": 2,
+          "strokeDasharray": "4,2"
+        }
+      },
+      {
+        "id": "E11-E1-Holdings-8989",
+        "source": "E11",
+        "target": "E1",
+        "animated": true,
+        "sourceHandle": "Holdings",
+        "targetHandle": "Holdings",
+        "style": {
+          "stroke": "#10b981",
+          "strokeWidth": 2,
+          "strokeDasharray": "4,2"
+        }
+      },
+      {
+        "id": "E12-E1-Derivatives-5799",
+        "source": "E12",
+        "target": "E1",
+        "animated": true,
+        "sourceHandle": "Derivatives",
+        "targetHandle": "Derivatives",
+        "style": {
+          "stroke": "#10b981",
+          "strokeWidth": 2,
+          "strokeDasharray": "4,2"
+        }
+      },
+      {
+        "id": "E13-E1-Holdings-6649",
+        "source": "E13",
+        "target": "E1",
+        "animated": true,
+        "sourceHandle": "Holdings",
+        "targetHandle": "Holdings",
+        "style": {
+          "stroke": "#10b981",
+          "strokeWidth": 2,
+          "strokeDasharray": "4,2"
+        }
+      },
+      {
+        "id": "E14-E1-Ledger-3422",
+        "source": "E14",
+        "target": "E1",
+        "animated": true,
+        "sourceHandle": "Ledger",
+        "targetHandle": "Ledger",
+        "style": {
+          "stroke": "#10b981",
+          "strokeWidth": 2,
+          "strokeDasharray": "4,2"
+        }
+      },
+      {
+        "id": "E15-E1-GA Analytics-8345",
+        "source": "E15",
+        "target": "E1",
+        "animated": true,
+        "sourceHandle": "GA Analytics",
+        "targetHandle": "GA Analytics",
+        "style": {
+          "stroke": "#10b981",
+          "strokeWidth": 2,
+          "strokeDasharray": "4,2"
+        }
+      },
+      {
+        "id": "E16-E1-AUM-9145",
+        "source": "E16",
+        "target": "E1",
+        "animated": true,
+        "sourceHandle": "AUM",
+        "targetHandle": "AUM",
+        "style": {
+          "stroke": "#10b981",
+          "strokeWidth": 2,
+          "strokeDasharray": "4,2"
+        }
+      },
+      {
+        "id": "E17-E1-Portfolio-2177",
+        "source": "E17",
+        "target": "E1",
+        "animated": true,
+        "sourceHandle": "Portfolio",
+        "targetHandle": "Portfolio",
+        "style": {
+          "stroke": "#10b981",
+          "strokeWidth": 2,
+          "strokeDasharray": "4,2"
+        }
+      },
+      {
+        "id": "E18-E0-Executions-1400",
+        "source": "E18",
+        "target": "E0",
+        "animated": true,
+        "sourceHandle": "Executions",
+        "targetHandle": "Executions",
+        "style": {
+          "stroke": "#10b981",
+          "strokeWidth": 2,
+          "strokeDasharray": "4,2"
+        }
+      },
+      {
+        "id": "E19-E0-Trades-7568",
+        "source": "E19",
+        "target": "E0",
+        "animated": true,
+        "sourceHandle": "Trades",
+        "targetHandle": "Trades",
+        "style": {
+          "stroke": "#10b981",
+          "strokeWidth": 2,
+          "strokeDasharray": "4,2"
+        }
+      },
+      {
+        "id": "E19-E0-Security-7632",
+        "source": "E19",
+        "target": "E0",
+        "animated": true,
+        "sourceHandle": "Security",
+        "targetHandle": "Security",
+        "style": {
+          "stroke": "#10b981",
+          "strokeWidth": 2,
+          "strokeDasharray": "4,2"
+        }
+      },
+      {
+        "id": "E19-E4-GL Entries-1607",
+        "source": "E19",
+        "target": "E4",
+        "animated": true,
+        "sourceHandle": "GL Entries",
+        "targetHandle": "GL Entries",
+        "style": {
+          "stroke": "#10b981",
+          "strokeWidth": 2,
+          "strokeDasharray": "4,2"
+        }
+      },
+      {
+        "id": "E20-E0-Trades-2055",
+        "source": "E20",
+        "target": "E0",
+        "animated": true,
+        "sourceHandle": "Trades",
+        "targetHandle": "Trades",
+        "style": {
+          "stroke": "#10b981",
+          "strokeWidth": 2,
+          "strokeDasharray": "4,2"
+        }
+      },
+      {
+        "id": "E20-E6-Subscription-7271",
+        "source": "E20",
+        "target": "E6",
+        "animated": true,
+        "sourceHandle": "Subscription",
+        "targetHandle": "Subscription",
+        "style": {
+          "stroke": "#10b981",
+          "strokeWidth": 2,
+          "strokeDasharray": "4,2"
+        }
+      },
+      {
+        "id": "E20-E2-Subs/Reds-2328",
+        "source": "E20",
+        "target": "E2",
+        "animated": true,
+        "sourceHandle": "Subs/Reds",
+        "targetHandle": "Subs/Reds",
+        "style": {
+          "stroke": "#10b981",
+          "strokeWidth": 2,
+          "strokeDasharray": "4,2"
+        }
+      },
+      {
+        "id": "E20-E0-Position-8253",
+        "source": "E20",
+        "target": "E0",
+        "animated": true,
+        "sourceHandle": "Position",
+        "targetHandle": "Position",
+        "style": {
+          "stroke": "#10b981",
+          "strokeWidth": 2,
+          "strokeDasharray": "4,2"
+        }
+      },
+      {
+        "id": "E21-E4-Equity assets-4051",
+        "source": "E21",
+        "target": "E4",
+        "animated": true,
+        "sourceHandle": "Equity assets",
+        "targetHandle": "Equity assets",
+        "style": {
+          "stroke": "#10b981",
+          "strokeWidth": 2,
+          "strokeDasharray": "4,2"
+        }
+      },
+      {
+        "id": "E21-E1-Equity-2445",
+        "source": "E21",
+        "target": "E1",
+        "animated": true,
+        "sourceHandle": "Equity",
+        "targetHandle": "Equity",
+        "style": {
+          "stroke": "#10b981",
+          "strokeWidth": 2,
+          "strokeDasharray": "4,2"
+        }
+      },
+      {
+        "id": "E22-E1-Loans-3018",
+        "source": "E22",
+        "target": "E1",
+        "animated": true,
+        "sourceHandle": "Loans",
+        "targetHandle": "Loans",
+        "style": {
+          "stroke": "#10b981",
+          "strokeWidth": 2,
+          "strokeDasharray": "4,2"
+        }
+      },
+      {
+        "id": "E22-E3-Loan Balance-9236",
+        "source": "E22",
+        "target": "E3",
+        "animated": true,
+        "sourceHandle": "Loan Balance",
+        "targetHandle": "Loan Balance",
+        "style": {
+          "stroke": "#10b981",
+          "strokeWidth": 2,
+          "strokeDasharray": "4,2"
+        }
+      },
+      {
+        "id": "E23-E24-Cash-4803",
+        "source": "E23",
+        "target": "E24",
+        "animated": true,
+        "sourceHandle": "Cash",
+        "targetHandle": "Cash",
+        "style": {
+          "stroke": "#10b981",
+          "strokeWidth": 2,
+          "strokeDasharray": "4,2"
+        }
+      },
+      {
+        "id": "E24-E23-Cash-7123",
+        "source": "E24",
+        "target": "E23",
+        "animated": true,
+        "sourceHandle": "Cash",
+        "targetHandle": "Cash",
+        "style": {
+          "stroke": "#10b981",
+          "strokeWidth": 2,
+          "strokeDasharray": "4,2"
+        }
+      },
+      {
+        "id": "E24-E0-Positions-7511",
+        "source": "E24",
+        "target": "E0",
+        "animated": true,
+        "sourceHandle": "Positions",
+        "targetHandle": "Positions",
+        "style": {
+          "stroke": "#10b981",
+          "strokeWidth": 2,
+          "strokeDasharray": "4,2"
+        }
+      },
+      {
+        "id": "E25-E26-Illustration-7542",
+        "source": "E25",
+        "target": "E26",
+        "animated": true,
+        "sourceHandle": "Illustration",
+        "targetHandle": "Illustration",
+        "style": {
+          "stroke": "#10b981",
+          "strokeWidth": 2,
+          "strokeDasharray": "4,2"
+        }
+      },
+      {
+        "id": "E26-E25-Illustration-5547",
+        "source": "E26",
+        "target": "E25",
+        "animated": true,
+        "sourceHandle": "Illustration",
+        "targetHandle": "Illustration",
+        "style": {
+          "stroke": "#10b981",
+          "strokeWidth": 2,
+          "strokeDasharray": "4,2"
+        }
+      },
+      {
+        "id": "E26-E1-Price-3886",
+        "source": "E26",
+        "target": "E1",
+        "animated": true,
+        "sourceHandle": "Price",
+        "targetHandle": "Price",
+        "style": {
+          "stroke": "#10b981",
+          "strokeWidth": 2,
+          "strokeDasharray": "4,2"
+        }
+      },
+      {
+        "id": "E26-E1-Data-4000",
+        "source": "E26",
+        "target": "E1",
+        "animated": true,
+        "sourceHandle": "Data",
+        "targetHandle": "Data",
+        "style": {
+          "stroke": "#10b981",
+          "strokeWidth": 2,
+          "strokeDasharray": "4,2"
+        }
+      },
+      {
+        "id": "E26-E28-SMA-6143",
+        "source": "E26",
+        "target": "E28",
+        "animated": true,
+        "sourceHandle": "SMA",
+        "targetHandle": "SMA",
+        "style": {
+          "stroke": "#10b981",
+          "strokeWidth": 2,
+          "strokeDasharray": "4,2"
+        }
+      },
+      {
+        "id": "E26-E29-Licensing-8162",
+        "source": "E26",
+        "target": "E29",
+        "animated": true,
+        "sourceHandle": "Licensing",
+        "targetHandle": "Licensing",
+        "style": {
+          "stroke": "#10b981",
+          "strokeWidth": 2,
+          "strokeDasharray": "4,2"
+        }
+      },
+      {
+        "id": "E26-E30-Policy-7265",
+        "source": "E26",
+        "target": "E30",
+        "animated": true,
+        "sourceHandle": "Policy",
+        "targetHandle": "Policy",
+        "style": {
+          "stroke": "#10b981",
+          "strokeWidth": 2,
+          "strokeDasharray": "4,2"
+        }
+      },
+      {
+        "id": "E27-E1-Data-2101",
+        "source": "E27",
+        "target": "E1",
+        "animated": true,
+        "sourceHandle": "Data",
+        "targetHandle": "Data",
+        "style": {
+          "stroke": "#10b981",
+          "strokeWidth": 2,
+          "strokeDasharray": "4,2"
+        }
+      },
+      {
+        "id": "E27-E29-Policy Admin-4419",
+        "source": "E27",
+        "target": "E29",
+        "animated": true,
+        "sourceHandle": "Policy Admin",
+        "targetHandle": "Policy Admin",
+        "style": {
+          "stroke": "#10b981",
+          "strokeWidth": 2,
+          "strokeDasharray": "4,2"
+        }
+      },
+      {
+        "id": "E27-E1-Feed-9706",
+        "source": "E27",
+        "target": "E1",
+        "animated": true,
+        "sourceHandle": "Feed",
+        "targetHandle": "Feed",
+        "style": {
+          "stroke": "#10b981",
+          "strokeWidth": 2,
+          "strokeDasharray": "4,2"
+        }
+      },
+      {
+        "id": "E28-E26-SMA-2012",
+        "source": "E28",
+        "target": "E26",
+        "animated": true,
+        "sourceHandle": "SMA",
+        "targetHandle": "SMA",
+        "style": {
+          "stroke": "#10b981",
+          "strokeWidth": 2,
+          "strokeDasharray": "4,2"
+        }
+      },
+      {
+        "id": "E29-E26-Licensing-9989",
+        "source": "E29",
+        "target": "E26",
+        "animated": true,
+        "sourceHandle": "Licensing",
+        "targetHandle": "Licensing",
+        "style": {
+          "stroke": "#10b981",
+          "strokeWidth": 2,
+          "strokeDasharray": "4,2"
+        }
+      },
+      {
+        "id": "E29-E27-Policy Admin-2789",
+        "source": "E29",
+        "target": "E27",
+        "animated": true,
+        "sourceHandle": "Policy Admin",
+        "targetHandle": "Policy Admin",
+        "style": {
+          "stroke": "#10b981",
+          "strokeWidth": 2,
+          "strokeDasharray": "4,2"
+        }
+      },
+      {
+        "id": "E30-E26-Policy-4410",
+        "source": "E30",
+        "target": "E26",
+        "animated": true,
+        "sourceHandle": "Policy",
+        "targetHandle": "Policy",
+        "style": {
+          "stroke": "#10b981",
+          "strokeWidth": 2,
+          "strokeDasharray": "4,2"
+        }
+      },
+      {
+        "id": "E31-E0-Market Data-6435",
+        "source": "E31",
+        "target": "E0",
+        "animated": true,
+        "sourceHandle": "Market Data",
+        "targetHandle": "Market Data",
+        "style": {
+          "stroke": "#10b981",
+          "strokeWidth": 2,
+          "strokeDasharray": "4,2"
+        }
+      },
+      {
+        "id": "E32-E1-Cash Flows-1040",
+        "source": "E32",
+        "target": "E1",
+        "animated": true,
+        "sourceHandle": "Cash Flows",
+        "targetHandle": "Cash Flows",
+        "style": {
+          "stroke": "#10b981",
+          "strokeWidth": 2,
+          "strokeDasharray": "4,2"
+        }
+      },
+      {
+        "id": "E33-E1-Loans-8737",
+        "source": "E33",
+        "target": "E1",
+        "animated": true,
+        "sourceHandle": "Loans",
+        "targetHandle": "Loans",
+        "style": {
+          "stroke": "#10b981",
+          "strokeWidth": 2,
+          "strokeDasharray": "4,2"
+        }
+      },
+      {
+        "id": "E34-E1-Issuers-1272",
+        "source": "E34",
+        "target": "E1",
+        "animated": true,
+        "sourceHandle": "Issuers",
+        "targetHandle": "Issuers",
+        "style": {
+          "stroke": "#10b981",
+          "strokeWidth": 2,
+          "strokeDasharray": "4,2"
+        }
+      },
+      {
+        "id": "E34-E1-Issuers-9355",
+        "source": "E34",
+        "target": "E1",
+        "animated": true,
+        "sourceHandle": "Issuers",
+        "targetHandle": "Issuers",
+        "style": {
+          "stroke": "#10b981",
+          "strokeWidth": 2,
+          "strokeDasharray": "4,2"
+        }
+      },
+      {
+        "id": "E35-E1-Ratings-4837",
+        "source": "E35",
+        "target": "E1",
+        "animated": true,
+        "sourceHandle": "Ratings",
+        "targetHandle": "Ratings",
+        "style": {
+          "stroke": "#10b981",
+          "strokeWidth": 2,
+          "strokeDasharray": "4,2"
+        }
+      },
+      {
+        "id": "E36-E1-Holdings-1765",
+        "source": "E36",
+        "target": "E1",
+        "animated": true,
+        "sourceHandle": "Holdings",
+        "targetHandle": "Holdings",
+        "style": {
+          "stroke": "#10b981",
+          "strokeWidth": 2,
+          "strokeDasharray": "4,2"
+        }
+      },
+      {
+        "id": "E37-E38-Economic Data-9861",
+        "source": "E37",
+        "target": "E38",
+        "animated": true,
+        "sourceHandle": "Economic Data",
+        "targetHandle": "Economic Data",
+        "style": {
+          "stroke": "#10b981",
+          "strokeWidth": 2,
+          "strokeDasharray": "4,2"
+        }
+      },
+      {
+        "id": "E38-E37-Economic Data-5771",
+        "source": "E38",
+        "target": "E37",
+        "animated": true,
+        "sourceHandle": "Economic Data",
+        "targetHandle": "Economic Data",
+        "style": {
+          "stroke": "#10b981",
+          "strokeWidth": 2,
+          "strokeDasharray": "4,2"
+        }
+      }
+    ],
+    "tracePaths": {
+      "Security Master": [
+        [
+          "E0",
+          "Security Master",
+          "E1",
+          "Security Master"
+        ],
+        [
+          "E1",
+          "Security Master",
+          "E0",
+          "Security Master"
+        ]
+      ],
+      "Executions": [
+        [
+          "E0",
+          "Executions",
+          "E18",
+          "Executions"
+        ],
+        [
+          "E18",
+          "Executions",
+          "E0",
+          "Executions"
+        ]
+      ],
+      "Positions": [
+        [
+          "E0",
+          "Positions",
+          "E1",
+          "Positions"
+        ],
+        [
+          "E0",
+          "Positions",
+          "E1",
+          "Positions"
+        ],
+        [
+          "E1",
+          "Positions",
+          "E0",
+          "Positions"
+        ],
+        [
+          "E1",
+          "Positions",
+          "E0",
+          "Positions"
+        ],
+        [
+          "E3",
+          "Positions",
+          "E0",
+          "Positions"
+        ],
+        [
+          "E3",
+          "Positions",
+          "E0",
+          "Positions"
+        ],
+        [
+          "E8",
+          "Positions",
+          "E0",
+          "Positions"
+        ],
+        [
+          "E24",
+          "Positions",
+          "E0",
+          "Positions"
+        ]
+      ],
+      "Trades": [
+        [
+          "E0",
+          "Trades",
+          "E1",
+          "Trades"
+        ],
+        [
+          "E1",
+          "Trades",
+          "E0",
+          "Trades"
+        ],
+        [
+          "E19",
+          "Trades",
+          "E0",
+          "Trades"
+        ],
+        [
+          "E20",
+          "Trades",
+          "E0",
+          "Trades"
+        ]
+      ],
+      "Security": [
+        [
+          "E0",
+          "Security",
+          "E19",
+          "Security"
+        ],
+        [
+          "E19",
+          "Security",
+          "E0",
+          "Security"
+        ]
+      ],
+      "Position": [
+        [
+          "E0",
+          "Position",
+          "E1",
+          "Position"
+        ],
+        [
+          "E0",
+          "Position",
+          "E1",
+          "Position"
+        ],
+        [
+          "E1",
+          "Position",
+          "E0",
+          "Position"
+        ],
+        [
+          "E2",
+          "Position",
+          "E0",
+          "Position"
+        ],
+        [
+          "E3",
+          "Position",
+          "E0",
+          "Position"
+        ],
+        [
+          "E20",
+          "Position",
+          "E0",
+          "Position"
+        ]
+      ],
+      "LMS": [
+        [
+          "E0",
+          "LMS",
+          "E3",
+          "LMS"
+        ],
+        [
+          "E3",
+          "LMS",
+          "E0",
+          "LMS"
+        ]
+      ],
+      "Market Data": [
+        [
+          "E0",
+          "Market Data",
+          "E1",
+          "Market Data"
+        ],
+        [
+          "E1",
+          "Market Data",
+          "E0",
+          "Market Data"
+        ],
+        [
+          "E2",
+          "Market Data",
+          "E0",
+          "Market Data"
+        ],
+        [
+          "E31",
+          "Market Data",
+          "E0",
+          "Market Data"
+        ]
+      ],
+      "Data": [
+        [
+          "E1",
+          "Data",
+          "E4",
+          "Data"
+        ],
+        [
+          "E1",
+          "Data",
+          "E4",
+          "Data"
+        ],
+        [
+          "E4",
+          "Data",
+          "E1",
+          "Data"
+        ],
+        [
+          "E5",
+          "Data",
+          "E1",
+          "Data"
+        ],
+        [
+          "E26",
+          "Data",
+          "E1",
+          "Data"
+        ],
+        [
+          "E27",
+          "Data",
+          "E1",
+          "Data"
+        ]
+      ],
+      "Fund Data": [
+        [
+          "E1",
+          "Fund Data",
+          "E6",
+          "Fund Data"
+        ],
+        [
+          "E6",
+          "Fund Data",
+          "E1",
+          "Fund Data"
+        ]
+      ],
+      "AUM": [
+        [
+          "E1",
+          "AUM",
+          "E7",
+          "AUM"
+        ],
+        [
+          "E1",
+          "AUM",
+          "E7",
+          "AUM"
+        ],
+        [
+          "E7",
+          "AUM",
+          "E1",
+          "AUM"
+        ],
+        [
+          "E16",
+          "AUM",
+          "E1",
+          "AUM"
+        ]
+      ],
+      "Feed Data": [
+        [
+          "E1",
+          "Feed Data",
+          "E7",
+          "Feed Data"
+        ],
+        [
+          "E7",
+          "Feed Data",
+          "E1",
+          "Feed Data"
+        ]
+      ],
+      "Holdings": [
+        [
+          "E1",
+          "Holdings",
+          "E8",
+          "Holdings"
+        ],
+        [
+          "E1",
+          "Holdings",
+          "E8",
+          "Holdings"
+        ],
+        [
+          "E1",
+          "Holdings",
+          "E8",
+          "Holdings"
+        ],
+        [
+          "E1",
+          "Holdings",
+          "E8",
+          "Holdings"
+        ],
+        [
+          "E1",
+          "Holdings",
+          "E8",
+          "Holdings"
+        ],
+        [
+          "E8",
+          "Holdings",
+          "E1",
+          "Holdings"
+        ],
+        [
+          "E10",
+          "Holdings",
+          "E1",
+          "Holdings"
+        ],
+        [
+          "E11",
+          "Holdings",
+          "E1",
+          "Holdings"
+        ],
+        [
+          "E13",
+          "Holdings",
+          "E1",
+          "Holdings"
+        ],
+        [
+          "E36",
+          "Holdings",
+          "E1",
+          "Holdings"
+        ]
+      ],
+      "Performance": [
+        [
+          "E1",
+          "Performance",
+          "E9",
+          "Performance"
+        ],
+        [
+          "E9",
+          "Performance",
+          "E1",
+          "Performance"
+        ]
+      ],
+      "Derivatives": [
+        [
+          "E1",
+          "Derivatives",
+          "E12",
+          "Derivatives"
+        ],
+        [
+          "E12",
+          "Derivatives",
+          "E1",
+          "Derivatives"
+        ]
+      ],
+      "Ledger": [
+        [
+          "E1",
+          "Ledger",
+          "E14",
+          "Ledger"
+        ],
+        [
+          "E14",
+          "Ledger",
+          "E1",
+          "Ledger"
+        ]
+      ],
+      "Analytics": [
+        [
+          "E1",
+          "Analytics",
+          "E10",
+          "Analytics"
+        ],
+        [
+          "E10",
+          "Analytics",
+          "E1",
+          "Analytics"
+        ]
+      ],
+      "GA Analytics": [
+        [
+          "E1",
+          "GA Analytics",
+          "E15",
+          "GA Analytics"
+        ],
+        [
+          "E15",
+          "GA Analytics",
+          "E1",
+          "GA Analytics"
+        ]
+      ],
+      "Portfolio": [
+        [
+          "E1",
+          "Portfolio",
+          "E17",
+          "Portfolio"
+        ],
+        [
+          "E17",
+          "Portfolio",
+          "E1",
+          "Portfolio"
+        ]
+      ],
+      "Price": [
+        [
+          "E1",
+          "Price",
+          "E26",
+          "Price"
+        ],
+        [
+          "E26",
+          "Price",
+          "E1",
+          "Price"
+        ]
+      ],
+      "Feed": [
+        [
+          "E1",
+          "Feed",
+          "E27",
+          "Feed"
+        ],
+        [
+          "E27",
+          "Feed",
+          "E1",
+          "Feed"
+        ]
+      ],
+      "Cash Flows": [
+        [
+          "E1",
+          "Cash Flows",
+          "E32",
+          "Cash Flows"
+        ],
+        [
+          "E32",
+          "Cash Flows",
+          "E1",
+          "Cash Flows"
+        ]
+      ],
+      "Loans": [
+        [
+          "E1",
+          "Loans",
+          "E4",
+          "Loans"
+        ],
+        [
+          "E4",
+          "Loans",
+          "E1",
+          "Loans"
+        ],
+        [
+          "E22",
+          "Loans",
+          "E1",
+          "Loans"
+        ],
+        [
+          "E33",
+          "Loans",
+          "E1",
+          "Loans"
+        ]
+      ],
+      "Equity": [
+        [
+          "E1",
+          "Equity",
+          "E21",
+          "Equity"
+        ],
+        [
+          "E21",
+          "Equity",
+          "E1",
+          "Equity"
+        ]
+      ],
+      "Issuers": [
+        [
+          "E1",
+          "Issuers",
+          "E34",
+          "Issuers"
+        ],
+        [
+          "E1",
+          "Issuers",
+          "E34",
+          "Issuers"
+        ],
+        [
+          "E34",
+          "Issuers",
+          "E1",
+          "Issuers"
+        ],
+        [
+          "E34",
+          "Issuers",
+          "E1",
+          "Issuers"
+        ]
+      ],
+      "Ratings": [
+        [
+          "E1",
+          "Ratings",
+          "E35",
+          "Ratings"
+        ],
+        [
+          "E35",
+          "Ratings",
+          "E1",
+          "Ratings"
+        ]
+      ],
+      "Subs/Reds": [
+        [
+          "E2",
+          "Subs/Reds",
+          "E20",
+          "Subs/Reds"
+        ],
+        [
+          "E20",
+          "Subs/Reds",
+          "E2",
+          "Subs/Reds"
+        ]
+      ],
+      "Loan Balance": [
+        [
+          "E3",
+          "Loan Balance",
+          "E22",
+          "Loan Balance"
+        ],
+        [
+          "E22",
+          "Loan Balance",
+          "E3",
+          "Loan Balance"
+        ]
+      ],
+      "GL Entries": [
+        [
+          "E4",
+          "GL Entries",
+          "E19",
+          "GL Entries"
+        ],
+        [
+          "E19",
+          "GL Entries",
+          "E4",
+          "GL Entries"
+        ]
+      ],
+      "Equity assets": [
+        [
+          "E4",
+          "Equity assets",
+          "E21",
+          "Equity assets"
+        ],
+        [
+          "E21",
+          "Equity assets",
+          "E4",
+          "Equity assets"
+        ]
+      ],
+      "Subscription": [
+        [
+          "E6",
+          "Subscription",
+          "E20",
+          "Subscription"
+        ],
+        [
+          "E20",
+          "Subscription",
+          "E6",
+          "Subscription"
+        ]
+      ],
+      "Cash": [
+        [
+          "E23",
+          "Cash",
+          "E24",
+          "Cash"
+        ],
+        [
+          "E24",
+          "Cash",
+          "E23",
+          "Cash"
+        ]
+      ],
+      "Illustration": [
+        [
+          "E25",
+          "Illustration",
+          "E26",
+          "Illustration"
+        ],
+        [
+          "E26",
+          "Illustration",
+          "E25",
+          "Illustration"
+        ]
+      ],
+      "SMA": [
+        [
+          "E26",
+          "SMA",
+          "E28",
+          "SMA"
+        ],
+        [
+          "E28",
+          "SMA",
+          "E26",
+          "SMA"
+        ]
+      ],
+      "Licensing": [
+        [
+          "E26",
+          "Licensing",
+          "E29",
+          "Licensing"
+        ],
+        [
+          "E29",
+          "Licensing",
+          "E26",
+          "Licensing"
+        ]
+      ],
+      "Policy": [
+        [
+          "E26",
+          "Policy",
+          "E30",
+          "Policy"
+        ],
+        [
+          "E30",
+          "Policy",
+          "E26",
+          "Policy"
+        ]
+      ],
+      "Policy Admin": [
+        [
+          "E27",
+          "Policy Admin",
+          "E29",
+          "Policy Admin"
+        ],
+        [
+          "E29",
+          "Policy Admin",
+          "E27",
+          "Policy Admin"
+        ]
+      ],
+      "Economic Data": [
+        [
+          "E37",
+          "Economic Data",
+          "E38",
+          "Economic Data"
+        ],
+        [
+          "E38",
+          "Economic Data",
+          "E37",
+          "Economic Data"
+        ]
+      ]
+    }
+  }

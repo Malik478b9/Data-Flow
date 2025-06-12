@@ -1,0 +1,484 @@
+import React from "react";
+import { Button } from "@mui/material"; // Import MUI Button
+
+const SampleData = () => {
+  const handleDownload = () => {
+    const sampleData = {
+    
+        "pathEdgesMap": {
+          "E1": [
+            { "id": "E1-E13", "source": "E0", "sourceHandle": "E1", "target": "E11", "targetHandle": "E13", "animated": true, "style": { "stroke": "#007bff", "strokeWidth": 2 } },
+            { "id": "E13-E24", "source": "E11", "sourceHandle": "E13", "target": "E21", "targetHandle": "E24", "animated": true, "style": { "stroke": "#007bff", "strokeWidth": 2 } },
+            { "id": "E24-E34", "source": "E21", "sourceHandle": "E24", "target": "E31", "targetHandle": "E34", "animated": true, "style": { "stroke": "#007bff", "strokeWidth": 2 } },
+            { "id": "E34-E44", "source": "E31", "sourceHandle": "E34", "target": "E41", "targetHandle": "E44", "animated": true, "style": { "stroke": "#007bff", "strokeWidth": 2 } },
+            { "id": "E44-E55", "source": "E41", "sourceHandle": "E44", "target": "E51", "targetHandle": "E55", "animated": true, "style": { "stroke": "#007bff", "strokeWidth": 2 } },
+            { "id": "E55-E70", "source": "E51", "sourceHandle": "E55", "target": "E61", "targetHandle": "E70", "animated": true, "style": { "stroke": "#007bff", "strokeWidth": 2 } },
+            { "id": "E70-E87", "source": "E61", "sourceHandle": "E70", "target": "E76", "targetHandle": "E87", "animated": true, "style": { "stroke": "#007bff", "strokeWidth": 2 } }
+          ],
+          "E2": [
+            { "id": "E2-E14", "source": "E0", "sourceHandle": "E2", "target": "E11", "targetHandle": "E14", "animated": true, "style": { "stroke": "#ff5722", "strokeWidth": 2 } },
+            { "id": "E14-E26", "source": "E11", "sourceHandle": "E14", "target": "E21", "targetHandle": "E26", "animated": true, "style": { "stroke": "#ff5722", "strokeWidth": 2 } },
+            { "id": "E26-E36", "source": "E21", "sourceHandle": "E26", "target": "E31", "targetHandle": "E36", "animated": true, "style": { "stroke": "#ff5722", "strokeWidth": 2 } },
+            { "id": "E36-E44", "source": "E31", "sourceHandle": "E36", "target": "E41", "targetHandle": "E44", "animated": true, "style": { "stroke": "#ff5722", "strokeWidth": 2 } },
+            { "id": "E44-E54", "source": "E41", "sourceHandle": "E44", "target": "E51", "targetHandle": "E54", "animated": true, "style": { "stroke": "#ff5722", "strokeWidth": 2 } },
+            { "id": "E54-E66", "source": "E51", "sourceHandle": "E54", "target": "E61", "targetHandle": "E66", "animated": true, "style": { "stroke": "#ff5722", "strokeWidth": 2 } },
+            { "id": "E66-E85", "source": "E61", "sourceHandle": "E66", "target": "E76", "targetHandle": "E85", "animated": true, "style": { "stroke": "#ff5722", "strokeWidth": 2 } }
+          ],
+          "E3": [
+            { "id": "E3-E15", "source": "E0", "sourceHandle": "E3", "target": "E11", "targetHandle": "E15", "animated": true, "style": { "stroke": "#8e44ad", "strokeWidth": 2 } },
+            { "id": "E15-E27", "source": "E11", "sourceHandle": "E15", "target": "E21", "targetHandle": "E27", "animated": true, "style": { "stroke": "#8e44ad", "strokeWidth": 2 } },
+            { "id": "E27-E37", "source": "E21", "sourceHandle": "E27", "target": "E31", "targetHandle": "E37", "animated": true, "style": { "stroke": "#8e44ad", "strokeWidth": 2 } },
+            { "id": "E37-E47", "source": "E31", "sourceHandle": "E37", "target": "E41", "targetHandle": "E47", "animated": true, "style": { "stroke": "#8e44ad", "strokeWidth": 2 } },
+            { "id": "E47-E57", "source": "E41", "sourceHandle": "E47", "target": "E51", "targetHandle": "E57", "animated": true, "style": { "stroke": "#8e44ad", "strokeWidth": 2 } },
+            { "id": "E57-E71", "source": "E51", "sourceHandle": "E57", "target": "E61", "targetHandle": "E71", "animated": true, "style": { "stroke": "#8e44ad", "strokeWidth": 2 } },
+            { "id": "E71-E88", "source": "E61", "sourceHandle": "E71", "target": "E76", "targetHandle": "E82", "animated": true, "style": { "stroke": "#8e44ad", "strokeWidth": 2 } }
+          ],
+          "E4": [
+            { "id": "E4-E16", "source": "E0", "sourceHandle": "E4", "target": "E11", "targetHandle": "E16", "animated": true, "style": { "stroke": "#2c3e50", "strokeWidth": 2 } },
+            { "id": "E16-E28", "source": "E11", "sourceHandle": "E16", "target": "E21", "targetHandle": "E28", "animated": true, "style": { "stroke": "#2c3e50", "strokeWidth": 2 } },
+            { "id": "E28-E38", "source": "E21", "sourceHandle": "E28", "target": "E31", "targetHandle": "E38", "animated": true, "style": { "stroke": "#2c3e50", "strokeWidth": 2 } },
+            { "id": "E39-E42", "source": "E31", "sourceHandle": "E39", "target": "E41", "targetHandle": "E42", "animated": true, "style": { "stroke": "#8e44ad", "strokeWidth": 2 } },
+            { "id": "E43-E57", "source": "E41", "sourceHandle": "E43", "target": "E51", "targetHandle": "E59", "animated": true, "style": { "stroke": "#8e44ad", "strokeWidth": 2 } },
+            { "id": "E58-E74", "source": "E51", "sourceHandle": "E58", "target": "E61", "targetHandle": "E74", "animated": true, "style": { "stroke": "#8e44ad", "strokeWidth": 2 } },
+            { "id": "E73-E86", "source": "E61", "sourceHandle": "E73", "target": "E76", "targetHandle": "E86", "animated": true, "style": { "stroke": "#8e44ad", "strokeWidth": 2 } }
+          ],
+      
+          "E5": [
+            { "id": "E5-E12", "source": "E0", "sourceHandle": "E5", "target": "E11", "targetHandle": "E12", "animated": true, "style": { "stroke": "#2c3e50", "strokeWidth": 2 } },
+            { "id": "E12-E26", "source": "E11", "sourceHandle": "E12", "target": "E21", "targetHandle": "E26", "animated": true, "style": { "stroke": "#2c3e50", "strokeWidth": 2 } },
+            { "id": "E26-E33", "source": "E21", "sourceHandle": "E26", "target": "E31", "targetHandle": "E33", "animated": true, "style": { "stroke": "#2c3e50", "strokeWidth": 2 } },
+            { "id": "E33-E46", "source": "E31", "sourceHandle": "E33", "target": "E41", "targetHandle": "E46", "animated": true, "style": { "stroke": "#8e44ad", "strokeWidth": 2 } },
+            { "id": "E46-E57", "source": "E41", "sourceHandle": "E46", "target": "E51", "targetHandle": "E59", "animated": true, "style": { "stroke": "#8e44ad", "strokeWidth": 2 } },
+            { "id": "E59-E65", "source": "E51", "sourceHandle": "E59", "target": "E61", "targetHandle": "E65", "animated": true, "style": { "stroke": "#8e44ad", "strokeWidth": 2 } },
+            { "id": "E65-E79", "source": "E61", "sourceHandle": "E65", "target": "E76", "targetHandle": "E79", "animated": true, "style": { "stroke": "#8e44ad", "strokeWidth": 2 } }
+          ],
+      
+          "E6": [
+            { "id": "E6-E16", "source": "E0", "sourceHandle": "E6", "target": "E11", "targetHandle": "E16", "animated": true, "style": { "stroke": "#ff5722", "strokeWidth": 2 } },
+            { "id": "E16-E38", "source": "E11", "sourceHandle": "E16", "target": "E31", "targetHandle": "E38", "animated": true, "style": { "stroke": "#ff5722", "strokeWidth": 2 } },
+            { "id": "E40-E46", "source": "E31", "sourceHandle": "E40", "target": "E41", "targetHandle": "E46", "animated": true, "style": { "stroke": "#8e44ad", "strokeWidth": 2 } }
+              ],
+      
+          "E7": [
+            { "id": "E7-E15", "source": "E0", "sourceHandle": "E7", "target": "E11", "targetHandle": "E15", "animated": true, "style": { "stroke": "#ff5722", "strokeWidth": 2 } },
+            { "id": "E15-E34", "source": "E11", "sourceHandle": "E15", "target": "E31", "targetHandle": "E34", "animated": true, "style": { "stroke": "#ff5722", "strokeWidth": 2 } },
+            { "id": "E34-E43", "source": "E31", "sourceHandle": "E34", "target": "E41", "targetHandle": "E43", "animated": true, "style": { "stroke": "#8e44ad", "strokeWidth": 2 } },
+            { "id": "E43-E59", "source": "E41", "sourceHandle": "E43", "target": "E51", "targetHandle": "E59", "animated": true, "style": { "stroke": "#8e44ad", "strokeWidth": 2 } }
+          ]
+        },
+      
+      
+    
+        "initialNodes": [
+          { "id": "header-A", "type": "header", "position": { "x": 100, "y": 20 }, "data": { "label": "A" }, "selectable": false, "draggable": false },
+          {
+            "id": "E0",
+            "type": "dropdownNode",
+            "position": { "x": 100, "y": 80 },
+            "data": {
+              "title": "E0",
+              "items": [{ "label": "E1" }, { "label": "E2" }, { "label": "E3" }, { "label": "E4" }, { "label": "E5" },
+                { "label": "E6" }, { "label": "E7" }, { "label": "E8" }, { "label": "E9" }, { "label": "E10" }],
+              "expanded": true
+            },
+            "depth": 0
+          },
+          {
+            "id": "header-B",
+            "type": "header",
+            "position": { "x": 500, "y": 20 },
+            "data": { "label": "B" },
+            "selectable": false,
+            "draggable": false
+          },
+          {
+            "id": "E11",
+            "type": "dropdownNode",
+            "position": { "x": 500, "y": 80 },
+            "data": {
+              "title": "E11",
+              "items": [{ "label": "E12" }, { "label": "E13" }, { "label": "E14" }, { "label": "E15" }, { "label": "E16" },
+                { "label": "E17" }, { "label": "E18" }, { "label": "E19" }, { "label": "E20" }],
+              "expanded": true
+            },
+            "depth": 0
+          },
+          { "id": "header-C", "type": "header", "position": { "x": 900, "y": 20 }, "data": { "label": "C" }, "selectable": false, "draggable": false },
+          {
+            "id": "E21",
+            "type": "dropdownNode",
+            "position": { "x": 900, "y": 80 },
+            "data": {
+              "title": "E21",
+              "items": [{ "label": "E22" }, { "label": "E23" }, { "label": "E24" }, { "label": "E25" }, { "label": "E26" },
+                { "label": "E27" }, { "label": "E28" }, { "label": "E29" }, { "label": "E30" }],
+              "expanded": true
+            },
+            "depth": 0
+          },
+      
+          { "id": "header-D", "type": "header", "position": { "x": 1300, "y": 20 }, "data": { "label": "D" }, "selectable": false, "draggable": false },
+          {
+            "id": "E31",
+            "type": "dropdownNode",
+            "position": { "x": 1300, "y": 80 },
+            "data": {
+              "title": "E31",
+              "items": [],
+              "expanded": true,
+              "nestedNodes": [
+                {
+                  "id": "E32",
+                  "data": {
+                    "title": "E32",
+                    "items": [],
+                    "expanded": true,
+                    "nestedNodes": [
+                      {
+                        "id": "E33",
+                        "data": {
+                          "title": "E33",
+                          "items": [{ "label": "E34" }, { "label": "E35" }, { "label": "E36" }, { "label": "E37" },
+                            { "label": "E38" }, { "label": "E39" }, { "label": "E40" }],
+                          "expanded": true
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            },
+            "depth": 0
+          },
+      
+          { "id": "header-E", "type": "header", "position": { "x": 1700, "y": 20 }, "data": { "label": "E" }, "selectable": false, "draggable": false },
+          {
+            "id": "E41",
+            "type": "dropdownNode",
+            "position": { "x": 1700, "y": 80 },
+            "data": {
+              "title": "E41",
+              "items": [{ "label": "E42" }, { "label": "E43" }, { "label": "E44" }, { "label": "E45" }, { "label": "E46" },
+                { "label": "E47" }, { "label": "E48" }, { "label": "E49" }, { "label": "E50" }],
+              "expanded": true
+            },
+            "depth": 0
+          },
+      
+          { "id": "header-F", "type": "header", "position": { "x": 2100, "y": 20 }, "data": { "label": "F" }, "selectable": false, "draggable": false },
+          {
+            "id": "E51",
+            "type": "dropdownNode",
+            "position": { "x": 2100, "y": 80 },
+            "data": {
+              "title": "E51",
+              "items": [{ "label": "E512" }, { "label": "E513" }, { "label": "E514" }],
+              "expanded": true,
+              "nestedNodes": [
+                {
+                  "id": "E52",
+                  "data": {
+                    "title": "E52",
+                    "items": [{ "label": "E53" }, { "label": "E54" }, { "label": "E55" }, { "label": "E56" },
+                      { "label": "E57" }, { "label": "E58" }, { "label": "E59" }, { "label": "E560" }],
+                    "expanded": true,
+                    "nestedNodes": [
+                      {
+                        "id": "E521",
+                        "data": {
+                          "title": "E521",
+                          "items": [{ "label": "E522" }, { "label": "E523" }, { "label": "E524" }, { "label": "E525" },
+                            { "label": "E526" }, { "label": "E527" }, { "label": "E528" }, { "label": "E529" }]
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            },
+            "depth": 0
+          },
+          { "id": "header-G", "type": "header", "position": { "x": 2500, "y": 20 }, "data": { "label": "G" }, "selectable": false, "draggable": false },
+      
+          {
+            "id": "E61",
+            "type": "dropdownNode",
+            "position": { "x": 2500, "y": 80 },
+            "data": {
+              "title": "E61",
+              "items": [],
+              "expanded": true,
+              "nestedNodes": [
+                {
+                  "id": "E62",
+                  "data": {
+                    "title": "E62",
+                    "items": [{ "label": "E63" }, { "label": "E64" }, { "label": "E65" }, { "label": "E66" }, { "label": "E67" }, { "label": "E68" }, { "label": "E69" }, { "label": "E70" },
+                      { "label": "E71" }, { "label": "E72" }, { "label": "E73" }, { "label": "E74" }, { "label": "E75" }
+                    ],
+                    "expanded": true
+                  }
+                }
+              ]
+            },
+            "depth": 0
+          },
+          { "id": "header-H", "type": "header", "position": { "x": 2900, "y": 20 }, "data": { "label": "H" }, "selectable": false, "draggable": false },
+      
+          {
+            "id": "E76",
+            "type": "dropdownNode",
+            "position": { "x": 2900, "y": 80 },
+            "data": {
+              "title": "E76",
+              "items": [],
+              "expanded": true,
+              "nestedNodes": [
+                {
+                  "id": "E77",
+                  "data": {
+                    "title": "E77",
+                    "items": [{ "label": "E78" }, { "label": "E79" }, { "label": "E80" }, { "label": "E81" }, { "label": "E82" }, { "label": "E83" }, { "label": "E84" }, { "label": "E85" },
+                      { "label": "E86" }, { "label": "E87" }, { "label": "E88" }, { "label": "E89" }, { "label": "E90" }
+                    ],
+                    "expanded": true
+                  }
+                }
+              ]
+            },
+            "depth": 0
+          }
+        ],
+      
+      
+    
+    "tracePaths": {
+          "E1": [
+            "E0", "E1", "E11", "E13", "E21", "E24", "E31", "E32", "E33", "E34", "E41", "E44", "E51", "E52", "E55", "E61", "E62", "E70", "E76", "E77", "E87"
+          ],
+          "E2": [
+            "E0", "E2", "E11", "E14", "E21", "E26", "E31", "E36", "E41", "E44", "E51", "E54", "E61", "E66", "E76", "E88", "E76"
+          ],
+          "E3": [
+            "E0", "E3", "E11", "E15", "E21", "E27", "E31", "E37", "E41", "E47", "E51", "E57"
+          ],
+          "E4": [
+            "E0", "E4", "E11", "E16", "E21", "E28", "E31", "E38", "E41", "E48"
+          ],
+          "E5": [
+            "E0", "E5", "E11", "E17", "E21", "E29", "E31", "E39", "E41", "E49", "E51", "E59", "E61", "E73", "E76", "E77", "E90"
+          ],
+          "E6": [
+            ["E0", "E6", "E11", "E15"],
+            ["E0", "E6", "E11", "E16"]
+          ],
+          "E7": [
+            ["E0", "E7", "E41", "E45"],
+            ["E0", "E7", "E41", "E46"]
+          ],
+          "E8": [
+            ["E0", "E8", "E51", "E55"],
+            ["E0", "E8", "E51", "E56"]
+          ],
+          "E9": [
+            ["E0", "E9", "E31", "E35"],
+            ["E0", "E9", "E31", "E36"],
+            ["E0", "E9", "E41", "E46"]
+          ],
+          "E10": [
+            ["E0", "E10", "E61", "E65"],
+            ["E0", "E10", "E61", "E66"],
+            ["E0", "E10", "E61", "E67"]
+          ],
+          "E12": [
+            ["E11", "E12", "E61", "E69"],
+            ["E11", "E12", "E61", "E65"],
+            ["E11", "E12", "E31", "E34"]
+          ],
+          "E13": [
+            ["E11", "E13", "E61", "E67"],
+            ["E11", "E13", "E31", "E34"]
+          ],
+          "E14": [
+            ["E11", "E14", "E0", "E4"]
+          ],
+          "E15": [
+            ["E11", "E15", "E41", "E48"],
+            ["E11", "E15", "E31", "E36"]
+          ],
+          "E16": [
+            ["E11", "E16", "E51", "E58"],
+            ["E11", "E16", "E31", "E37"]
+          ],
+          "E17": [
+            ["E11", "E16", "E41", "E48"],
+            ["E11", "E16", "E21", "E24"]
+          ],
+          "E18": [
+            ["E11", "E18", "E76", "E88"],
+            ["E11", "E18", "E61", "E64"]
+          ],
+          "E22": [
+            ["E21", "E22", "E44", "E45"],
+            ["E21", "E22", "E41", "E46"]
+          ],
+          "E23": [
+            ["E21", "E23", "E61", "E65"],
+            ["E21", "E23", "E61", "E66"],
+            ["E21", "E23", "E41", "E46"]
+          ],
+          "E24": [
+            ["E21", "E24", "E31", "E35"]
+          ],
+          "E25": [
+            ["E21", "E25", "E61", "E65"],
+            ["E21", "E25", "E61", "E66"]
+          ],
+          "E26": [
+            ["E21", "E26", "E51", "E55"]
+          ],
+          "E27": [
+            ["E21", "E27", "E51", "E58"]
+          ],
+          "E28": [
+            ["E21", "E28", "E51", "E513"]
+          ],
+          "E29": [
+            ["E21", "E29", "E61", "E75"]
+          ],
+          "E30": [
+            ["E21", "E30", "E61", "E75"],
+            ["E21", "E30", "E61", "E74"]
+          ],
+          "E34": [
+            ["E31", "E34", "E76", "E82"]
+          ],
+          "E42": [
+            ["E41", "E42", "E51", "E513"]
+          ],
+          "E43": [
+            ["E41", "E43", "E61", "E75"]
+          ],
+          "E44": [
+            ["E41", "E44", "E61", "E75"],
+            ["E41", "E44", "E61", "E74"]
+          ],
+          "E45": [
+            ["E41", "E45", "E76", "E82"]
+          ],
+          "E46": [
+            ["E41", "E46", "E76", "E87"],
+            ["E41", "E46", "E76", "E88"],
+            ["E41", "E46", "E76", "E90"]
+          ]
+    },
+    
+    "newEdges": [
+        { "id": "E1-E13", "source": "E0", "sourceHandle": "E1", "target": "E11", "targetHandle": "E13", "animated": true, "style": { "stroke": "#007bff", "strokeWidth": 2 } },
+        { "id": "E13-E24", "source": "E11", "sourceHandle": "E13", "target": "E21", "targetHandle": "E24", "animated": true, "style": { "stroke": "#007bff", "strokeWidth": 2 } },
+        { "id": "E1-E13", "source": "E0", "sourceHandle": "E1", "target": "E11", "targetHandle": "E13", "animated": true, "style": { "stroke": "#007bff", "strokeWidth": 2 } },
+        { "id": "E13-E24", "source": "E11", "sourceHandle": "E13", "target": "E21", "targetHandle": "E24", "animated": true, "style": { "stroke": "#007bff", "strokeWidth": 2 } },
+        { "id": "E24-E34", "source": "E21", "sourceHandle": "E24", "target": "E31", "targetHandle": "E34", "animated": true, "style": { "stroke": "#007bff", "strokeWidth": 2 } },
+        { "id": "E34-E44", "source": "E31", "sourceHandle": "E34", "target": "E41", "targetHandle": "E44", "animated": true, "style": { "stroke": "#007bff", "strokeWidth": 2 } },
+        { "id": "E44-E55", "source": "E41", "sourceHandle": "E44", "target": "E51", "targetHandle": "E55", "animated": true, "style": { "stroke": "#007bff", "strokeWidth": 2 } },
+        { "id": "E55-E70", "source": "E51", "sourceHandle": "E55", "target": "E61", "targetHandle": "E70", "animated": true, "style": { "stroke": "#007bff", "strokeWidth": 2 } },
+        { "id": "E70-E87", "source": "E61", "sourceHandle": "E70", "target": "E76", "targetHandle": "E87", "animated": true, "style": { "stroke": "#007bff", "strokeWidth": 2 } },
+        { "id": "E2-E14", "source": "E0", "sourceHandle": "E2", "target": "E11", "targetHandle": "E14", "animated": true, "style": { "stroke": "#ff5722", "strokeWidth": 2 } },
+        { "id": "E14-E26", "source": "E11", "sourceHandle": "E14", "target": "E21", "targetHandle": "E26", "animated": true, "style": { "stroke": "#ff5722", "strokeWidth": 2 } },
+        { "id": "E26-E36", "source": "E21", "sourceHandle": "E26", "target": "E31", "targetHandle": "E36", "animated": true, "style": { "stroke": "#ff5722", "strokeWidth": 2 } },
+        { "id": "E36-E44", "source": "E31", "sourceHandle": "E36", "target": "E41", "targetHandle": "E44", "animated": true, "style": { "stroke": "#ff5722", "strokeWidth": 2 } },
+        { "id": "E44-E54", "source": "E41", "sourceHandle": "E44", "target": "E51", "targetHandle": "E54", "animated": true, "style": { "stroke": "#ff5722", "strokeWidth": 2 } },
+        { "id": "E54-E66", "source": "E51", "sourceHandle": "E54", "target": "E61", "targetHandle": "E66", "animated": true, "style": { "stroke": "#ff5722", "strokeWidth": 2 } },
+        { "id": "E66-E88", "source": "E61", "sourceHandle": "E66", "target": "E76", "targetHandle": "E88", "animated": true, "style": { "stroke": "#ff5722", "strokeWidth": 2 } },
+        { "id": "E3-E15", "source": "E0", "sourceHandle": "E3", "target": "E11", "targetHandle": "E15", "animated": true, "style": { "stroke": "#ff5722", "strokeWidth": 2 } },
+        { "id": "E15-E27", "source": "E11", "sourceHandle": "E15", "target": "E21", "targetHandle": "E27", "animated": true, "style": { "stroke": "#ff5722", "strokeWidth": 2 } },
+        { "id": "E27-E37", "source": "E21", "sourceHandle": "E27", "target": "E31", "targetHandle": "E37", "animated": true, "style": { "stroke": "#ff5722", "strokeWidth": 2 } },
+        { "id": "E37-E47", "source": "E31", "sourceHandle": "E37", "target": "E41", "targetHandle": "E47", "animated": true, "style": { "stroke": "#ff5722", "strokeWidth": 2 } },
+        { "id": "E47-E57", "source": "E41", "sourceHandle": "E47", "target": "E51", "targetHandle": "E57", "animated": true, "style": { "stroke": "#ff5722", "strokeWidth": 2 } },
+        { "id": "E4-E16", "source": "E0", "sourceHandle": "E4", "target": "E11", "targetHandle": "E16", "animated": true, "style": { "stroke": "#ff5722", "strokeWidth": 2 } },
+        { "id": "E16-E28", "source": "E11", "sourceHandle": "E16", "target": "E21", "targetHandle": "E28", "animated": true, "style": { "stroke": "#ff5722", "strokeWidth": 2 } },
+        { "id": "E28-E38", "source": "E21", "sourceHandle": "E28", "target": "E31", "targetHandle": "E38", "animated": true, "style": { "stroke": "#ff5722", "strokeWidth": 2 } },
+        { "id": "E38-E48", "source": "E31", "sourceHandle": "E38", "target": "E41", "targetHandle": "E48", "animated": true, "style": { "stroke": "#ff5722", "strokeWidth": 2 } },
+        { "id": "E24-E35", "source": "E21", "sourceHandle": "E24", "target": "E31", "targetHandle": "E35", "animated": true, "style": { "stroke": "#ff5722", "strokeWidth": 2 } },
+        { "id": "E14-E4", "source": "E11", "sourceHandle": "E14", "target": "E0", "targetHandle": "E4", "animated": true, "style": { "stroke": "#ff5722", "strokeWidth": 2 } },
+        { "id": "E14-E5", "source": "E11", "sourceHandle": "E14", "target": "E0", "targetHandle": "E5", "animated": true, "style": { "stroke": "#ff5722", "strokeWidth": 2 } },
+        { "id": "E6-E15", "source": "E0", "sourceHandle": "E6", "target": "E11", "targetHandle": "E15", "animated": true, "style": { "stroke": "#ff5722", "strokeWidth": 2 } },
+        { "id": "E6-E16", "source": "E0", "sourceHandle": "E6", "target": "E11", "targetHandle": "E16", "animated": true, "style": { "stroke": "#ff5722", "strokeWidth": 2 } },
+        { "id": "E7-E45", "source": "E0", "sourceHandle": "E7", "target": "E41", "targetHandle": "E45", "animated": true, "style": { "stroke": "#ff5722", "strokeWidth": 2 } },
+        { "id": "E7-E46", "source": "E0", "sourceHandle": "E7", "target": "E41", "targetHandle": "E46", "animated": true, "style": { "stroke": "#ff5722", "strokeWidth": 2 } },
+        { "id": "E8-E55", "source": "E0", "sourceHandle": "E8", "target": "E51", "targetHandle": "E55", "animated": true, "style": { "stroke": "#ff5722", "strokeWidth": 2 } },
+        { "id": "E8-E56", "source": "E0", "sourceHandle": "E8", "target": "E51", "targetHandle": "E56", "animated": true, "style": { "stroke": "#ff5722", "strokeWidth": 2 } },
+        { "id": "E9-E35", "source": "E0", "sourceHandle": "E9", "target": "E31", "targetHandle": "E35", "animated": true, "style": { "stroke": "#ff5722", "strokeWidth": 2 } },
+        { "id": "E9-E36", "source": "E0", "sourceHandle": "E9", "target": "E31", "targetHandle": "E36", "animated": true, "style": { "stroke": "#ff5722", "strokeWidth": 2 } },
+        { "id": "E10-E65", "source": "E0", "sourceHandle": "E10", "target": "E61", "targetHandle": "E65", "animated": true, "style": { "stroke": "#ff5722", "strokeWidth": 2 } },
+        { "id": "E10-E66", "source": "E0", "sourceHandle": "E10", "target": "E61", "targetHandle": "E66", "animated": true, "style": { "stroke": "#ff5722", "strokeWidth": 2 } },
+        { "id": "E10-E67", "source": "E0", "sourceHandle": "E10", "target": "E61", "targetHandle": "E67", "animated": true, "style": { "stroke": "#ff5722", "strokeWidth": 2 } },
+        { "id": "E12-E65", "source": "E11", "sourceHandle": "E12", "target": "E61", "targetHandle": "E65", "animated": true, "style": { "stroke": "#ff5722", "strokeWidth": 2 } },
+        { "id": "E12-E34", "source": "E11", "sourceHandle": "E12", "target": "E31", "targetHandle": "E34", "animated": true, "style": { "stroke": "#ff5722", "strokeWidth": 2 } },
+        { "id": "E12-E69", "source": "E11", "sourceHandle": "E12", "target": "E61", "targetHandle": "E69", "animated": true, "style": { "stroke": "#ff5722", "strokeWidth": 2 } },
+        { "id": "E13-E67", "source": "E11", "sourceHandle": "E13", "target": "E61", "targetHandle": "E67", "animated": true, "style": { "stroke": "#ff5722", "strokeWidth": 2 } },
+        { "id": "E13-E34", "source": "E11", "sourceHandle": "E13", "target": "E31", "targetHandle": "E34", "animated": true, "style": { "stroke": "#ff5722", "strokeWidth": 2 } },
+        { "id": "E14-E68", "source": "E11", "sourceHandle": "E13", "target": "E61", "targetHandle": "E68", "animated": true, "style": { "stroke": "#ff5722", "strokeWidth": 2 } },
+        { "id": "E14-E29", "source": "E11", "sourceHandle": "E13", "target": "E21", "targetHandle": "E29", "animated": true, "style": { "stroke": "#ff5722", "strokeWidth": 2 } },
+        { "id": "E15-E48", "source": "E11", "sourceHandle": "E15", "target": "E41", "targetHandle": "E48", "animated": true, "style": { "stroke": "#ff5722", "strokeWidth": 2 } },
+        { "id": "E15-E36", "source": "E11", "sourceHandle": "E15", "target": "E31", "targetHandle": "E36", "animated": true, "style": { "stroke": "#ff5722", "strokeWidth": 2 } },
+        { "id": "E16-E58", "source": "E11", "sourceHandle": "E16", "target": "E51", "targetHandle": "E58", "animated": true, "style": { "stroke": "#ff5722", "strokeWidth": 2 } },
+        { "id": "E16-E37", "source": "E11", "sourceHandle": "E16", "target": "E31", "targetHandle": "E37", "animated": true, "style": { "stroke": "#ff5722", "strokeWidth": 2 } },
+        { "id": "E17-E48", "source": "E11", "sourceHandle": "E17", "target": "E41", "targetHandle": "E48", "animated": true, "style": { "stroke": "#ff5722", "strokeWidth": 2 } },
+        { "id": "E17-E24", "source": "E11", "sourceHandle": "E17", "target": "E21", "targetHandle": "E24", "animated": true, "style": { "stroke": "#ff5722", "strokeWidth": 2 } },
+        { "id": "E18-E88", "source": "E11", "sourceHandle": "E18", "target": "E76", "targetHandle": "E88", "animated": true, "style": { "stroke": "#ff5722", "strokeWidth": 2 } },
+        { "id": "E18-E64", "source": "E11", "sourceHandle": "E18", "target": "E61", "targetHandle": "E64", "animated": true, "style": { "stroke": "#ff5722", "strokeWidth": 2 } },
+        { "id": "E22-E46", "source": "E21", "sourceHandle": "E22", "target": "E41", "targetHandle": "E46", "animated": true, "style": { "stroke": "#ff5722", "strokeWidth": 2 } },
+        { "id": "E22-E44", "source": "E21", "sourceHandle": "E22", "target": "E41", "targetHandle": "E44", "animated": true, "style": { "stroke": "#ff5722", "strokeWidth": 2 } },
+        { "id": "E22-E45", "source": "E21", "sourceHandle": "E22", "target": "E41", "targetHandle": "E45", "animated": true, "style": { "stroke": "#ff5722", "strokeWidth": 2 } },
+        { "id": "E23-E65", "source": "E21", "sourceHandle": "E23", "target": "E61", "targetHandle": "E65", "animated": true, "style": { "stroke": "#ff5722", "strokeWidth": 2 } },
+        { "id": "E23-E66", "source": "E21", "sourceHandle": "E23", "target": "E61", "targetHandle": "E66", "animated": true, "style": { "stroke": "#ff5722", "strokeWidth": 2 } },
+        { "id": "E23-E46", "source": "E21", "sourceHandle": "E23", "target": "E41", "targetHandle": "E46", "animated": true, "style": { "stroke": "#ff5722", "strokeWidth": 2 } },
+        { "id": "E25-E65", "source": "E21", "sourceHandle": "E25", "target": "E61", "targetHandle": "E65", "animated": true, "style": { "stroke": "#ff5722", "strokeWidth": 2 } },
+        { "id": "E25-E66", "source": "E21", "sourceHandle": "E25", "target": "E61", "targetHandle": "E66", "animated": true, "style": { "stroke": "#ff5722", "strokeWidth": 2 } },
+        { "id": "E26-E55", "source": "E21", "sourceHandle": "E25", "target": "E51", "targetHandle": "E55", "animated": true, "style": { "stroke": "#ff5722", "strokeWidth": 2 } },
+        { "id": "E27-E58", "source": "E21", "sourceHandle": "E27", "target": "E51", "targetHandle": "E58", "animated": true, "style": { "stroke": "#3f51b5", "strokeWidth": 2 } },
+        { "id": "E28-E55", "source": "E21", "sourceHandle": "E28", "target": "E51", "targetHandle": "E513", "animated": true, "style": { "stroke": "#9c27b0", "strokeWidth": 2 } },
+        { "id": "E29-E75", "source": "E21", "sourceHandle": "E29", "target": "E61", "targetHandle": "E75", "animated": true, "style": { "stroke": "#9c27b0", "strokeWidth": 2 } },
+        { "id": "E30-E75", "source": "E21", "sourceHandle": "E30", "target": "E61", "targetHandle": "E75", "animated": true, "style": { "stroke": "#9c27b0", "strokeWidth": 2 } },
+        { "id": "E30-E74", "source": "E21", "sourceHandle": "E30", "target": "E61", "targetHandle": "E74", "animated": true, "style": { "stroke": "#9c27b0", "strokeWidth": 2 } },
+        { "id": "E34-E82", "source": "E31", "sourceHandle": "E34", "target": "E76", "targetHandle": "E82", "animated": true, "style": { "stroke": "#9c27b0", "strokeWidth": 2 } },
+        { "id": "E42-E513", "source": "E41", "sourceHandle": "E42", "target": "E51", "targetHandle": "E513", "animated": true, "style": { "stroke": "#9c27b0", "strokeWidth": 2 } },
+        { "id": "E43-E75", "source": "E41", "sourceHandle": "E43", "target": "E61", "targetHandle": "E75", "animated": true, "style": { "stroke": "#9c27b0", "strokeWidth": 2 } },
+        { "id": "E44-E75", "source": "E41", "sourceHandle": "E44", "target": "E61", "targetHandle": "E75", "animated": true, "style": { "stroke": "#9c27b0", "strokeWidth": 2 } },
+        { "id": "E44-E74", "source": "E41", "sourceHandle": "E44", "target": "E61", "targetHandle": "E74", "animated": true, "style": { "stroke": "#9c27b0", "strokeWidth": 2 } },
+        { "id": "E45-E82", "source": "E41", "sourceHandle": "E45", "target": "E76", "targetHandle": "E82", "animated": true, "style": { "stroke": "#9c27b0", "strokeWidth": 2 } },
+        { "id": "E46-E87", "source": "E41", "sourceHandle": "E46", "target": "E76", "targetHandle": "E87", "animated": true, "style": { "stroke": "#9c27b0", "strokeWidth": 2 } },
+        { "id": "E46-E88", "source": "E41", "sourceHandle": "E46", "target": "E76", "targetHandle": "E88", "animated": true, "style": { "stroke": "#9c27b0", "strokeWidth": 2 } },
+        { "id": "E46-E90", "source": "E41", "sourceHandle": "E46", "target": "E76", "targetHandle": "E90", "animated": true, "style": { "stroke": "#9c27b0", "strokeWidth": 2 } },
+        { "id": "E47-E90", "source": "E41", "sourceHandle": "E47", "target": "E76", "targetHandle": "E90", "animated": true, "style": { "stroke": "#9c27b0", "strokeWidth": 2 } }
+    ]
+      
+      
+    };
+
+    const fileName = "sample.json";
+    const json = JSON.stringify(sampleData, null, 2);
+    const blob = new Blob([json], { type: "application/json" });
+    const href = URL.createObjectURL(blob);
+
+    const link = document.createElement("a");
+    link.href = href;
+    link.download = fileName;
+    document.body.appendChild(link);
+    link.click();
+
+    document.body.removeChild(link);
+    URL.revokeObjectURL(href);
+  };
+
+  return (
+    <div style={{ padding: "10px" }}>
+      <Button variant="contained" color="primary" onClick={handleDownload}>
+        Download Sample JSON
+      </Button>
+    </div>
+  );
+};
+
+export default SampleData;

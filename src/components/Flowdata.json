@@ -1,0 +1,2019 @@
+{
+ 
+    "pathEdgesMap": {
+        "E1": [
+            {
+                "id": "E0-E11-1748456525674",
+                "style": {
+                    "stroke": "#9ca3af",
+                    "strokeWidth": 2,
+                    "strokeDasharray": "5,5"
+                },
+                "source": "E0",
+                "target": "E11",
+                "animated": true,
+                "sourceHandle": "E1",
+                "targetHandle": "E12"
+            }
+        ],
+        "E2": [
+            {
+                "id": "E0-E11-1748456558050",
+                "style": {
+                    "stroke": "#9ca3af",
+                    "strokeWidth": 2,
+                    "strokeDasharray": "5,5"
+                },
+                "source": "E0",
+                "target": "E11",
+                "animated": true,
+                "sourceHandle": "E2",
+                "targetHandle": "E14"
+            }
+        ],
+        "E3": [
+            {
+                "id": "E0-E11-1748456595657",
+                "style": {
+                    "stroke": "#9ca3af",
+                    "strokeWidth": 2,
+                    "strokeDasharray": "5,5"
+                },
+                "source": "E0",
+                "target": "E11",
+                "animated": true,
+                "sourceHandle": "E3",
+                "targetHandle": "E15"
+            }
+        ],
+        "E4": [
+            {
+                "id": "E0-E11-1748456656433",
+                "style": {
+                    "stroke": "#9ca3af",
+                    "strokeWidth": 2,
+                    "strokeDasharray": "5,5"
+                },
+                "source": "E0",
+                "target": "E11",
+                "animated": true,
+                "sourceHandle": "E4",
+                "targetHandle": "E20"
+            }
+        ],
+        "E5": [
+            {
+                "id": "E0-E11-1748456692393",
+                "style": {
+                    "stroke": "#9ca3af",
+                    "strokeWidth": 2,
+                    "strokeDasharray": "5,5"
+                },
+                "source": "E0",
+                "target": "E11",
+                "animated": true,
+                "sourceHandle": "E5",
+                "targetHandle": "E17"
+            }
+        ],
+        "E10": [
+            {
+                "id": "E0-E11-1748456783305",
+                "style": {
+                    "stroke": "#9ca3af",
+                    "strokeWidth": 2,
+                    "strokeDasharray": "5,5"
+                },
+                "source": "E0",
+                "target": "E11",
+                "animated": true,
+                "sourceHandle": "E10",
+                "targetHandle": "E16"
+            }
+        ],
+        "E12": [
+            {
+                "id": "E11-E21-1748456528705",
+                "style": {
+                    "stroke": "#9ca3af",
+                    "strokeWidth": 2,
+                    "strokeDasharray": "5,5"
+                },
+                "source": "E11",
+                "target": "E21",
+                "animated": true,
+                "sourceHandle": "E12",
+                "targetHandle": "E24"
+            }
+        ],
+        "E14": [
+            {
+                "id": "E11-E21-1748456562609",
+                "style": {
+                    "stroke": "#9ca3af",
+                    "strokeWidth": 2,
+                    "strokeDasharray": "5,5"
+                },
+                "source": "E11",
+                "target": "E21",
+                "animated": true,
+                "sourceHandle": "E14",
+                "targetHandle": "E25"
+            }
+        ],
+        "E15": [
+            {
+                "id": "E11-E21-1748456598916",
+                "style": {
+                    "stroke": "#9ca3af",
+                    "strokeWidth": 2,
+                    "strokeDasharray": "5,5"
+                },
+                "source": "E11",
+                "target": "E21",
+                "animated": true,
+                "sourceHandle": "E15",
+                "targetHandle": "E22"
+            }
+        ],
+        "E16": [
+            {
+                "id": "E11-E21-1748456787753",
+                "style": {
+                    "stroke": "#9ca3af",
+                    "strokeWidth": 2,
+                    "strokeDasharray": "5,5"
+                },
+                "source": "E11",
+                "target": "E21",
+                "animated": true,
+                "sourceHandle": "E16",
+                "targetHandle": "E27"
+            }
+        ],
+        "E17": [
+            {
+                "id": "E11-E21-1748456696257",
+                "style": {
+                    "stroke": "#9ca3af",
+                    "strokeWidth": 2,
+                    "strokeDasharray": "5,5"
+                },
+                "source": "E11",
+                "target": "E21",
+                "animated": true,
+                "sourceHandle": "E17",
+                "targetHandle": "E27"
+            },
+            {
+                "id": "E11-E21-1748456701609",
+                "style": {
+                    "stroke": "#9ca3af",
+                    "strokeWidth": 2,
+                    "strokeDasharray": "5,5"
+                },
+                "source": "E11",
+                "target": "E21",
+                "animated": true,
+                "sourceHandle": "E17",
+                "targetHandle": "E25"
+            }
+        ],
+        "E20": [
+            {
+                "id": "E11-E21-1748456659132",
+                "style": {
+                    "stroke": "#9ca3af",
+                    "strokeWidth": 2,
+                    "strokeDasharray": "5,5"
+                },
+                "source": "E11",
+                "target": "E21",
+                "animated": true,
+                "sourceHandle": "E20",
+                "targetHandle": "E26"
+            }
+        ],
+        "E22": [
+            {
+                "id": "E21-E31-1748456602273",
+                "style": {
+                    "stroke": "#9ca3af",
+                    "strokeWidth": 2,
+                    "strokeDasharray": "5,5"
+                },
+                "source": "E21",
+                "target": "E31",
+                "animated": true,
+                "sourceHandle": "E22",
+                "targetHandle": "E35"
+            }
+        ],
+        "E24": [
+            {
+                "id": "E21-E31-1748456531962",
+                "style": {
+                    "stroke": "#9ca3af",
+                    "strokeWidth": 2,
+                    "strokeDasharray": "5,5"
+                },
+                "source": "E21",
+                "target": "E31",
+                "animated": true,
+                "sourceHandle": "E24",
+                "targetHandle": "E38"
+            }
+        ],
+        "E25": [
+            {
+                "id": "E21-E31-1748456565265",
+                "style": {
+                    "stroke": "#9ca3af",
+                    "strokeWidth": 2,
+                    "strokeDasharray": "5,5"
+                },
+                "source": "E21",
+                "target": "E31",
+                "animated": true,
+                "sourceHandle": "E25",
+                "targetHandle": "E36"
+            }
+        ],
+        "E26": [
+            {
+                "id": "E21-E31-1748456662273",
+                "style": {
+                    "stroke": "#9ca3af",
+                    "strokeWidth": 2,
+                    "strokeDasharray": "5,5"
+                },
+                "source": "E21",
+                "target": "E31",
+                "animated": true,
+                "sourceHandle": "E26",
+                "targetHandle": "E39"
+            }
+        ],
+        "E27": [
+            {
+                "id": "E21-E31-1748456722793",
+                "style": {
+                    "stroke": "#9ca3af",
+                    "strokeWidth": 2,
+                    "strokeDasharray": "5,5"
+                },
+                "source": "E21",
+                "target": "E31",
+                "animated": true,
+                "sourceHandle": "E27",
+                "targetHandle": "E37"
+            }
+        ],
+        "E35": [
+            {
+                "id": "E31-E41-1748456606969",
+                "style": {
+                    "stroke": "#9ca3af",
+                    "strokeWidth": 2,
+                    "strokeDasharray": "5,5"
+                },
+                "source": "E31",
+                "target": "E41",
+                "animated": true,
+                "sourceHandle": "E35",
+                "targetHandle": "E42"
+            }
+        ],
+        "E36": [
+            {
+                "id": "E31-E41-1748456569883",
+                "style": {
+                    "stroke": "#9ca3af",
+                    "strokeWidth": 2,
+                    "strokeDasharray": "5,5"
+                },
+                "source": "E31",
+                "target": "E41",
+                "animated": true,
+                "sourceHandle": "E36",
+                "targetHandle": "E44"
+            }
+        ],
+        "E37": [
+            {
+                "id": "E31-E41-1748456737049",
+                "style": {
+                    "stroke": "#9ca3af",
+                    "strokeWidth": 2,
+                    "strokeDasharray": "5,5"
+                },
+                "source": "E31",
+                "target": "E41",
+                "animated": true,
+                "sourceHandle": "E37",
+                "targetHandle": "E49"
+            }
+        ],
+        "E38": [
+            {
+                "id": "E31-E41-1748456537393",
+                "style": {
+                    "stroke": "#9ca3af",
+                    "strokeWidth": 2,
+                    "strokeDasharray": "5,5"
+                },
+                "source": "E31",
+                "target": "E41",
+                "animated": true,
+                "sourceHandle": "E38",
+                "targetHandle": "E45"
+            }
+        ],
+        "E39": [
+            {
+                "id": "E31-E41-1748456671346",
+                "style": {
+                    "stroke": "#9ca3af",
+                    "strokeWidth": 2,
+                    "strokeDasharray": "5,5"
+                },
+                "source": "E31",
+                "target": "E41",
+                "animated": true,
+                "sourceHandle": "E39",
+                "targetHandle": "E47"
+            }
+        ],
+        "E42": [
+            {
+                "id": "E41-E51-1748456611483",
+                "style": {
+                    "stroke": "#9ca3af",
+                    "strokeWidth": 2,
+                    "strokeDasharray": "5,5"
+                },
+                "source": "E41",
+                "target": "E51",
+                "animated": true,
+                "sourceHandle": "E42",
+                "targetHandle": "E560"
+            },
+            {
+                "id": "E41-E51-1748456648533",
+                "style": {
+                    "stroke": "#9ca3af",
+                    "strokeWidth": 2,
+                    "strokeDasharray": "5,5"
+                },
+                "source": "E41",
+                "target": "E51",
+                "animated": true,
+                "sourceHandle": "E42",
+                "targetHandle": "E524"
+            }
+        ],
+        "E44": [
+            {
+                "id": "E41-E51-1748456579681",
+                "style": {
+                    "stroke": "#9ca3af",
+                    "strokeWidth": 2,
+                    "strokeDasharray": "5,5"
+                },
+                "source": "E41",
+                "target": "E51",
+                "animated": true,
+                "sourceHandle": "E44",
+                "targetHandle": "E55"
+            },
+            {
+                "id": "E41-E51-1748456636577",
+                "style": {
+                    "stroke": "#9ca3af",
+                    "strokeWidth": 2,
+                    "strokeDasharray": "5,5"
+                },
+                "source": "E41",
+                "target": "E51",
+                "animated": true,
+                "sourceHandle": "E44",
+                "targetHandle": "E522"
+            }
+        ],
+        "E45": [
+            {
+                "id": "E41-E51-1748456540137",
+                "style": {
+                    "stroke": "#9ca3af",
+                    "strokeWidth": 2,
+                    "strokeDasharray": "5,5"
+                },
+                "source": "E41",
+                "target": "E51",
+                "animated": true,
+                "sourceHandle": "E45",
+                "targetHandle": "E58"
+            },
+            {
+                "id": "E41-E51-1748456630273",
+                "style": {
+                    "stroke": "#9ca3af",
+                    "strokeWidth": 2,
+                    "strokeDasharray": "5,5"
+                },
+                "source": "E41",
+                "target": "E51",
+                "animated": true,
+                "sourceHandle": "E45",
+                "targetHandle": "E526"
+            }
+        ],
+        "E47": [
+            {
+                "id": "E41-E51-1748456677545",
+                "style": {
+                    "stroke": "#9ca3af",
+                    "strokeWidth": 2,
+                    "strokeDasharray": "5,5"
+                },
+                "source": "E41",
+                "target": "E51",
+                "animated": true,
+                "sourceHandle": "E47",
+                "targetHandle": "E57"
+            }
+        ],
+        "E49": [
+            {
+                "id": "E41-E51-1748456741932",
+                "style": {
+                    "stroke": "#9ca3af",
+                    "strokeWidth": 2,
+                    "strokeDasharray": "5,5"
+                },
+                "source": "E41",
+                "target": "E51",
+                "animated": true,
+                "sourceHandle": "E49",
+                "targetHandle": "E53"
+            }
+        ],
+        "E53": [
+            {
+                "id": "E51-E61-1748456750793",
+                "style": {
+                    "stroke": "#9ca3af",
+                    "strokeWidth": 2,
+                    "strokeDasharray": "5,5"
+                },
+                "source": "E51",
+                "target": "E61",
+                "animated": true,
+                "sourceHandle": "E53",
+                "targetHandle": "E63"
+            }
+        ],
+        "E55": [
+            {
+                "id": "E51-E61-1748456582465",
+                "style": {
+                    "stroke": "#9ca3af",
+                    "strokeWidth": 2,
+                    "strokeDasharray": "5,5"
+                },
+                "source": "E51",
+                "target": "E61",
+                "animated": true,
+                "sourceHandle": "E55",
+                "targetHandle": "E69"
+            }
+        ],
+        "E57": [
+            {
+                "id": "E51-E61-1748456680481",
+                "style": {
+                    "stroke": "#9ca3af",
+                    "strokeWidth": 2,
+                    "strokeDasharray": "5,5"
+                },
+                "source": "E51",
+                "target": "E61",
+                "animated": true,
+                "sourceHandle": "E57",
+                "targetHandle": "E71"
+            }
+        ],
+        "E58": [
+            {
+                "id": "E51-E61-1748456542633",
+                "style": {
+                    "stroke": "#9ca3af",
+                    "strokeWidth": 2,
+                    "strokeDasharray": "5,5"
+                },
+                "source": "E51",
+                "target": "E61",
+                "animated": true,
+                "sourceHandle": "E58",
+                "targetHandle": "E65"
+            }
+        ],
+        "E63": [
+            {
+                "id": "E61-E76-1748456754249",
+                "style": {
+                    "stroke": "#9ca3af",
+                    "strokeWidth": 2,
+                    "strokeDasharray": "5,5"
+                },
+                "source": "E61",
+                "target": "E76",
+                "animated": true,
+                "sourceHandle": "E63",
+                "targetHandle": "E82"
+            },
+            {
+                "id": "E61-E76-1748456757466",
+                "style": {
+                    "stroke": "#9ca3af",
+                    "strokeWidth": 2,
+                    "strokeDasharray": "5,5"
+                },
+                "source": "E61",
+                "target": "E76",
+                "animated": true,
+                "sourceHandle": "E63",
+                "targetHandle": "E78"
+            }
+        ],
+        "E65": [
+            {
+                "id": "E61-E76-1748456547601",
+                "style": {
+                    "stroke": "#9ca3af",
+                    "strokeWidth": 2,
+                    "strokeDasharray": "5,5"
+                },
+                "source": "E61",
+                "target": "E76",
+                "animated": true,
+                "sourceHandle": "E65",
+                "targetHandle": "E86"
+            }
+        ],
+        "E67": [
+            {
+                "id": "E61-E76-1748456620065",
+                "style": {
+                    "stroke": "#9ca3af",
+                    "strokeWidth": 2,
+                    "strokeDasharray": "5,5"
+                },
+                "source": "E61",
+                "target": "E76",
+                "animated": true,
+                "sourceHandle": "E67",
+                "targetHandle": "E87"
+            }
+        ],
+        "E69": [
+            {
+                "id": "E61-E76-1748456585249",
+                "style": {
+                    "stroke": "#9ca3af",
+                    "strokeWidth": 2,
+                    "strokeDasharray": "5,5"
+                },
+                "source": "E61",
+                "target": "E76",
+                "animated": true,
+                "sourceHandle": "E69",
+                "targetHandle": "E81"
+            },
+            {
+                "id": "E61-E76-1748456590441",
+                "style": {
+                    "stroke": "#9ca3af",
+                    "strokeWidth": 2,
+                    "strokeDasharray": "5,5"
+                },
+                "source": "E61",
+                "target": "E76",
+                "animated": true,
+                "sourceHandle": "E69",
+                "targetHandle": "E84"
+            }
+        ],
+        "E71": [
+            {
+                "id": "E61-E76-1748456684417",
+                "style": {
+                    "stroke": "#9ca3af",
+                    "strokeWidth": 2,
+                    "strokeDasharray": "5,5"
+                },
+                "source": "E61",
+                "target": "E76",
+                "animated": true,
+                "sourceHandle": "E71",
+                "targetHandle": "E85"
+            }
+        ],
+        "E560": [
+            {
+                "id": "E51-E61-1748456616320",
+                "style": {
+                    "stroke": "#9ca3af",
+                    "strokeWidth": 2,
+                    "strokeDasharray": "5,5"
+                },
+                "source": "E51",
+                "target": "E61",
+                "animated": true,
+                "sourceHandle": "E560",
+                "targetHandle": "E67"
+            }
+        ]
+    },
+ 
+  "initialNodes": [
+    {
+      "id": "header-A",
+      "data": {
+        "label": "A"
+      },
+      "type": "header",
+      "position": {
+        "x": 100,
+        "y": 20
+      },
+      "draggable": false,
+      "selectable": false
+    },
+    {
+      "id": "E0",
+      "data": {
+        "items": [
+          {
+            "label": "E00",
+            "status": "DQ Fail",
+            "description": "Auto-generated description for E00"
+          },
+          {
+            "label": "E01",
+            "status": "Contains risky data",
+            "description": "Auto-generated description for E01"
+          },
+          {
+            "label": "E02",
+            "status": "DQ Pass",
+            "description": "Auto-generated description for E02"
+          },
+          {
+            "label": "E03",
+            "status": "Contains risky data",
+            "description": "Auto-generated description for E03"
+          },
+          {
+            "label": "E04",
+            "status": "Contains risky data",
+            "description": "Auto-generated description for E04"
+          }
+        ],
+        "title": "E0",
+        "expanded": true,
+        "nestedNodes": [
+          {
+            "id": "E0_1",
+            "data": {
+              "items": [
+                {
+                  "label": "E0_10",
+                  "status": "DQ Fail",
+                  "description": "Auto-generated description for E0_10"
+                },
+                {
+                  "label": "E0_11",
+                  "status": "Not Controlled",
+                  "description": "Auto-generated description for E0_11"
+                },
+                {
+                  "label": "E0_12",
+                  "status": "Contains risky data",
+                  "description": "Auto-generated description for E0_12"
+                }
+              ]
+            }
+          },
+          {
+            "id": "E0_2",
+            "data": {
+              "items": [
+                {
+                  "label": "E0_20",
+                  "status": "Steward",
+                  "description": "Auto-generated description for E0_20"
+                },
+                {
+                  "label": "E0_21",
+                  "status": "DQ Pass",
+                  "description": "Auto-generated description for E0_21"
+                }
+              ]
+            }
+          },
+          {
+            "id": "E0_3",
+            "data": {
+              "items": [
+                {
+                  "label": "E0_30",
+                  "status": "DQ Fail",
+                  "description": "Auto-generated description for E0_30"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "type": "dropdownNode",
+      "depth": 0,
+      "position": {
+        "x": 100,
+        "y": 80
+      }
+    },
+    {
+      "id": "header-B",
+      "data": {
+        "label": "B"
+      },
+      "type": "header",
+      "position": {
+        "x": 500,
+        "y": 20
+      },
+      "draggable": false,
+      "selectable": false
+    },
+    {
+      "id": "E100",
+      "data": {
+        "items": [
+          {
+            "label": "E1000",
+            "status": "DQ Fail",
+            "description": "Auto-generated description for E1000"
+          },
+          {
+            "label": "E1001",
+            "status": "Not Controlled",
+            "description": "Auto-generated description for E1001"
+          },
+          {
+            "label": "E1002",
+            "status": "Steward",
+            "description": "Auto-generated description for E1002"
+          },
+          {
+            "label": "E1003",
+            "status": "Not Controlled",
+            "description": "Auto-generated description for E1003"
+          },
+          {
+            "label": "E1004",
+            "status": "DQ Pass",
+            "description": "Auto-generated description for E1004"
+          }
+        ],
+        "title": "E100",
+        "expanded": true,
+        "nestedNodes": [
+          {
+            "id": "E100_4",
+            "data": {
+              "items": [
+                {
+                  "label": "E100_40",
+                  "status": "DQ Fail",
+                  "description": "Auto-generated description for E100_40"
+                },
+                {
+                  "label": "E100_41",
+                  "status": "Steward",
+                  "description": "Auto-generated description for E100_41"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "type": "dropdownNode",
+      "depth": 0,
+      "position": {
+        "x": 500,
+        "y": 80
+      }
+    },
+    {
+      "id": "header-C",
+      "data": {
+        "label": "C"
+      },
+      "type": "header",
+      "position": {
+        "x": 900,
+        "y": 20
+      },
+      "draggable": false,
+      "selectable": false
+    },
+    {
+      "id": "E200",
+      "data": {
+        "items": [
+          {
+            "label": "E2000",
+            "status": "DQ Fail",
+            "description": "Auto-generated description for E2000"
+          },
+          {
+            "label": "E2001",
+            "status": "Contains risky data",
+            "description": "Auto-generated description for E2001"
+          },
+          {
+            "label": "E2002",
+            "status": "Contains risky data",
+            "description": "Auto-generated description for E2002"
+          },
+          {
+            "label": "E2003",
+            "status": "Contains risky data",
+            "description": "Auto-generated description for E2003"
+          },
+          {
+            "label": "E2004",
+            "status": "Not Controlled",
+            "description": "Auto-generated description for E2004"
+          }
+        ],
+        "title": "E200",
+        "expanded": true,
+        "nestedNodes": [
+          {
+            "id": "E200_5",
+            "data": {
+              "items": [
+                {
+                  "label": "E200_50",
+                  "status": "DQ Pass",
+                  "description": "Auto-generated description for E200_50"
+                },
+                {
+                  "label": "E200_51",
+                  "status": "Contains risky data",
+                  "description": "Auto-generated description for E200_51"
+                }
+              ],
+              "nestedNodes": [
+                {
+                  "id": "E200_5_6",
+                  "data": {
+                    "items": [
+                      {
+                        "label": "E200_5_60",
+                        "status": "Steward",
+                        "description": "Auto-generated description for E200_5_60"
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "type": "dropdownNode",
+      "depth": 0,
+      "position": {
+        "x": 900,
+        "y": 80
+      }
+    },
+    {
+      "id": "header-D",
+      "data": {
+        "label": "D"
+      },
+      "type": "header",
+      "position": {
+        "x": 1300,
+        "y": 20
+      },
+      "draggable": false,
+      "selectable": false
+    },
+    {
+      "id": "E300",
+      "data": {
+        "items": [
+          {
+            "label": "E3000",
+            "status": "Steward",
+            "description": "Auto-generated description for E3000"
+          },
+          {
+            "label": "E3001",
+            "status": "DQ Pass",
+            "description": "Auto-generated description for E3001"
+          },
+          {
+            "label": "E3002",
+            "status": "Not Controlled",
+            "description": "Auto-generated description for E3002"
+          },
+          {
+            "label": "E3003",
+            "status": "Contains risky data",
+            "description": "Auto-generated description for E3003"
+          },
+          {
+            "label": "E3004",
+            "status": "Steward",
+            "description": "Auto-generated description for E3004"
+          }
+        ],
+        "title": "E300",
+        "expanded": true,
+        "nestedNodes": [
+          {
+            "id": "E300_7",
+            "data": {
+              "items": [
+                {
+                  "label": "E300_70",
+                  "status": "Not Controlled",
+                  "description": "Auto-generated description for E300_70"
+                },
+                {
+                  "label": "E300_71",
+                  "status": "Contains risky data",
+                  "description": "Auto-generated description for E300_71"
+                },
+                {
+                  "label": "E300_72",
+                  "status": "Not Controlled",
+                  "description": "Auto-generated description for E300_72"
+                }
+              ]
+            }
+          },
+          {
+            "id": "E300_8",
+            "data": {
+              "items": [
+                {
+                  "label": "E300_80",
+                  "status": "Not Controlled",
+                  "description": "Auto-generated description for E300_80"
+                },
+                {
+                  "label": "E300_81",
+                  "status": "Contains risky data",
+                  "description": "Auto-generated description for E300_81"
+                },
+                {
+                  "label": "E300_82",
+                  "status": "Contains risky data",
+                  "description": "Auto-generated description for E300_82"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "type": "dropdownNode",
+      "depth": 0,
+      "position": {
+        "x": 1300,
+        "y": 80
+      }
+    },
+    {
+      "id": "header-E",
+      "data": {
+        "label": "E"
+      },
+      "type": "header",
+      "position": {
+        "x": 1700,
+        "y": 20
+      },
+      "draggable": false,
+      "selectable": false
+    },
+    {
+      "id": "E400",
+      "data": {
+        "items": [
+          {
+            "label": "E4000",
+            "status": "Not Controlled",
+            "description": "Auto-generated description for E4000"
+          },
+          {
+            "label": "E4001",
+            "status": "DQ Pass",
+            "description": "Auto-generated description for E4001"
+          },
+          {
+            "label": "E4002",
+            "status": "Steward",
+            "description": "Auto-generated description for E4002"
+          },
+          {
+            "label": "E4003",
+            "status": "Not Controlled",
+            "description": "Auto-generated description for E4003"
+          },
+          {
+            "label": "E4004",
+            "status": "DQ Pass",
+            "description": "Auto-generated description for E4004"
+          }
+        ],
+        "title": "E400",
+        "expanded": true,
+        "nestedNodes": [
+          {
+            "id": "E400_9",
+            "data": {
+              "items": [
+                {
+                  "label": "E400_90",
+                  "status": "Contains risky data",
+                  "description": "Auto-generated description for E400_90"
+                },
+                {
+                  "label": "E400_91",
+                  "status": "DQ Pass",
+                  "description": "Auto-generated description for E400_91"
+                },
+                {
+                  "label": "E400_92",
+                  "status": "DQ Fail",
+                  "description": "Auto-generated description for E400_92"
+                }
+              ]
+            }
+          },
+          {
+            "id": "E400_10",
+            "data": {
+              "items": [
+                {
+                  "label": "E400_100",
+                  "status": "DQ Pass",
+                  "description": "Auto-generated description for E400_100"
+                },
+                {
+                  "label": "E400_101",
+                  "status": "Not Controlled",
+                  "description": "Auto-generated description for E400_101"
+                }
+              ],
+              "nestedNodes": [
+                {
+                  "id": "E400_10_11",
+                  "data": {
+                    "items": [
+                      {
+                        "label": "E400_10_110",
+                        "status": "DQ Fail",
+                        "description": "Auto-generated description for E400_10_110"
+                      }
+                    ]
+                  }
+                },
+                {
+                  "id": "E400_10_12",
+                  "data": {
+                    "items": [
+                      {
+                        "label": "E400_10_120",
+                        "status": "DQ Fail",
+                        "description": "Auto-generated description for E400_10_120"
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "type": "dropdownNode",
+      "depth": 0,
+      "position": {
+        "x": 1700,
+        "y": 80
+      }
+    }
+  ],
+    "newEdges": [
+        {
+            "id": "E0-E11-1748456525674",
+            "style": {
+                "stroke": "#9ca3af",
+                "strokeWidth": 2,
+                "strokeDasharray": "5,5"
+            },
+            "source": "E0",
+            "target": "E11",
+            "animated": true,
+            "sourceHandle": "E1",
+            "targetHandle": "E12"
+        },
+        {
+            "id": "E11-E21-1748456528705",
+            "style": {
+                "stroke": "#9ca3af",
+                "strokeWidth": 2,
+                "strokeDasharray": "5,5"
+            },
+            "source": "E11",
+            "target": "E21",
+            "animated": true,
+            "sourceHandle": "E12",
+            "targetHandle": "E24"
+        },
+        {
+            "id": "E21-E31-1748456531962",
+            "style": {
+                "stroke": "#9ca3af",
+                "strokeWidth": 2,
+                "strokeDasharray": "5,5"
+            },
+            "source": "E21",
+            "target": "E31",
+            "animated": true,
+            "sourceHandle": "E24",
+            "targetHandle": "E38"
+        },
+        {
+            "id": "E31-E41-1748456537393",
+            "style": {
+                "stroke": "#9ca3af",
+                "strokeWidth": 2,
+                "strokeDasharray": "5,5"
+            },
+            "source": "E31",
+            "target": "E41",
+            "animated": true,
+            "sourceHandle": "E38",
+            "targetHandle": "E45"
+        },
+        {
+            "id": "E41-E51-1748456540137",
+            "style": {
+                "stroke": "#9ca3af",
+                "strokeWidth": 2,
+                "strokeDasharray": "5,5"
+            },
+            "source": "E41",
+            "target": "E51",
+            "animated": true,
+            "sourceHandle": "E45",
+            "targetHandle": "E58"
+        },
+        {
+            "id": "E51-E61-1748456542633",
+            "style": {
+                "stroke": "#9ca3af",
+                "strokeWidth": 2,
+                "strokeDasharray": "5,5"
+            },
+            "source": "E51",
+            "target": "E61",
+            "animated": true,
+            "sourceHandle": "E58",
+            "targetHandle": "E65"
+        },
+        {
+            "id": "E61-E76-1748456547601",
+            "style": {
+                "stroke": "#9ca3af",
+                "strokeWidth": 2,
+                "strokeDasharray": "5,5"
+            },
+            "source": "E61",
+            "target": "E76",
+            "animated": true,
+            "sourceHandle": "E65",
+            "targetHandle": "E86"
+        },
+        {
+            "id": "E0-E11-1748456558050",
+            "style": {
+                "stroke": "#9ca3af",
+                "strokeWidth": 2,
+                "strokeDasharray": "5,5"
+            },
+            "source": "E0",
+            "target": "E11",
+            "animated": true,
+            "sourceHandle": "E2",
+            "targetHandle": "E14"
+        },
+        {
+            "id": "E11-E21-1748456562609",
+            "style": {
+                "stroke": "#9ca3af",
+                "strokeWidth": 2,
+                "strokeDasharray": "5,5"
+            },
+            "source": "E11",
+            "target": "E21",
+            "animated": true,
+            "sourceHandle": "E14",
+            "targetHandle": "E25"
+        },
+        {
+            "id": "E21-E31-1748456565265",
+            "style": {
+                "stroke": "#9ca3af",
+                "strokeWidth": 2,
+                "strokeDasharray": "5,5"
+            },
+            "source": "E21",
+            "target": "E31",
+            "animated": true,
+            "sourceHandle": "E25",
+            "targetHandle": "E36"
+        },
+        {
+            "id": "E31-E41-1748456569883",
+            "style": {
+                "stroke": "#9ca3af",
+                "strokeWidth": 2,
+                "strokeDasharray": "5,5"
+            },
+            "source": "E31",
+            "target": "E41",
+            "animated": true,
+            "sourceHandle": "E36",
+            "targetHandle": "E44"
+        },
+        {
+            "id": "E41-E51-1748456579681",
+            "style": {
+                "stroke": "#9ca3af",
+                "strokeWidth": 2,
+                "strokeDasharray": "5,5"
+            },
+            "source": "E41",
+            "target": "E51",
+            "animated": true,
+            "sourceHandle": "E44",
+            "targetHandle": "E55"
+        },
+        {
+            "id": "E51-E61-1748456582465",
+            "style": {
+                "stroke": "#9ca3af",
+                "strokeWidth": 2,
+                "strokeDasharray": "5,5"
+            },
+            "source": "E51",
+            "target": "E61",
+            "animated": true,
+            "sourceHandle": "E55",
+            "targetHandle": "E69"
+        },
+        {
+            "id": "E61-E76-1748456585249",
+            "style": {
+                "stroke": "#9ca3af",
+                "strokeWidth": 2,
+                "strokeDasharray": "5,5"
+            },
+            "source": "E61",
+            "target": "E76",
+            "animated": true,
+            "sourceHandle": "E69",
+            "targetHandle": "E81"
+        },
+        {
+            "id": "E61-E76-1748456590441",
+            "style": {
+                "stroke": "#9ca3af",
+                "strokeWidth": 2,
+                "strokeDasharray": "5,5"
+            },
+            "source": "E61",
+            "target": "E76",
+            "animated": true,
+            "sourceHandle": "E69",
+            "targetHandle": "E84"
+        },
+        {
+            "id": "E0-E11-1748456595657",
+            "style": {
+                "stroke": "#9ca3af",
+                "strokeWidth": 2,
+                "strokeDasharray": "5,5"
+            },
+            "source": "E0",
+            "target": "E11",
+            "animated": true,
+            "sourceHandle": "E3",
+            "targetHandle": "E15"
+        },
+        {
+            "id": "E11-E21-1748456598916",
+            "style": {
+                "stroke": "#9ca3af",
+                "strokeWidth": 2,
+                "strokeDasharray": "5,5"
+            },
+            "source": "E11",
+            "target": "E21",
+            "animated": true,
+            "sourceHandle": "E15",
+            "targetHandle": "E22"
+        },
+        {
+            "id": "E21-E31-1748456602273",
+            "style": {
+                "stroke": "#9ca3af",
+                "strokeWidth": 2,
+                "strokeDasharray": "5,5"
+            },
+            "source": "E21",
+            "target": "E31",
+            "animated": true,
+            "sourceHandle": "E22",
+            "targetHandle": "E35"
+        },
+        {
+            "id": "E31-E41-1748456606969",
+            "style": {
+                "stroke": "#9ca3af",
+                "strokeWidth": 2,
+                "strokeDasharray": "5,5"
+            },
+            "source": "E31",
+            "target": "E41",
+            "animated": true,
+            "sourceHandle": "E35",
+            "targetHandle": "E42"
+        },
+        {
+            "id": "E41-E51-1748456611483",
+            "style": {
+                "stroke": "#9ca3af",
+                "strokeWidth": 2,
+                "strokeDasharray": "5,5"
+            },
+            "source": "E41",
+            "target": "E51",
+            "animated": true,
+            "sourceHandle": "E42",
+            "targetHandle": "E560"
+        },
+        {
+            "id": "E51-E61-1748456616320",
+            "style": {
+                "stroke": "#9ca3af",
+                "strokeWidth": 2,
+                "strokeDasharray": "5,5"
+            },
+            "source": "E51",
+            "target": "E61",
+            "animated": true,
+            "sourceHandle": "E560",
+            "targetHandle": "E67"
+        },
+        {
+            "id": "E61-E76-1748456620065",
+            "style": {
+                "stroke": "#9ca3af",
+                "strokeWidth": 2,
+                "strokeDasharray": "5,5"
+            },
+            "source": "E61",
+            "target": "E76",
+            "animated": true,
+            "sourceHandle": "E67",
+            "targetHandle": "E87"
+        },
+        {
+            "id": "E41-E51-1748456630273",
+            "style": {
+                "stroke": "#9ca3af",
+                "strokeWidth": 2,
+                "strokeDasharray": "5,5"
+            },
+            "source": "E41",
+            "target": "E51",
+            "animated": true,
+            "sourceHandle": "E45",
+            "targetHandle": "E526"
+        },
+        {
+            "id": "E41-E51-1748456636577",
+            "style": {
+                "stroke": "#9ca3af",
+                "strokeWidth": 2,
+                "strokeDasharray": "5,5"
+            },
+            "source": "E41",
+            "target": "E51",
+            "animated": true,
+            "sourceHandle": "E44",
+            "targetHandle": "E522"
+        },
+        {
+            "id": "E41-E51-1748456648533",
+            "style": {
+                "stroke": "#9ca3af",
+                "strokeWidth": 2,
+                "strokeDasharray": "5,5"
+            },
+            "source": "E41",
+            "target": "E51",
+            "animated": true,
+            "sourceHandle": "E42",
+            "targetHandle": "E524"
+        },
+        {
+            "id": "E0-E11-1748456656433",
+            "style": {
+                "stroke": "#9ca3af",
+                "strokeWidth": 2,
+                "strokeDasharray": "5,5"
+            },
+            "source": "E0",
+            "target": "E11",
+            "animated": true,
+            "sourceHandle": "E4",
+            "targetHandle": "E20"
+        },
+        {
+            "id": "E11-E21-1748456659132",
+            "style": {
+                "stroke": "#9ca3af",
+                "strokeWidth": 2,
+                "strokeDasharray": "5,5"
+            },
+            "source": "E11",
+            "target": "E21",
+            "animated": true,
+            "sourceHandle": "E20",
+            "targetHandle": "E26"
+        },
+        {
+            "id": "E21-E31-1748456662273",
+            "style": {
+                "stroke": "#9ca3af",
+                "strokeWidth": 2,
+                "strokeDasharray": "5,5"
+            },
+            "source": "E21",
+            "target": "E31",
+            "animated": true,
+            "sourceHandle": "E26",
+            "targetHandle": "E39"
+        },
+        {
+            "id": "E31-E41-1748456671346",
+            "style": {
+                "stroke": "#9ca3af",
+                "strokeWidth": 2,
+                "strokeDasharray": "5,5"
+            },
+            "source": "E31",
+            "target": "E41",
+            "animated": true,
+            "sourceHandle": "E39",
+            "targetHandle": "E47"
+        },
+        {
+            "id": "E41-E51-1748456677545",
+            "style": {
+                "stroke": "#9ca3af",
+                "strokeWidth": 2,
+                "strokeDasharray": "5,5"
+            },
+            "source": "E41",
+            "target": "E51",
+            "animated": true,
+            "sourceHandle": "E47",
+            "targetHandle": "E57"
+        },
+        {
+            "id": "E51-E61-1748456680481",
+            "style": {
+                "stroke": "#9ca3af",
+                "strokeWidth": 2,
+                "strokeDasharray": "5,5"
+            },
+            "source": "E51",
+            "target": "E61",
+            "animated": true,
+            "sourceHandle": "E57",
+            "targetHandle": "E71"
+        },
+        {
+            "id": "E61-E76-1748456684417",
+            "style": {
+                "stroke": "#9ca3af",
+                "strokeWidth": 2,
+                "strokeDasharray": "5,5"
+            },
+            "source": "E61",
+            "target": "E76",
+            "animated": true,
+            "sourceHandle": "E71",
+            "targetHandle": "E85"
+        },
+        {
+            "id": "E0-E11-1748456692393",
+            "style": {
+                "stroke": "#9ca3af",
+                "strokeWidth": 2,
+                "strokeDasharray": "5,5"
+            },
+            "source": "E0",
+            "target": "E11",
+            "animated": true,
+            "sourceHandle": "E5",
+            "targetHandle": "E17"
+        },
+        {
+            "id": "E11-E21-1748456696257",
+            "style": {
+                "stroke": "#9ca3af",
+                "strokeWidth": 2,
+                "strokeDasharray": "5,5"
+            },
+            "source": "E11",
+            "target": "E21",
+            "animated": true,
+            "sourceHandle": "E17",
+            "targetHandle": "E27"
+        },
+        {
+            "id": "E11-E21-1748456701609",
+            "style": {
+                "stroke": "#9ca3af",
+                "strokeWidth": 2,
+                "strokeDasharray": "5,5"
+            },
+            "source": "E11",
+            "target": "E21",
+            "animated": true,
+            "sourceHandle": "E17",
+            "targetHandle": "E25"
+        },
+        {
+            "id": "E21-E31-1748456722793",
+            "style": {
+                "stroke": "#9ca3af",
+                "strokeWidth": 2,
+                "strokeDasharray": "5,5"
+            },
+            "source": "E21",
+            "target": "E31",
+            "animated": true,
+            "sourceHandle": "E27",
+            "targetHandle": "E37"
+        },
+        {
+            "id": "E31-E41-1748456737049",
+            "style": {
+                "stroke": "#9ca3af",
+                "strokeWidth": 2,
+                "strokeDasharray": "5,5"
+            },
+            "source": "E31",
+            "target": "E41",
+            "animated": true,
+            "sourceHandle": "E37",
+            "targetHandle": "E49"
+        },
+        {
+            "id": "E41-E51-1748456741932",
+            "style": {
+                "stroke": "#9ca3af",
+                "strokeWidth": 2,
+                "strokeDasharray": "5,5"
+            },
+            "source": "E41",
+            "target": "E51",
+            "animated": true,
+            "sourceHandle": "E49",
+            "targetHandle": "E53"
+        },
+        {
+            "id": "E51-E61-1748456750793",
+            "style": {
+                "stroke": "#9ca3af",
+                "strokeWidth": 2,
+                "strokeDasharray": "5,5"
+            },
+            "source": "E51",
+            "target": "E61",
+            "animated": true,
+            "sourceHandle": "E53",
+            "targetHandle": "E63"
+        },
+        {
+            "id": "E61-E76-1748456754249",
+            "style": {
+                "stroke": "#9ca3af",
+                "strokeWidth": 2,
+                "strokeDasharray": "5,5"
+            },
+            "source": "E61",
+            "target": "E76",
+            "animated": true,
+            "sourceHandle": "E63",
+            "targetHandle": "E82"
+        },
+        {
+            "id": "E61-E76-1748456757466",
+            "style": {
+                "stroke": "#9ca3af",
+                "strokeWidth": 2,
+                "strokeDasharray": "5,5"
+            },
+            "source": "E61",
+            "target": "E76",
+            "animated": true,
+            "sourceHandle": "E63",
+            "targetHandle": "E78"
+        },
+        {
+            "id": "E0-E11-1748456783305",
+            "style": {
+                "stroke": "#9ca3af",
+                "strokeWidth": 2,
+                "strokeDasharray": "5,5"
+            },
+            "source": "E0",
+            "target": "E11",
+            "animated": true,
+            "sourceHandle": "E10",
+            "targetHandle": "E16"
+        },
+        {
+            "id": "E11-E21-1748456787753",
+            "style": {
+                "stroke": "#9ca3af",
+                "strokeWidth": 2,
+                "strokeDasharray": "5,5"
+            },
+            "source": "E11",
+            "target": "E21",
+            "animated": true,
+            "sourceHandle": "E16",
+            "targetHandle": "E27"
+        }
+    ],
+    "tracePaths": {
+        "E1": [
+            [
+                "E0",
+                "E1",
+                "E11",
+                "E12"
+            ]
+        ],
+        "E2": [
+            [
+                "E0",
+                "E2",
+                "E11",
+                "E14"
+            ]
+        ],
+        "E3": [
+            [
+                "E0",
+                "E3",
+                "E11",
+                "E15"
+            ]
+        ],
+        "E4": [
+            [
+                "E0",
+                "E4",
+                "E11",
+                "E20"
+            ]
+        ],
+        "E5": [
+            [
+                "E0",
+                "E5",
+                "E11",
+                "E17"
+            ]
+        ],
+        "E10": [
+            [
+                "E0",
+                "E10",
+                "E11",
+                "E16"
+            ]
+        ],
+        "E12": [
+            [
+                "E11",
+                "E12",
+                "E21",
+                "E24"
+            ]
+        ],
+        "E14": [
+            [
+                "E11",
+                "E14",
+                "E21",
+                "E25"
+            ]
+        ],
+        "E15": [
+            [
+                "E11",
+                "E15",
+                "E21",
+                "E22"
+            ]
+        ],
+        "E16": [
+            [
+                "E11",
+                "E16",
+                "E21",
+                "E27"
+            ]
+        ],
+        "E17": [
+            [
+                "E11",
+                "E17",
+                "E21",
+                "E27"
+            ],
+            [
+                "E11",
+                "E17",
+                "E21",
+                "E25"
+            ]
+        ],
+        "E20": [
+            [
+                "E11",
+                "E20",
+                "E21",
+                "E26"
+            ]
+        ],
+        "E22": [
+            [
+                "E21",
+                "E22",
+                "E31",
+                "E35"
+            ]
+        ],
+        "E24": [
+            [
+                "E21",
+                "E24",
+                "E31",
+                "E38"
+            ]
+        ],
+        "E25": [
+            [
+                "E21",
+                "E25",
+                "E31",
+                "E36"
+            ]
+        ],
+        "E26": [
+            [
+                "E21",
+                "E26",
+                "E31",
+                "E39"
+            ]
+        ],
+        "E27": [
+            [
+                "E21",
+                "E27",
+                "E31",
+                "E37"
+            ]
+        ],
+        "E35": [
+            [
+                "E31",
+                "E35",
+                "E41",
+                "E42"
+            ]
+        ],
+        "E36": [
+            [
+                "E31",
+                "E36",
+                "E41",
+                "E44"
+            ]
+        ],
+        "E37": [
+            [
+                "E31",
+                "E37",
+                "E41",
+                "E49"
+            ]
+        ],
+        "E38": [
+            [
+                "E31",
+                "E38",
+                "E41",
+                "E45"
+            ]
+        ],
+        "E39": [
+            [
+                "E31",
+                "E39",
+                "E41",
+                "E47"
+            ]
+        ],
+        "E42": [
+            [
+                "E41",
+                "E42",
+                "E51",
+                "E560"
+            ],
+            [
+                "E41",
+                "E42",
+                "E51",
+                "E524"
+            ]
+        ],
+        "E44": [
+            [
+                "E41",
+                "E44",
+                "E51",
+                "E55"
+            ],
+            [
+                "E41",
+                "E44",
+                "E51",
+                "E522"
+            ]
+        ],
+        "E45": [
+            [
+                "E41",
+                "E45",
+                "E51",
+                "E58"
+            ],
+            [
+                "E41",
+                "E45",
+                "E51",
+                "E526"
+            ]
+        ],
+        "E47": [
+            [
+                "E41",
+                "E47",
+                "E51",
+                "E57"
+            ]
+        ],
+        "E49": [
+            [
+                "E41",
+                "E49",
+                "E51",
+                "E53"
+            ]
+        ],
+        "E53": [
+            [
+                "E51",
+                "E53",
+                "E61",
+                "E63"
+            ]
+        ],
+        "E55": [
+            [
+                "E51",
+                "E55",
+                "E61",
+                "E69"
+            ]
+        ],
+        "E57": [
+            [
+                "E51",
+                "E57",
+                "E61",
+                "E71"
+            ]
+        ],
+        "E58": [
+            [
+                "E51",
+                "E58",
+                "E61",
+                "E65"
+            ]
+        ],
+        "E63": [
+            [
+                "E61",
+                "E63",
+                "E76",
+                "E82"
+            ],
+            [
+                "E61",
+                "E63",
+                "E76",
+                "E78"
+            ]
+        ],
+        "E65": [
+            [
+                "E61",
+                "E65",
+                "E76",
+                "E86"
+            ]
+        ],
+        "E67": [
+            [
+                "E61",
+                "E67",
+                "E76",
+                "E87"
+            ]
+        ],
+        "E69": [
+            [
+                "E61",
+                "E69",
+                "E76",
+                "E81"
+            ],
+            [
+                "E61",
+                "E69",
+                "E76",
+                "E84"
+            ]
+        ],
+        "E71": [
+            [
+                "E61",
+                "E71",
+                "E76",
+                "E85"
+            ]
+        ],
+        "E560": [
+            [
+                "E51",
+                "E560",
+                "E61",
+                "E67"
+            ]
+        ]
+    } 
+}
