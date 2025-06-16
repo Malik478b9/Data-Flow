@@ -44,7 +44,7 @@ const ControlPanel = ({
     >
       <div style={{ display: "flex", alignItems: "center", gap: "12px" }}>
         {/* Logo */}
-        <div
+        {/* <div
           onClick={() => navigate("/")}
           style={{ cursor: "pointer", display: "flex", alignItems: "center" }}
           title="Back to Gallery"
@@ -56,7 +56,7 @@ const ControlPanel = ({
               height: "33px",
             }}
           />
-        </div>
+        </div> */}
 
         {/* Search Input */}
         <div style={{ position: "relative" }}>

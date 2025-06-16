@@ -85,7 +85,7 @@ const App = () => {
   }}
 >
   <a
-    href="https://mushroom.solutions/"
+    href=""
     target="_blank"
     rel="noopener noreferrer"
     style={{
@@ -95,7 +95,7 @@ const App = () => {
       textAlign: 'center',
     }}
   >
-    www.mushroom.solutions
+    malik mohammed
   </a>
 </footer>
 

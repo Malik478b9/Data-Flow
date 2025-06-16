@@ -98,9 +98,9 @@ const Gallery = () => {
       {showSidebar && (
         <div style={{ backgroundColor: '#0f172a', width: '20%', height: '100vh', position: 'fixed', top: 0, left: 0, padding: '20px', color: '#e2e8f0', boxShadow: '2px 0 8px rgba(0,0,0,0.1)', display: 'flex', flexDirection: 'column', boxSizing: 'border-box', overflow: 'hidden' }}>
           <div style={{ marginBottom: '20px', display: 'flex', justifyContent: 'space-between' }}>
-            <a href="https://mushroom.solutions/" target="_blank" rel="noopener noreferrer" title="Go to Mushroom Solutions">
+            {/* <a href="https://mushroom.solutions/" target="_blank" rel="noopener noreferrer" title="Go to Mushroom Solutions">
               <img src={logo} alt="Mushroom Solutions Logo" style={{ height: '33px', cursor: 'pointer' }} />
-            </a>
+            </a> */}
 
             <button onClick={() => setShowSidebar(false)} style={{ background: 'transparent', color: '#e2e8f0', border: 'none', fontSize: '20px', cursor: 'pointer' }} title="Hide Sidebar">✕</button>
           </div>
