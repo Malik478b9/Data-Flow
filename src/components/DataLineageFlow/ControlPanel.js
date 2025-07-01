@@ -47,6 +47,11 @@ const ControlPanel = ({
         {/* <div
           onClick={() => navigate("/")}
           style={{ cursor: "pointer", display: "flex", alignItems: "center" }}
+
+
+
+
+          
           title="Back to Gallery"
         >
           <img
